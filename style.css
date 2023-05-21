@@ -85,7 +85,6 @@ img {
 }
 .navbar-light .navbar-toggler:focus { outline: 0; }
 .container { max-width: 1334px; }
-.vertical-cell { position: relative; }
 .navbar-toggler {
 	position: absolute;
 	right: 15px;
@@ -737,15 +736,74 @@ textarea {
 .categories-item {
 	margin-bottom: 15px;
 }
+.content {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
 .categories-item-inner {
-	margin-bottom: 15px;
+	margin: 0 8px 20px 8px;
 }
-.categories-area figure {
+.view-more-btn-wrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+.view-more-btn {
+	display: table;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	background: #972A25;
+	border-radius: 20px;
+}
+.view-more-btn a {
+	display: block;
+	padding: 0 20px;
+}
+.image-wrapper {
 	overflow: hidden;
+	position: relative;
+	border-radius: 4px;
 }
-.categories-area figure:hover img {
-	transform: scale(1.5);
+.image-overlay-content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0; 
 }
+.overlay-fade-in img {
+	transition: all 0.2s linear; 
+}
+.overlay-fade-in .image-overlay-content {
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	transition: all 0.4s ease-in-out; 
+}
+
+.overlay-fade-in .button {
+	box-shadow: 0 0 1px #000;
+	position: relative;
+	border: 1px solid #999;
+	transition: all 0.2s ease-in-out; 
+}
+.overlay-fade-in .button:hover {
+	  box-shadow: 0 0 5px #000; 
+}
+.overlay-fade-in:hover img {
+	transform: scale(1.2); 
+}
+.overlay-fade-in:hover .image-overlay-content {
+	opacity: 1; 
+}
+.overlay-fade-in:hover .button {
+	transition-delay: 0.2s; 
+}
+  
+ 
 /*==============================
 	gift 
 ================================*/
@@ -761,12 +819,6 @@ textarea {
 	overflow: hidden;
 	border-radius: 20px;
 	margin-bottom: 10px;
-}
-.gift-item a {
-	display: block;
-}
-.gift-item figure {
-	overflow: hidden;
 }
 .gift-item.her {
 	background: #EAD4D4;
@@ -895,7 +947,10 @@ footer {
 .footer-area ul li { margin-right: 30px; }
 .footer-area ul li a {
 	display: block;
-} 
+}
+.footer-area ul li a:hover {
+	transform: scale(1.2);
+}
 .footer-area-right {
 	max-width: 343px;
 }
@@ -933,10 +988,26 @@ footer {
 	font-size: 20px;
 	line-height: 30px;
 }
+.footer-link ul a { 
+	position: relative;
+	color: #5D3640; 
+}
+.footer-link ul li a::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background: #972A25;
+	transform: translateX(-50%);
+}
+.footer-link ul li a:hover::before {
+	width: 100%;
+}
 .footer-link ul li:not(:last-child) {
 	margin-bottom: 30px;	
 }
-.footer-link ul a { color: #5D3640; }
 .copyright ul {
 	padding: 15px 0;
 }
@@ -950,8 +1021,22 @@ footer {
 .copyright ul li:not(:first-child){
 	border-left: 1px solid #5E3640;
 } 
-.copyright li a {
+.copyright ul li a {
+	position: relative;
 	color: #5D3640;
+}
+.copyright ul li a::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background: #972A25;
+	transform: translateX(-50%);
+}
+.copyright ul li a:hover::before {
+	width: 100%;
 }
 .copyright .link {
 	display: table;
