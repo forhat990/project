@@ -18,6 +18,13 @@
 }
 
 /* Css Reset */
+*::before {
+	-webkit-transition: all .3s ease-out; 
+	-moz-transition: all .3s ease-out; 
+	-ms-transition: all .3s ease-out; 
+	-o-transition: all .3s ease-out; 
+	transition: all .3s ease-out;
+}
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,
 p,blockquote,pre,a,abbr,address,cite,code,del,
 dfn,em,img,ins,kbd,q,s,samp,small,strong,sub,
@@ -57,14 +64,13 @@ a {
 	-webkit-appearance: none; 
 }
 input, textarea { -webkit-appearance: none; -webkit-border-radius: 0; }
-*::before {
+img {
 	-webkit-transition: all .3s ease-out; 
 	-moz-transition: all .3s ease-out; 
 	-ms-transition: all .3s ease-out; 
 	-o-transition: all .3s ease-out; 
 	transition: all .3s ease-out;
 }
-
 /*==============================
 	Page structure      
 ================================*/
@@ -180,10 +186,10 @@ header {
 	line-height: 11px;
 	margin-left: 30px;
 }
-.header-top-right ul.user > li a {
+.header-top-right ul.user > li > a {
 	position: relative;
 }
-.header-top-right ul.user > li a::before {
+.header-top-right ul.user > li > a::before {
 	content: '';
 	position: absolute;
 	bottom: -8px;
@@ -193,7 +199,7 @@ header {
 	background: #972A25;
 	transform: translateX(-50%);
 }
-.header-top-right ul.user > li a:hover::before {
+.header-top-right ul.user > li > a:hover::before {
 	width: 50px;
 }
 .header-top-right ul.user > li.search-dropdown .dropdown-menu {
@@ -424,6 +430,7 @@ header {
 	max-width: 133px;
 	height: 1px;
 	background: #5D3640;
+	transform: none;
 }
 .login-form .heading h4 {
 	font-family: 'Allerta Stencil', sans-serif;
@@ -698,7 +705,7 @@ textarea {
 .arrival-area {
 	max-width: 1250px;
 	border-bottom: 1px solid #C4C4C4;
-	padding-bottom: 15px;
+	padding-bottom: 50px;
 }
 .arrival-item {
 	margin-bottom: 10px;
@@ -712,25 +719,33 @@ textarea {
 	height: 200px;
 	width: 200px;
 }
+.arrival-item figure:hover img {
+	transform: scale(1.5);
+}
 
 /*==============================
-	gallery 
+	categories 
 ================================*/
-.gallery {
+.categories {
 	padding: 50px 0;
 }
-.gallery-area {
+.categories-area {
 	max-width: 1250px;
 	border-bottom: 1px solid #C4C4C4;
 	padding-bottom: 30px;
 }
-.gallery-item {
+.categories-item {
 	margin-bottom: 15px;
 }
-.gallery-item-inner {
+.categories-item-inner {
 	margin-bottom: 15px;
 }
-
+.categories-area figure {
+	overflow: hidden;
+}
+.categories-area figure:hover img {
+	transform: scale(1.5);
+}
 /*==============================
 	gift 
 ================================*/
