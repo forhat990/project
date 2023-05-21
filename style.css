@@ -31,7 +31,7 @@ label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
 	vertical-align:baseline;
 }
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Amiko', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	font-style: normal;
@@ -57,6 +57,13 @@ a {
 	-webkit-appearance: none; 
 }
 input, textarea { -webkit-appearance: none; -webkit-border-radius: 0; }
+*::before {
+	-webkit-transition: all .3s ease-out; 
+	-moz-transition: all .3s ease-out; 
+	-ms-transition: all .3s ease-out; 
+	-o-transition: all .3s ease-out; 
+	transition: all .3s ease-out;
+}
 
 /*==============================
 	Page structure      
@@ -131,14 +138,31 @@ header {
 .logo a { display: block; }
 .logo-area ul { padding: 10px 0 0 0; }
 .logo-area ul li {
-	font-family: 'Amiko', sans-serif;
 	font-size: 12.12px;
 	line-height: 19px;
 	margin-bottom: 8px;
 }
 .logo-area ul li a {
 	color: #972A25;
-	padding: 5px 0 0 26px;
+	padding: 5px 0 0 0;
+}
+.logo-area ul li a span {
+	position: relative;
+	display: inline-block;
+	margin-left: 26px;
+}
+.logo-area ul li a span::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background: #972A25;
+	transform: translateX(-50%);
+}
+.logo-area ul li a span:hover::before {
+	width: 100%;
 }
 .logo-area ul li a.whatsapp { background: url('assets/images/icon-whatsapp.png') no-repeat 0 0; }
 .logo-area ul li a.tel { background: url('assets/images/icon-tel.png') no-repeat 0 0; }
@@ -152,10 +176,25 @@ header {
 .header-top-right ul.user { padding: 15px 0 6px 0; }
 .header-top-right ul.user > li {
 	position: relative;
-	font-family: 'Amiko', sans-serif;
 	font-size: 10.85px;
 	line-height: 11px;
 	margin-left: 30px;
+}
+.header-top-right ul.user > li a {
+	position: relative;
+}
+.header-top-right ul.user > li a::before {
+	content: '';
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background: #972A25;
+	transform: translateX(-50%);
+}
+.header-top-right ul.user > li a:hover::before {
+	width: 50px;
 }
 .header-top-right ul.user > li.search-dropdown .dropdown-menu {
 	top: 81px !important;
@@ -208,6 +247,20 @@ header {
 	border-radius: 17px;
 	margin: 19px 0 0 26px;
 }
+.login-btn::before {
+	content: '';
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background: #972A25;
+	transform: translateX(-50%);
+}
+.login-btn:hover::before {
+	width: 100%;
+	transform: translateX(-50%);
+}
 .login-btn a {
 	display: block;
 	padding: 0 15px;
@@ -230,7 +283,6 @@ header {
 	margin-bottom: 3px;
 }
 .login-btn.dropdown .dropdown-menu p {
-	font-family: 'Amiko';
 	font-size: 11px;
 	line-height: 16px;
 	color: #545151;
@@ -239,7 +291,7 @@ header {
 	margin-top: 11px;
 }
 .login-btn.dropdown .dropdown-menu ul li {
-	font-family: 'Lato';
+	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 23px;
@@ -274,7 +326,7 @@ header {
 .header-top-right ul.weight li span:first-child { font-size: 10px; }
 .header-top-right ul.weight li.weight-one { background: url('assets/images/icon-g.png') no-repeat 0 0; }
 .header-top-right ul.weight li.weight-two { background: url('assets/images/icon-s.png') no-repeat 0 0; }
-.header-nav nav { padding: 13px 0; }
+.header-nav nav { padding: 2px 0; }
 .header-nav nav ul.navbar-nav { margin-left: 10px; }
 .header-nav nav ul.navbar-nav > li {
 	font-family: 'Sansation_Regular';
@@ -285,7 +337,20 @@ header {
 .header-nav nav ul.navbar-nav li:last-child { margin-right: 0; }
 .header-nav nav ul.navbar-nav li a {
 	color: #593E3D !important;
-	padding: 0 !important;
+	padding: 12px 0 !important;
+	position: relative;
+}
+.header-nav nav ul.navbar-nav li a::before {
+	content: '';
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: #07A8A8;
+}
+.header-nav nav ul.navbar-nav li a:hover::before {
+	width: 100%;
 }
 .custom-order {
 	font-family: 'Sansation_Bold';
@@ -295,7 +360,7 @@ header {
 	margin-left: 75px;
 }
 .custom-order a { color: #593E3D; }
-
+.custom-order a:hover { color: #07A8A8; }
 /* mega menu */
 .special-item h4 {
 	font-family: 'Allerta Stencil', sans-serif;
@@ -367,7 +432,6 @@ header {
 	color: #593E3D;
 }
 .login-form .heading p {
-	font-family: 'Amiko', sans-serif;
 	font-size: 12px;
 	line-height: 25px;
 	color: #972A25;
@@ -376,7 +440,6 @@ header {
 	padding: 0 17px;
 }
 .login-form form label {
-	font-family: 'Amiko', sans-serif;
 	font-size: 12px;
 	line-height: 25px;
 	color: #7C0A26;
@@ -420,7 +483,6 @@ header {
 	padding: 0 20px;
 }
 .forget-pass {
-	font-family: 'Amiko', sans-serif;
 	font-size: 12px;
 	line-height: 18px;
 	color: #7C0A26;
@@ -493,7 +555,6 @@ textarea {
 	padding-left: 12px;
 }
 .product-desc ul li {
-	font-family: 'Amiko', sans-serif;
 	font-size: 11.5px;
 	line-height: 19px;
 	color: #8A7D7D;
@@ -609,7 +670,6 @@ textarea {
 	background: url('assets/images/header-bg.png') no-repeat bottom center;
 }
 .heading p {
-	font-family: 'Amiko', sans-serif;
 	font-size: 12px;
 	line-height: 23px;
 	color: #972A25;
@@ -711,7 +771,6 @@ textarea {
 	border-radius: 20px;
 }
 .gift-item-content h4 {
-	font-family: 'Amiko',sans-serif;
 	font-size: 26px;
 	line-height: 35px;
 }
@@ -762,7 +821,6 @@ textarea {
 	padding: 0 25px;
 }
 .store-area-content p {
-	font-family: 'Amiko', sans-serif;
 	font-size: 19px;
 	line-height: 24px;
 	color: #7C0A26;
@@ -777,7 +835,6 @@ textarea {
 	margin: 13px 0 0 0;
 }
 .store-area-content .address address {
-	font-family: 'Amiko', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	max-width: 420px;
@@ -785,7 +842,6 @@ textarea {
 	color: #7C0A26;
 }
 .store-area-content .address h5 {
-	font-family: 'Amiko', sans-serif;
 	font-weight: 700;
 	font-size: 18.65px;
 	line-height: 30px;
@@ -829,7 +885,6 @@ footer {
 	max-width: 343px;
 }
 .footer-area-right address {
-	font-family: 'Amiko', sans-serif;
 	font-size: 16px;
 	line-height: 20px;
 	color: #5D3640;
