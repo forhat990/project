@@ -108,7 +108,7 @@ header {
 	top: 0;
 	right: 0;
 	left: 0;
-	z-index: 99;
+	z-index: 99999;
 	width: 100%;
 }
 .nav-item.dropdown { position: inherit; }
@@ -330,7 +330,10 @@ header {
 .header-top-right ul.weight li span { display: block; }
 .header-top-right ul.weight li span:first-child { font-size: 10px; }
 .header-top-right ul.weight li.weight-one { background: url('assets/images/icon-g.png') no-repeat 0 0; }
-.header-top-right ul.weight li.weight-two { background: url('assets/images/icon-s.png') no-repeat 0 0; }
+.header-top-right ul.weight li.weight-two { 
+	background: url('assets/images/icon-s.png') no-repeat 0 0;
+	color: #B5B5B2; 
+}
 .header-nav nav { padding: 2px 0; }
 .header-nav nav ul.navbar-nav { margin-left: 10px; }
 .header-nav nav ul.navbar-nav > li {
@@ -726,7 +729,7 @@ textarea {
 	categories 
 ================================*/
 .categories {
-	padding: 50px 0;
+	padding: 0 0 50px 0;
 }
 .categories-area {
 	max-width: 1250px;
@@ -808,7 +811,7 @@ textarea {
 	gift 
 ================================*/
 .gift {
-	padding: 50px 0;
+	padding: 0 0 50px 0;
 }
 .gift-area {
 	max-width: 1250px;
@@ -847,8 +850,14 @@ textarea {
 .gift-item.him .gift-item-content h4 {
 	color: #2E4149;	
 }
+.gift-item.kids {
+	background: #E7CFB7;
+}
 .gift-item.kids .gift-item-content h4 {
 	color: #623F1F;	
+}
+.gift-item.occasion {
+	background: #B18B80;	
 }
 .gift-item.occasion .gift-item-content h4 {
 	color: #FFF2ED;	
@@ -858,7 +867,7 @@ textarea {
 	store 
 ================================*/
 .store {
-	padding: 50px 0 165px 0;
+	padding: 0 0 165px 0;
 }
 .store-area {
 	overflow: hidden;
@@ -927,9 +936,13 @@ footer {
 	padding: 15px 0 22px 0; 
 }
 .social {
-	max-width: 540px;
 	padding: 25px;
-	margin-top: -100px;
+	position: absolute;
+	top: -115px;
+	left: 50%;
+	width: 100%;
+	max-width: 540px;
+	transform: translateX(-50%);
 }
 .social h5 {
 	font-family: 'Aclonica', sans-serif;
@@ -941,11 +954,17 @@ footer {
 .social .link {
 	display: table;
 }
-.footer-area ul {
+.footer-area {
+	position: relative;
+}
+.footer-area .pay ul {
 	padding: 20px 0;
 }
 .footer-area ul li { margin-right: 30px; }
 .social ul li a {
+	display: block;
+}
+.social .link ul li a {
 	display: block;
 }
 .footer-area ul li a:hover {
@@ -958,11 +977,12 @@ footer {
 	font-size: 16px;
 	line-height: 20px;
 	color: #5D3640;
-	padding: 10px;
+	padding: 12px 9px 9px 16px;
 }
 .footer-area-right p {
 	background: url('assets/images/tel.png') no-repeat 0 0;
 	padding-left: 28px;
+	margin-left: 34px;
 }
 .footer-area-right p a { color: #5D3640; }
 .footer-area-main figure {
