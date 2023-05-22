@@ -108,7 +108,7 @@ header {
 	top: 0;
 	right: 0;
 	left: 0;
-	z-index: 99999;
+	z-index: 999;
 	width: 100%;
 }
 .nav-item.dropdown { position: inherit; }
@@ -935,8 +935,11 @@ footer {
 	background: #F3E5E1;
 	padding: 15px 0 22px 0; 
 }
+.footer-area {
+	position: relative;
+}
 .social {
-	padding: 25px;
+	padding: 17px;
 	position: absolute;
 	top: -115px;
 	left: 50%;
@@ -947,73 +950,68 @@ footer {
 .social h5 {
 	font-family: 'Aclonica', sans-serif;
 	font-size: 23px;
-	line-height: 26px;
+	line-height: 34px;
 	color: #593E3D;
-	margin-bottom: 20px;
+	margin-bottom: 31px;
 }
 .social .link {
 	display: table;
 }
-.footer-area {
-	position: relative;
-}
-.footer-area .pay ul {
-	padding: 20px 0;
-}
-.footer-area ul li { margin-right: 30px; }
-.social ul li a {
-	display: block;
+.social .link ul li:not(:last-child) {
+	margin-right: 30px;	
 }
 .social .link ul li a {
 	display: block;
 }
-.footer-area ul li a:hover {
+.social .link ul li a:hover {
 	transform: scale(1.2);
 }
-.footer-area-right {
-	max-width: 343px;
+.footer-area-left > ul {
+	max-width: 380px;
+	margin-bottom: 6px;
 }
-.footer-area-right address {
-	font-size: 17px;
-	line-height: 20px;
-	color: #5D3640;
-	padding: 12px 15px 9px 18px;
+.footer-area-left > ul li {
+	margin-right: 8px;
 }
-.footer-area-right p {
-	background: url('assets/images/tel.png') no-repeat 0 0;
-	padding-left: 28px;
-	margin-left: 34px;
+.footer-area-left .pay ul li {
+	margin-right: 30px;
 }
-.footer-area-right p a { color: #5D3640; }
+.footer-area-wrap { overflow: hidden; }
+.footer-area-left {
+	width: 70.59%;
+	float: left;
+	margin-bottom: 15px;
+}
+.footer-area-main {
+	overflow: hidden;
+	margin-bottom: 17px;
+}
 .footer-area-main figure {
-	margin-top: 20px;
-}
-.copyright p {
-	font-family: 'Allerta Stencil', sans-serif;
-	font-size: 18px;
-	line-height: 18px;
-	color: #5E3640;
-	padding: 15px 0;
+	width: 17%;
+	float: left;
+	margin-top: 19px;
 }
 .footer-link {
+	width: 81.5%;
+	float: right;
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-	padding: 20px 50px;
-	margin: 0 15px 0 0;
+	padding: 19px 0 15px 48px;
 }
-.footer-link ul {
-	display: table;
+.footer-link-item {
+	width: 33.33%;
+	float: left;
 }
-.footer-link ul li {
+.footer-link-item ul li {
 	font-family: 'Allerta Stencil';
 	font-size: 20px;
-	line-height: 30px;
+	line-height: 42px;
 }
-.footer-link ul a { 
+.footer-link-item ul a { 
 	position: relative;
 	color: #5D3640; 
 }
-.footer-link ul li a::before {
+.footer-link-item ul li a::before {
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -1023,11 +1021,41 @@ footer {
 	background: #972A25;
 	transform: translateX(-50%);
 }
-.footer-link ul li a:hover::before {
+.footer-link-item ul li a:hover::before {
 	width: 100%;
 }
-.footer-link ul li:not(:last-child) {
-	margin-bottom: 30px;	
+.footer-link-item ul li:not(:last-child) {
+	margin-bottom: 18px;	
+}
+.footer-link-item:last-child ul {
+	padding-left: 60px;
+}
+.footer-area-right {
+	width: 26.2%;
+	float: right;
+	padding-top: 4px;
+}
+.footer-area-right address {
+	font-size: 15px;
+	line-height: 20px;
+	color: #5D3640;
+	padding: 12px 9px 9px 17px;
+}
+.footer-area-right address span {
+	display: block;
+}
+.footer-area-right p {
+	background: url('assets/images/tel.png') no-repeat 0 0;
+	padding-left: 28px;
+	margin-left: 34px;
+}
+.footer-area-right p a { color: #5D3640; }
+.copyright p {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	color: #5E3640;
+	padding: 15px 0;
 }
 .copyright ul {
 	padding: 15px 0;
@@ -1061,4 +1089,4 @@ footer {
 }
 .copyright .link {
 	display: table;
-}
+} 

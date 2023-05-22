@@ -131,7 +131,7 @@ html[xmlns] .flexslider .slides {
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	z-index: 9999;
+	z-index: 99;
 	border: 2px solid #CDB247;
 	padding: 20px;
 	border-radius: 50%;
@@ -243,6 +243,7 @@ html[xmlns] .flexslider .slides {
   cursor: default;
   border-radius: 0;
   transform: rotate(45deg);
+  background: #CDB247
 }
 .flex-control-thumbs {
   margin: 5px 0 0;
