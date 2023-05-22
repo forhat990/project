@@ -1,14 +1,4 @@
 @media screen and (max-width: 1299px) {
-    .footer-link ul li {
-        font-size: 18px;
-    }
-    .footer-link {
-        padding: 10px 0;
-    }
-    .social {
-        max-width: 455px;
-        padding: 20px;
-    }
     .custom-order {
         font-size: 23px;
         margin-left: 50px;
@@ -25,61 +15,5 @@
     .gift-item-content h4 {
         font-size: 21px;
         line-height: 30px;
-    }
-    .footer-area ul {
-        padding: 15px 0;
-    }
-    .footer-link ul li:not(:last-child) {
-        margin-bottom: 20px;
-    }
-    .copyright ul li {
-        font-size: 15px;
-        line-height: 16px;
-    }
-    .copyright p {
-        font-size: 16px;
-        line-height: 17px;
-        padding: 15px 0;
-    }
-    .footer-link ul li {
-        margin-right: 0;
-    }
-    .footer-area ul li figure {
-       max-height: 36px;
-    }
-    .social .link ul li {
-        margin-right: 20px;
-    }
-    .social .link ul li.whatsapp figure {
-        max-width: 39px;
-    }
-    .social .link ul li.inst figure {
-        max-width: 30px;
-    }
-    .social .link ul li.facebook figure {
-        max-width: 32px;
-    }
-    .social .link ul li.youtube figure {
-        max-width: 38px;
-    }
-    .social h5 {
-        font-size: 20px;
-        line-height: 24px;
-        margin-bottom: 15px;
-    }
-    .footer-area-right {
-        max-width: 280px;
-        margin-top: 20px;
-    }
-    .footer-area-right address {
-        font-size: 13px;
-        line-height: 18px;
-    }
-    .footer-area-right p a {
-        font-size: 13px;
-    }
-    .footer-area-right p {
-        padding-left: 25px;
-        background-size: 17px;
     }
 }

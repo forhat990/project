@@ -974,10 +974,10 @@ footer {
 	max-width: 343px;
 }
 .footer-area-right address {
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 20px;
 	color: #5D3640;
-	padding: 12px 9px 9px 16px;
+	padding: 12px 15px 9px 18px;
 }
 .footer-area-right p {
 	background: url('assets/images/tel.png') no-repeat 0 0;
@@ -998,7 +998,8 @@ footer {
 .footer-link {
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-	padding: 20px 0;
+	padding: 20px 50px;
+	margin: 0 15px 0 0;
 }
 .footer-link ul {
 	display: table;
