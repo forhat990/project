@@ -103,27 +103,8 @@ form input:focus,form button:focus {
 /*==============================
 	header 
 ================================*/
-header { 
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 999;
-	width: 100%;
-}
-.nav-item.dropdown { position: inherit; }
-.nav-item.dropdown > .dropdown-toggle::after { display: none; }
-.nav-item.dropdown .dropdown-menu {
-  	width: 100%;
-  	max-width: 1040px;
-  	border: 0;
-  	margin-bottom: 20px;
-  	border: 1px solid #C2C2C2;
-  	box-shadow: 0px 10px 9px 2px rgba(0, 0, 0, 0.14);
-}
-.nav-item.dropdown .dropdown-menu .dropdown-menu-container {
-	padding: 16px 0 0 0;
-	border-radius: 0px 0px 4px 4px;
+.header-area {
+	position: relative;
 }
 
 /* header-top */
@@ -336,16 +317,20 @@ header {
 }
 .header-nav nav { padding: 2px 0; }
 .header-nav nav ul.navbar-nav { margin-left: 10px; }
-.header-nav nav ul.navbar-nav > li {
+.header .menu {
+	margin-left: 10px;
+}
+.header .menu > ul > li {
+	display: inline-block;
 	font-family: 'Sansation_Regular';
 	font-size: 18.55px;
 	line-height: 24px;
-	margin-right: 47px;
+	margin-right: 41px;
 }
 .header-nav nav ul.navbar-nav li:last-child { margin-right: 0; }
-.header-nav nav ul.navbar-nav li a {
+.header .menu > ul > li a {
 	color: #593E3D !important;
-	padding: 12px 0 !important;
+	padding: 12px 0;
 	position: relative;
 }
 .header-nav nav ul.navbar-nav li a::before {
@@ -365,11 +350,17 @@ header {
 	font-weight: 700;
 	font-size: 25px;
 	line-height: 22px;
-	margin-left: 75px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
 }
 .custom-order a { color: #593E3D; }
 .custom-order a:hover { color: #07A8A8; }
 /* mega menu */
+.header .menu > ul > li > a > i {
+	display: none;
+}
 .special-item h4 {
 	font-family: 'Allerta Stencil', sans-serif;
 	font-size: 14px;
@@ -625,12 +616,12 @@ textarea {
 ================================*/
 .banner { 
 	position: relative; 
-	margin-top: 168px;
+	/* margin-top: 168px; */
 }
 .banner > figure { overflow: hidden; }
 .banner > figure img {
-	width: 100%;
-	height: 100%;
+	width: 100% !important;
+	height: 100% !important;
 } 
 .banner-area {
 	position: absolute;

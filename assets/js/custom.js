@@ -40,6 +40,12 @@ jQuery(document).ready(function() {
         animateOut: 'fadeOut',
         responsive: {
           0: {
+            items: 2,
+          },
+          768: {
+            items: 3,
+          },
+          992: {
             items: 4,
           },
           1200: {
@@ -64,6 +70,12 @@ jQuery(document).ready(function() {
         animateOut: 'fadeOut',
         responsive: {
           0: {
+            items: 2,
+          },
+          768: {
+            items: 3,
+          },
+          992: {
             items: 4,
           },
         }
