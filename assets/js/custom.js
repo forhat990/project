@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
     jQuery('.arrival-area-carousel').owlCarousel({
         loop: true,
         autoplay: true,
-        margin: 50,
+        margin: 75,
         nav: false,
         dots: true,
         smartSpeed: 500,

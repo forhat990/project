@@ -144,7 +144,7 @@
         width: 100px;
     }
     .arrival-area-carousel.owl-carousel .owl-stage-outer {
-        max-height: 100px;
+        max-height: 65px;
     }
     .arrival-area-carousel .owl-dots {
        display: none !important;
@@ -303,7 +303,7 @@
         transform: translate(20px,30px) !important;
     }
     .arrival-item figure {
-        height: 60px;
-        width: 60px;
+        height: 65px;
+        width: 65px;
     }
 }
