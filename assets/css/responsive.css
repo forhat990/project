@@ -139,9 +139,6 @@
         width: 100%;
         max-width: 120px;
     }
-    .arrival-area {
-        max-width: 690px;
-    }
     .arrival-item figure {
         height: 100px;
         width: 100px;
@@ -196,6 +193,13 @@
     }
     .copyright p {
         text-align: center;
+    }
+    .header-top-right ul.user .dropdown-menu {
+        right: 0 !important;
+        left: initial !important;
+    }
+    .dropdown-menu-container {
+        padding-top: 20px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -291,5 +295,15 @@
         display: inline-block;
         float: none;
         border: 0;
+    }
+    .header-top-right ul.user li.cart-list .dropdown-menu {
+        transform: translate(75px,30px) !important;
+    }
+    .header-top-right ul.user li.wish-list .dropdown-menu {
+        transform: translate(20px,30px) !important;
+    }
+    .arrival-item figure {
+        height: 60px;
+        width: 60px;
     }
 }

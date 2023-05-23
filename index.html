@@ -56,7 +56,7 @@
 							<div class="right ms-auto">
 								<div class="d-flex">
 									<ul class="nav user">
-										<li>
+										<li class="cart-list">
 											<a class="dropdown-toggle cart" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>Cart</span></a>
 											<div class="dropdown-menu scroll">
 												<div class="dropdown-product-item d-flex">
@@ -289,7 +289,7 @@
 											</div>
 										</li>
 										
-										<li>
+										<li class="wish-list">
 											<a class="dropdown-toggle wishlist" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span>Wishlist</span></a>
 											<div class="dropdown-menu scroll">
 												<div class="dropdown-product-item d-flex">
@@ -577,7 +577,7 @@
 		 						<div class="go-back"><i class="fa fa-angle-left"></i></div>
 								<div class="user-name d-flex">
 									<figure>
-										<img src="assets/images/oval.png" alt="" width="35" height="35">
+										<img src="assets/images/oval.png" alt="" width="50" height="50">
 									</figure>
 									<div class="name">
 										<h6>Aush</h6>
@@ -1005,8 +1005,12 @@
 		 	</div>
 		</header>
 
-		<section class="arrival d-lg-none"><!-- start .arrival -->
+		<section class="arrival mobile d-lg-none"><!-- start .arrival -->
 			<div class="container">
+				<div class="heading mx-auto">
+					<h2 class="text-center">New Arrivals</h2>
+				</div>
+
 				<div class="arrival-area mx-auto">
 					<div class="arrival-area-carousel owl-carousel owl-theme">
 						<div class="arrival-item">
@@ -1838,7 +1842,7 @@
 		<div class="modal fade" id="customorderModal" tabindex="-1" aria-labelledby="customorderLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<figure>
+					<figure class="d-none d-md-block">
 						<img src="assets/images/dl1.png" alt="Image" width="303" height="574">
 					</figure>
 
