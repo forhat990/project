@@ -25,25 +25,58 @@ jQuery(document).ready(function(){
 });
 
 jQuery(document).ready(function() {
-    jQuery('.arrival-area-carousel').owlCarousel({
-        loop: true,
-        autoplay: true,
-        margin: 92.25,
-        nav: false,
-        dots: true,
-        smartSpeed: 500,
-        responsiveClass: true,
-        autoplayTimeout: 3000,
-        fallbackEasing: 'easing',
-        transitionStyle: "fade",
-        autoplayHoverPause: true,
-        animateOut: 'fadeOut',
-        responsive: {
-          0: {
-            items: 5,
-          },
-        }
+    jQuery('.arrival-carousel-desktop').owlCarousel({
+      loop: true,
+      autoplay: true,
+      margin: 63,
+      nav: false,
+      dots: true,
+      smartSpeed: 900,
+      responsiveClass: true,
+      autoplayTimeout: 5000,
+      fallbackEasing: 'easing',
+      transitionStyle: "fade",
+      autoplayHoverPause: true,
+      animateOut: 'fadeOut',
+      responsive: {
+        0: {
+          items: 4,
+        },
+        992: {
+          items: 5,
+        },
+      }
     })
+});
+jQuery(document).ready(function() {
+  jQuery('.arrival-carousel-mobile').owlCarousel({
+    loop: true,
+    autoplay: true,
+    margin: 15,
+    nav: false,
+    dots: true,
+    smartSpeed: 900,
+    responsiveClass: true,
+    autoplayTimeout: 5000,
+    fallbackEasing: 'easing',
+    transitionStyle: "fade",
+    autoplayHoverPause: true,
+    animateOut: 'fadeOut',
+    responsive: {
+      0: {
+        items: 4,
+      },
+      576: {
+        items: 5,
+      },
+      768: {
+        items: 6,
+      },
+      768: {
+        items: 7,
+      },
+    }
+  })
 });
 jQuery(document).ready(function() {
     jQuery('.gift-area-carousel').owlCarousel({

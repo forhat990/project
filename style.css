@@ -764,8 +764,6 @@ textarea {
 .arrival-item figure {
 	overflow: hidden;
 	border-radius: 50%;
-	height: 200px;
-	width: 200px;
 }
 .arrival-item figure:hover img {
 	transform: scale(1.5);
