@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
   jQuery('.arrival-carousel-mobile').owlCarousel({
     loop: true,
     autoplay: true,
-    margin: 15,
+    margin: 17,
     nav: false,
     dots: true,
     smartSpeed: 900,
