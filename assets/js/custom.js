@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
     jQuery('.arrival-area-carousel').owlCarousel({
         loop: true,
         autoplay: true,
-        margin: 63,
+        margin: 50,
         nav: false,
         dots: true,
         smartSpeed: 500,
@@ -40,12 +40,9 @@ jQuery(document).ready(function() {
         animateOut: 'fadeOut',
         responsive: {
           0: {
-            items: 2,
-          },
-          768: {
             items: 3,
           },
-          992: {
+          576: {
             items: 4,
           },
           1200: {
@@ -58,7 +55,7 @@ jQuery(document).ready(function() {
     jQuery('.gift-area-carousel').owlCarousel({
         loop: true,
         autoplay: true,
-        margin: 63,
+        margin: 30,
         nav: false,
         dots: false,
         smartSpeed: 500,
@@ -70,6 +67,9 @@ jQuery(document).ready(function() {
         animateOut: 'fadeOut',
         responsive: {
           0: {
+            items: 1,
+          },
+          576: {
             items: 2,
           },
           768: {

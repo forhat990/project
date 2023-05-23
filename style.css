@@ -214,6 +214,33 @@ form input:focus,form button:focus {
 	background: #fff;
 	border: 0;
 }
+form.search-mobile {
+	box-shadow: none;
+	width: 185px;
+	border: 0;
+	top: 40px !important;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.14);
+	border-radius: 3px;
+}
+form.search-mobile input {
+	padding: 0 10px;
+	margin-right: 7px;
+	border-radius: 4px !important;
+	border-right: 0;
+	border-top-right-radius: 0;
+	border-top-right-radius: 0;
+}
+form.search-mobile button {
+	padding: 0 2px;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 12px;
+	line-height: 30px;
+	color: #A95E5E;
+	box-shadow: none;
+	background: #A95E5E;
+	border: 0;
+}
 .header-top-right ul.user > li > a {
 	color: #972A25;
 	padding-top: 17px;
@@ -610,7 +637,31 @@ textarea {
 .view-cart-btn a {
 	color: #915005;
 }
-
+.user-name {
+	position: absolute;
+	left: 50px;
+	top: 8px;
+	width: 100%;
+	max-width: 200px;
+}
+.user-name figure {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.user-name .name {
+	padding: 4px 8px;
+}
+.user-name .name h6 {
+	font-size: 12px;
+	line-height: 14px;
+	margin-bottom: 2px;
+}
+.user-name .name p {
+	font-size: 10px;
+	line-height: 12px;
+}
 /*==============================
 	banner 
 ================================*/
@@ -967,6 +1018,9 @@ footer {
 .footer-area-left .pay ul li {
 	margin-right: 30px;
 }
+.footer-area-left .pay ul li a {
+	display: block;
+}
 .footer-area-wrap { overflow: hidden; }
 .footer-area-left {
 	width: 70.59%;
@@ -1081,3 +1135,6 @@ footer {
 .copyright .link {
 	display: table;
 } 
+.header .menu .mobile-menu-head .current-menu-title {
+	font-size: 0;
+}

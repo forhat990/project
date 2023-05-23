@@ -29,8 +29,11 @@
 						<div class="logo-area d-flex">	
 							<div class="logo me-auto">
 								<a class="navbar-brand py-0" href="index.html">
-									<figure>
+									<figure class="d-none d-lg-block">
 										<img src="assets/images/Logo21.png" alt="Logo" width="90" height="100">
+									</figure>
+									<figure class="d-block d-lg-none">
+										<img src="assets/images/nand-jew1.png" alt="CenterLogo" width="189" height="85">
 									</figure>
 								</a>
 							</div>
@@ -572,6 +575,15 @@
 		 				<nav class="menu">
 		 					<div class="mobile-menu-head">
 		 						<div class="go-back"><i class="fa fa-angle-left"></i></div>
+								<div class="user-name d-flex">
+									<figure>
+										<img src="assets/images/oval.png" alt="" width="35" height="35">
+									</figure>
+									<div class="name">
+										<h6>Aush</h6>
+										<p>Lorem ipsum dolor</p>
+									</div>
+								</div>
 		 						<div class="current-menu-title"></div>
 		 						<div class="mobile-menu-close">&times;</div>
 		 					</div>
@@ -974,13 +986,117 @@
 		 					<span></span>
 		 				</div>
 		 			</div>
+					
+					<div class="d-lg-none">
+						<form class="search-mobile">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+								<button type="button" id="button-addon1">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</form>	
+					</div>
 
- 					<div class="custom-order">
+					<div class="custom-order">
 						<a data-bs-toggle="modal" data-bs-target="#customorderModal" href="#">Custom Order +</a>
 					</div>
 				</div><!-- //end .header-area -->
 		 	</div>
 		</header>
+
+		<section class="arrival d-lg-none"><!-- start .arrival -->
+			<div class="container">
+				<div class="arrival-area mx-auto">
+					<div class="arrival-area-carousel owl-carousel owl-theme">
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval2.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval3.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval4.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval2.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval3.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval4.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval2.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval3.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+						<div class="arrival-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#arrivalModal" >
+								<figure>
+									<img src="assets/images/oval4.png" alt="Img" width="200" height="200">
+								</figure>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- //end .arrival -->
 
 		<section id="home-slider" class="flexslider">
 			<ul class="slides">
@@ -1046,7 +1162,7 @@
 			</ul>
 		</section>
 
-		<section class="arrival"><!-- start .arrival -->
+		<section class="arrival d-none d-lg-block"><!-- start .arrival -->
 			<div class="container">
 				<div class="heading mx-auto">
 					<h2 class="text-center">New Arrivals</h2>
@@ -1153,7 +1269,7 @@
 
 				<div class="categories-area mx-auto">
 					<div class="row">
-						<div class="col-sm-6 col-md-3">
+						<div class="col-sm-6 col-md-3 pe-md-0">
 							<div class="categories-item">
 								<div class="image-wrapper overlay-fade-in">
 									<figure>
@@ -1195,7 +1311,7 @@
 						<div class="col-md-6">
 							<div class="categories-item">
 								<div class="row">
-									<div class="col-sm-6 pe-0">
+									<div class="col-sm-6 pe-md-0">
 										<div class="categories-item-inner">
 											<div class="image-wrapper overlay-fade-in">
 												<figure>
@@ -1215,7 +1331,7 @@
 										</div>
 									</div>
 
-									<div class="col-sm-6 ps-0">
+									<div class="col-sm-6 ps-md-0">
 										<div class="categories-item-inner">
 											<div class="image-wrapper overlay-fade-in">
 												<figure>
@@ -1235,7 +1351,7 @@
 										</div>
 									</div>
 
-									<div class="col-sm-6 pe-0">
+									<div class="col-sm-6 pe-md-0">
 										<div class="categories-item-inner">
 											<div class="image-wrapper overlay-fade-in">
 												<figure>
@@ -1255,7 +1371,7 @@
 										</div>
 									</div>
 
-									<div class="col-sm-6 ps-0">
+									<div class="col-sm-6 ps-md-0">
 										<div class="categories-item-inner">
 											<div class="image-wrapper overlay-fade-in">
 												<figure>
@@ -1593,10 +1709,10 @@
 			<div class="copyright bg-white">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-8">
+						<div class="col-lg-8">
 							<p>Copyright 2023 Designed and Developed by RPB CommoSoft</p>
 						</div>
-						<div class="col-md-4">
+						<div class="col-lg-4">
 							<div class="link ms-auto">
 								<ul class="nav">
 									<li><a href="#">TERMS & CONDITIONS</a></li>
