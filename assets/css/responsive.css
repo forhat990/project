@@ -190,6 +190,18 @@
     .dropdown-menu-container {
         padding-top: 20px;
     }
+    .footer-area-right {
+        overflow: hidden;
+    }
+    .footer-area-right figure {
+        width: 50%;
+        float: left;
+    }
+    .footer-area-right .address-wrap {
+        width: 50%;
+        float: right;
+        padding-left: 20px;
+    }
 }
 @media screen and (max-width: 767px) {
     .banner > figure img {
@@ -218,10 +230,31 @@
         font-size: 16px;
     }
     .footer-area-left .pay ul li {
-        margin-right: 13px;
+        margin-right: 23px !important;
+    }
+    .footer-area-left .pay ul li:last-child {
+        margin-right: 0 !important;
     }
     .footer-area-right address {
         padding: 12px 9px 9px 0;
+    }
+    .footer-area-right p {
+        margin-left: 0;
+    }
+    .categories-item {
+        margin-bottom: 20px;
+    }
+    .modal-content {
+        flex-direction: column;
+    }
+    .modal-content figure {
+        width: 100%;
+        max-width: 100%;
+    }
+    .modal-body figure {
+        display: table;
+        margin: 0 auto 30px auto;
+        width: initial;
     }
 }
 @media screen and (max-width: 575px) {
@@ -270,11 +303,10 @@
         padding-left: 0;
     }
     .copyright ul {
-       display: table;
-       text-align: center;
-       margin: 0 auto;
-    }
-    .copyright ul li {
+        display: table;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0px 0 15px 0;
         display: inline-block;
         float: none;
         border: 0;
@@ -300,12 +332,6 @@
         max-width: 155px;
         float: none;
     }
-    .footer-link-item:last-child ul {
-        padding: 0 0 0 40px;
-    }
-    .footer-link-item:nth-child(2) ul {
-        
-    }
     .footer-link-item ul li {
         font-size: 12px;
         line-height: 19px;
@@ -314,21 +340,74 @@
         width: 33.33%;
     }
     .footer-area-left .pay ul li.visa figure {
-        max-width: 37px;
+        max-width: 40px;
     }
     .footer-area-left .pay ul li.master figure {
-        max-width: 20px;
+        max-width: 26px;
     }
     .footer-area-left .pay ul li.mastero figure {
-        max-width: 20px;
+        max-width: 26px;
     }
     .footer-area-left .pay ul li.rupay figure {
-        max-width: 45px;
+        max-width: 51px;
     }
     .footer-area-left .pay ul li.razpay figure {
-        max-width: 65px;
+        max-width: 71px;
     }
     .footer-area-left .pay ul li.p1 figure {
-        max-width: 30px;
+        max-width: 36px;
+    }
+    .footer-area-left .pay {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-link-item ul {
+        padding: 0 0 0 19px;
+    }
+    .footer-link-item:last-child ul {
+        padding: 0 19px 0 0;
+    }
+    .categories-item {
+        margin-bottom: 20px !important;
+    }
+    .categories-item-inner {
+        margin: 0 0 20px 0 !important;
+    }
+    .catgory-box {
+        padding: 0 5px 0 5px;
+    }
+    .categories-item {
+        margin-bottom: 10px !important;
+    }
+    .categories-item-inner {
+        margin: 0 0 10px 0 !important;
+    }
+    .categories-item-inner.mb-0 {
+        margin: 0 0 0 0 !important;
+    }
+    .categories-item.mb-0 {
+        margin-bottom: 0 !important;
+    }
+}
+@media screen and (max-width: 535px) {
+    .footer-area-right figure {
+        width: 42%;
+    }
+    .footer-area-right .address-wrap {
+        width: 58%;
+    }
+    .footer-area-right .address-wrap {
+        padding-left: 12px;
+    }
+    .footer-area-right address {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .footer-area-right p {
+        font-size: 13px;
+    }
+    .footer-area-right address {
+        padding: 0px 9px 9px 0;
     }
 }

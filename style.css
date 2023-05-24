@@ -785,13 +785,14 @@ textarea {
 .categories {
 	padding: 0 0 50px 0;
 }
+.categories-area-wrap {
+	border-bottom: 1px solid #C4C4C4;
+	padding-bottom: 50px;
+}
 .categories-area {
 	max-width: 1250px;
-	border-bottom: 1px solid #C4C4C4;
-	padding-bottom: 30px;
-}
-.categories-item {
-	margin-bottom: 15px;
+	border-radius: 15px;
+	overflow: hidden;
 }
 .content {
 	display: table;
@@ -1027,7 +1028,7 @@ footer {
 .footer-area-left > ul li {
 	margin-right: 8px;
 }
-.footer-area-left .pay ul li {
+.footer-area-left .pay ul li:not(:last-child) {
 	margin-right: 30px;
 }
 .footer-area-left .pay ul li a {
@@ -1059,6 +1060,9 @@ footer {
 	width: 33.33%;
 	float: left;
 }
+.footer-link-item ul {
+	display: table;
+}
 .footer-link-item ul li {
 	font-family: 'Allerta Stencil';
 	font-size: 20px;
@@ -1084,9 +1088,6 @@ footer {
 .footer-link-item ul li:not(:last-child) {
 	margin-bottom: 18px;	
 }
-.footer-link-item:last-child ul {
-	padding-left: 60px;
-}
 .footer-area-right {
 	width: 26.2%;
 	float: right;
@@ -1105,6 +1106,7 @@ footer {
 	background: url('assets/images/tel.png') no-repeat 0 0;
 	padding-left: 28px;
 	margin-left: 34px;
+	font-size: 14px;
 }
 .footer-area-right p a { color: #5D3640; }
 .copyright p {

@@ -87,7 +87,7 @@ jQuery(document).ready(function() {
         dots: false,
         smartSpeed: 500,
         responsiveClass: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
         fallbackEasing: 'easing',
         transitionStyle: "fade",
         autoplayHoverPause: true,
