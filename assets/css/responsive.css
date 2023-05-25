@@ -253,7 +253,7 @@
     }
     .modal-body figure {
         display: table;
-        margin: 0 auto 30px auto;
+        margin: 0 auto 10px auto;
         width: initial;
     }
     .modal-body-wrap figure {

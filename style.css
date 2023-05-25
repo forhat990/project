@@ -364,6 +364,7 @@ form.search-mobile button {
 	font-family: 'Sansation_Regular';
 	font-size: 14px;
 	line-height: 21px;
+	font-weight: 400;
 }
 .after-login.login-btn .dropdown-menu ul li a.order {
 	background: url('assets/images/icon-order.png') no-repeat 0 0;
