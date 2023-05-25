@@ -256,6 +256,9 @@
         margin: 0 auto 30px auto;
         width: initial;
     }
+    .modal-body-wrap figure {
+        display: table-cell;
+    }
 }
 @media screen and (max-width: 575px) {
     .banner > figure img {
@@ -388,6 +391,19 @@
     }
     .categories-item.mb-0 {
         margin-bottom: 0 !important;
+    }
+    .modal-body-wrap {
+        display: block;
+    }
+    .modal-body-wrap figure {
+        display: block;
+    }
+    .modal-body-wrap .login-form-wrap {
+        display: block;
+        width: 100%;
+    }
+    .login-form-wrap .login-form {
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 535px) {

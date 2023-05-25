@@ -279,6 +279,17 @@ form.search-mobile button {
 	display: block;
 	padding: 0 15px;
 }
+.login-btn.after-login {
+	background: transparent;
+	border-radius: 0;
+}
+.login-btn.after-login a {
+	padding: 0;
+}
+.login-btn.after-login a figure {
+	width: 30px;
+	height: 34px;
+}
 .login-btn.dropdown > .dropdown-toggle::after { display: none; }
 .login-btn.dropdown .dropdown-menu {
 	padding: 13px 23px 13px 24px;
@@ -321,6 +332,58 @@ form.search-mobile button {
 	background: #D0C07E;
 	box-shadow: 0px 2px 4px rgba(136, 144, 194, 0.2);
 	border-radius: 4px;
+}
+.admin-info {
+	width: 40px;
+	height: 40px;
+	background: #DBA0B5;
+	border-radius: 50%;
+}
+.admin-info h3 {
+	font-family: 'Allerta Stencil';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 40px;
+}
+.head-info a {
+	font-size: 10px;
+	line-height: 12px;
+	color: #545151;
+}
+.after-login.login-btn .dropdown-menu {
+	padding: 13px 23px 13px 24px;
+	min-width: 180px;
+	top: 38px !important;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+	box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.14);
+	border-radius: 3px;
+}
+.after-login.login-btn .dropdown-menu ul li {
+	font-family: 'Sansation_Regular';
+	font-size: 14px;
+	line-height: 21px;
+}
+.after-login.login-btn .dropdown-menu ul li a.order {
+	background: url('assets/images/icon-order.png') no-repeat 0 0;
+}
+.after-login.login-btn .dropdown-menu ul li a.edit-profile {
+	background: url('assets/images/useredit.png') no-repeat 0 0;
+}
+.after-login.login-btn .dropdown-menu ul li a.logout {
+	background: url('assets/images/icon-logout.png') no-repeat 0 0;
+}
+.after-login.login-btn .dropdown-menu ul {
+	margin-left: 30px;
+}
+.after-login.login-btn .dropdown-menu ul li {
+	margin-bottom: 4px;
+}
+.after-login.login-btn .dropdown-menu ul li a {
+	color: #864A5F;
+	padding: 0 0 0 24px;
+	background-size: 16px !important;
 }
 .header-top-right ul.weight {
 	background: #FFF9F9;
@@ -532,7 +595,32 @@ form.search-mobile button {
 	font-size: 14px;
 	line-height: 18px;
 }
-
+/* arrival modal*/
+.modal-body-wrap {
+	display: table;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 30px;
+}
+.modal-body-wrap figure {
+	width: 50%;
+	height: 100%;
+	display: table-cell;
+}
+.modal-body-wrap figure img {
+	width: 100%;
+	height: 100%;
+	max-width: initial;
+}
+.modal-body-wrap .login-form-wrap {
+	width: 50%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.login-form-wrap .login-form {
+	margin-left: 15px;
+}
 /* signup-form */
 .form-control::file-selector-button {
 	background: #B74196 !important;
@@ -652,7 +740,7 @@ textarea {
 	overflow: hidden;
 }
 .user-name .name {
-	padding: 15px 8px 4px 14px;
+	padding: 10px 8px 4px 14px;
 	width: 85%;
 }
 .user-name .name h6 {
@@ -661,9 +749,11 @@ textarea {
 	margin-bottom: 2px;
 	font-weight: 600;
 }
+.user-name .name h6 a { color: #000; }
 .user-name .name p {
 	font-size: 10px;
 	line-height: 12px;
+	margin-bottom: 6px;
 }
 
 /*==============================
