@@ -109,3 +109,23 @@ jQuery(document).ready(function() {
     })
 });
 
+jQuery(document).ready(function(){
+  jQuery(".dropdown-toggle-btn > a").click(function(e) {
+    e.preventDefault();
+     
+     var val = $(this).attr('id');
+
+     //alert(val);
+
+     if (val == 'active' ) {
+          $(".toggle-menu").hide();
+          $(this).attr('id', '');
+      } 
+      else {
+          $(".toggle-menu").show();
+          $('.dropdown-toggle-btn > a').removeAttr('id');
+          $(this).attr('id', 'active');
+      }
+  });
+});
+

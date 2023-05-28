@@ -586,13 +586,24 @@
 									<div class="name">
 										<p>Lorem ipsum dolor</p>
 									
-											<h6>Tap to 
-												<a href="#">Login</a>/
-												<a href="#">Sign Up</a>
-											</h6>
-											
-											
-									
+										<h6>Tap to
+											<span class="dropdown-toggle-btn">
+												<a href="#">Login/Sign Up</a>
+
+												<div class="toggle-menu bg-white">
+						                            <h4>Your Account</h4>
+													<p>User can manage Orders ,Edit Profile and much more....</p>
+													<ul class="nav">
+														<li class="login">
+															<a data-bs-toggle="modal" data-bs-target="#loginModal" class="text-white" href="#">Login</a>
+														</li>
+														<li class="sign-up">
+															<a data-bs-toggle="modal" data-bs-target="#signupModal" class="text-white" href="#">Sign up</a>
+														</li>
+													</ul>
+						                        </div>
+											</span>
+										</h6>
 									</div>
 								</div>
 		 						<div class="current-menu-title"></div>
@@ -1797,7 +1808,7 @@
 		<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<figure>
+					<figure class="d-none d-md-block">
 						<img src="assets/images/dl2.png" alt="Image" width="303" height="448">
 					</figure>
 
@@ -1812,7 +1823,7 @@
 								<p>Log in and unlock your world!</p>
 							</div>
 
-							<form>
+							<form action="after-login.html">
 								<div class="mb-2">
 									<label class="form-label mb-0">Enter Email / Mobile Number</label>
 									<input type="email" class="form-control">
@@ -1843,7 +1854,7 @@
 		<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<figure>
+					<figure class="d-none d-md-block">
 						<img src="assets/images/dl2.png" alt="Image" width="303" height="448">
 					</figure>
 
@@ -1858,7 +1869,7 @@
 								<p class="text-center">Ready, set, sign up!</p>
 							</div>
 
-							<form>
+							<form action="after-login.html">
 								<div class="row">
 									<div class="col-md-6">
 										<div class="mb-2">
