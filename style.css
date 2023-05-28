@@ -99,7 +99,7 @@ form input:focus,form button:focus {
 	box-shadow: none !important; 
 	border-color: #972A25 !important;
 }
-
+.text-red { color: #bc004a !important; }
 /*==============================
 	header 
 ================================*/
@@ -806,7 +806,6 @@ textarea {
 ================================*/
 .banner { 
 	position: relative; 
-	/* margin-top: 168px; */
 }
 .banner > figure { overflow: hidden; }
 .banner > figure img {
@@ -836,7 +835,28 @@ textarea {
 	color: #fff;
 	margin-bottom: 9px;
 }
+.banner.rings .banner-content-inner {
+	max-width: 995px;
+}
+.banner.rings .banner-content-inner h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 46px;
+	font-weight: 300;
+	line-height: 50px;
+}
 
+/* breadcrumb */
+.breadcrumb {
+	padding: 10px;
+}
+.breadcrumb ul li {
+	font-family: 'Allerta Stencil';
+	font-size: 16px;
+	line-height: 20px;
+}
+.breadcrumb ul li a {
+	color: #000;
+}
 /*==============================
 	arrival 
 ================================*/
@@ -913,6 +933,302 @@ textarea {
 .arrival.mobile .heading h2 {
 	font-size: 15px;
 	line-height: 20px;
+}
+
+/*==============================
+	filter 
+================================*/
+.filter-area {
+	max-width: 1220px;
+	border-bottom: 1px solid #C4C4C4;
+	padding-bottom: 50px;
+}
+.filter-area > ul {
+	margin-bottom: 12px;
+}
+.filter-area p {
+	font-family: 'Sansation_Regular';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+}
+.filter-area > ul > li {
+	font-family: 'Sansation_Bold';
+	font-size: 14px;
+	line-height: 27px;
+	background: #E4CFD6;
+	border-radius: 3px;
+	margin-right: 6px;
+}
+.filter-area > ul > li > a {
+	display: block;
+	color: #5B404A;
+	padding: 0 15px;
+} 
+.filter-area > ul > li > a.dropdown-toggle::after {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	border-top: .4em solid;
+	border-right: .4em solid transparent;
+	border-left: .4em solid transparent;
+	margin-right: .4em;
+}
+.filter-area > ul > li > a.dropdown-toggle span {
+	display: block;
+	border-right: 1px solid #fff;
+	padding-right: 15px;
+	margin-right: 6px;
+}
+.filter-area > ul > li .dropdown-menu {
+	min-width: 217px;
+	background: #FAF9F9;
+	border: 0.5px solid #C7C1C1;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 5px 5px;
+	padding: 5px;
+}
+.filter-area > ul > li .dropdown-menu li { overflow: hidden; }
+.filter-area > ul > li.filter-by {
+	font-family: 'Sansation_Regular';
+	font-weight: 400;
+	font-size: 15px;
+	color: #7C0A26;
+	background: none;
+	margin-right: 20px;
+}
+.filter-area > ul > li.more-filter-btn {
+	background: #be708d;
+}
+.filter-area > ul > li .dropdown-menu li > span {
+	display: block;
+	float: right;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #2b2b2b;
+	background: #FAF9F9;
+	border: 1px solid #979292;
+	border-radius: 2px;
+	padding: 0 4px;
+}
+.filter-label .checkbox-group { height: 0; }
+.filter-label .checkbox-group label {
+	position: relative;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-left: 24px;
+}
+.filter-label .checkbox-group label input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.filter-label .checkmark {
+	position: absolute;
+	top: -18px;
+	left: -23px;
+	width: 22px;
+	height: 20px;
+	border: 1px solid #CCBFC4;
+	border-radius: 50%;
+}
+.filter-label .checkbox-group label:hover input ~ .checkmark { background-color: #f6f6f6; }
+.filter-label .checkbox-group label input:checked ~ .checkmark { 
+	background-color: #fff; 
+}
+.filter-label .checkmark::after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.filter-label .checkbox-group label input:checked ~ .checkmark::after { display: block; }
+.filter-label .checkbox-group label .checkmark::after {
+	left: 7px;
+	top: 2px;
+	width: 6px;
+	height: 10px;
+	border: solid #927C83;
+	border-width: 0 1px 1px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.filter-label > span {
+	display: block;
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #5B404A;
+	padding-left: 30px;
+}
+.filter-label.clearfix {
+	margin-bottom: 10px;
+	float: left;
+}
+.search-list {
+	position: relative;
+	padding: 4px 95px 4px 10px;
+	border: 1px solid #E8E5D8;
+	border-radius: 7px;
+	float: left;
+	width: 100%;
+	max-width: 1070px;
+}
+.search-list span {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+	color: #000;
+	margin: 0 4px;
+}
+.search-list ul li {
+	font-family: 'Sansation_Regular';
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+	background: #E8E5D8;
+	border-radius: 12px;
+	margin-right: 4px;
+	color: #000;
+	padding: 3px 7px 0 7px;
+}
+.search-list ul li span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 12px;
+	background: url('assets/images/X.png') no-repeat 2px 1px;
+	background-color: #8f4861;
+}
+.close-all-btn {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	color: #A46077;
+}
+.close-all-btn a {
+	color: #A46077;
+	padding: 0 8px;
+}
+.search-filter .dropdown {
+	font-family: 'Sansation_Regular';
+	float: right;
+	width: 100%;
+	max-width: 115px;
+	background: #BE064A;
+	border-radius: 3px;
+	margin-top: 4px;
+}
+.search-filter .dropdown ul.dropdown-menu {
+	background: #FAF9F9;
+	border: 1px solid #C7C1C1;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 5px 5px;
+	padding: 15px;
+	min-width: 7.1rem !important;
+
+}
+.search-filter .dropdown .dropdown-menu li {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 12px;
+	line-height: 23px;
+}
+.search-filter .dropdown .dropdown-menu li a {
+	color: #5B404A;
+	display: block;
+}
+.search-filter .dropdown a.dropdown-toggle {
+	display: block;
+	padding: 0 18px 0 10px;
+}
+.search-filter .dropdown a.dropdown-toggle span {
+	display: block;
+	border-right: 1px solid #fff;
+	padding-right: 10px;
+	margin-right: 6px;
+}
+.search-filter .dropdown a.dropdown-toggle::after {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	border-top: .4em solid;
+	border-right: .4em solid transparent;
+	border-left: .4em solid transparent;
+	margin-right: .4em;
+}
+.search-filter {
+	max-width: 1190px;
+}
+.filter-item {
+	background: #FBF0F7;
+	border: 1px solid #A39E9E;
+	border-radius: 5px;
+}
+.filter-item-title h4 {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 23px;
+	color: #5B404A;
+}
+.filter-item-title .price {
+	float: left;
+	width: 50%;
+}
+.filter-title-info {
+	float: right;
+	width: 50%;
+}
+.filter-title-info-right {
+	display: table;
+}
+.filter-item-title ul > li {
+	font-size: 11px;
+	line-height: 15px;
+	color: #5B404A;
+}
+.filter-item-title ul li.number {
+	background: #FAF9F9;
+	border: 1px solid #979292;
+	border-radius: 2px;
+	font-size: 7px;
+	line-height: 9px;
+	color: #000;
+}
+.filter-item-inner p {
+	font-size: 10px;
+	line-height: 13px;
+	color: #623F1F;
+}
+.filter-item-inner span {
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 13px;
+	color: #BE064A;
+}
+.filter-item-inner-content {
+	float: left;
+	width: 75%;
+}
+.shopping-cart {
+	float: right;
+	width: 25%;
+}
+.shopping-cart a {
+	display: table;
 }
 /*==============================
 	categories 
