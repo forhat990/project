@@ -938,10 +938,13 @@ textarea {
 /*==============================
 	filter 
 ================================*/
+.filter {
+	padding-bottom: 135px;
+}
 .filter-area {
-	max-width: 1220px;
+	max-width: 1200px;
 	border-bottom: 1px solid #C4C4C4;
-	padding-bottom: 50px;
+	padding-bottom: 35px;
 }
 .filter-area > ul {
 	margin-bottom: 12px;
@@ -1172,21 +1175,29 @@ textarea {
 }
 .search-filter {
 	max-width: 1190px;
+	margin-bottom: 30px;
 }
 .filter-item {
+	overflow: hidden;
+	max-width: 275px;
 	background: #FBF0F7;
 	border: 1px solid #A39E9E;
 	border-radius: 5px;
+	margin-bottom: 30px;
 }
-.filter-item-title h4 {
-	font-weight: 700;
-	font-size: 17px;
-	line-height: 23px;
-	color: #5B404A;
+.filter-item-content {
+	padding: 9px 13px;
+	border-top: 1px solid #A39E9E;
 }
 .filter-item-title .price {
 	float: left;
 	width: 50%;
+}
+.filter-item-title .price h4 {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 23px;
+	color: #5B404A;
 }
 .filter-title-info {
 	float: right;
@@ -1195,41 +1206,64 @@ textarea {
 .filter-title-info-right {
 	display: table;
 }
-.filter-item-title ul > li {
-	font-size: 11px;
-	line-height: 15px;
+.filter-title-info-right ul > li {
+	font-size: 14px;
+	line-height: 18px;
 	color: #5B404A;
+	margin-right: 4px;
 }
-.filter-item-title ul li.number {
+.filter-title-info-right ul li.number {
+	position: relative;
 	background: #FAF9F9;
 	border: 1px solid #979292;
 	border-radius: 2px;
-	font-size: 7px;
-	line-height: 9px;
+	font-size: 11px;
+	line-height: 16px;
 	color: #000;
+	padding: 0px 4px;
+	margin-left: 6px;
+	margin-right: 0;
 }
-.filter-item-inner p {
-	font-size: 10px;
-	line-height: 13px;
+.filter-title-info-right ul li.number::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -6px;
+	transform: translateY(-50%);
+	width: 1px;
+	height: 10px;
+	background: #000;
+}
+.filter-item-inner-content p {
+	font-size: 14px;
+	line-height: 20px;
 	color: #623F1F;
+	margin-bottom: 4px;
 }
 .filter-item-inner span {
+	display: block;
 	font-weight: 600;
-	font-size: 10px;
-	line-height: 13px;
+	font-size: 13px;
+	line-height: 16px;
 	color: #BE064A;
 }
 .filter-item-inner-content {
 	float: left;
-	width: 75%;
+	width: 82%;
 }
 .shopping-cart {
 	float: right;
-	width: 25%;
+	width: 18%;
 }
 .shopping-cart a {
 	display: table;
+	background: #fff;
+	border: 1px solid #7C0A26;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 4px;
 }
+
 /*==============================
 	categories 
 ================================*/
