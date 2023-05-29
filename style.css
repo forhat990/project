@@ -1178,12 +1178,35 @@ textarea {
 	margin-bottom: 30px;
 }
 .filter-item {
+	position: relative;
 	overflow: hidden;
 	max-width: 275px;
 	background: #FBF0F7;
 	border: 1px solid #A39E9E;
 	border-radius: 5px;
 	margin-bottom: 30px;
+}
+.status {
+	position: absolute;
+	top: 16px;
+	left: 0;
+	line-height: 20px;
+	background: #7C0A26;
+	border-radius: 0px 2px 2px 0px;
+	font-family: 'Sansation_Regular';
+	font-weight: 700;
+	font-size: 14.5px;
+	padding: 2px 4px;
+}
+.favorite {
+	position: absolute;
+	top: 12px;
+	right: 15px;
+	width: 29px;
+	height: 28px;
+}
+.favorite a {
+	display: block;
 }
 .filter-item-content {
 	padding: 9px 13px;
@@ -1263,7 +1286,18 @@ textarea {
 	padding: 5px;
 	margin-top: 4px;
 }
-
+.load-more-btn {
+	display: table;
+	font-weight: 700;
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	background: #CA7E91;
+	border-radius: 8px;
+	margin-top: 8px;
+	margin-bottom: 34px;
+}
+.load-more-btn a { padding: 0 25px; }
 /*==============================
 	categories 
 ================================*/
