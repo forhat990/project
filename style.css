@@ -1329,6 +1329,43 @@ textarea {
 	margin-bottom: 34px;
 }
 .load-more-btn a { padding: 0 25px; }
+.modal.filter-popup .modal-header h4 {
+	font-family: 'Sansation_Bold';
+	font-size: 20px;
+	line-height: 27px;
+	color: #A46077;
+	padding-left: 17px;
+	padding-top: 6px;
+}
+.modal.filter-popup .modal-header .btn-close {
+	border-radius: 50%;
+	background: url('assets/images/close1.png') no-repeat center center;
+	background-color: #96546a;
+	margin-right: 0;
+	margin-top: 8px;
+}
+.modal.filter-popup .nav {
+	display: block;
+}
+.modal.filter-popup ul {
+	background: #FBEFF4;
+}
+.modal.filter-popup ul li button.active {
+	border-left: 5px solid #A46077 !important;
+	background: transparent;
+}
+.modal.filter-popup .modal-body-wrap ul li {
+	font-family: 'Sansation_Regular';
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 17px;
+}
+.modal.filter-popup ul li button {
+	color: #A46077 !important;
+	border-left: 5px solid transparent !important;
+	border: 0;
+	border-radius: 0;
+}
 /*==============================
 	categories 
 ================================*/
