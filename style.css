@@ -172,7 +172,7 @@ form input:focus,form button:focus {
 .header-top-right ul.user > li > a::before {
 	content: '';
 	position: absolute;
-	bottom: -3px;
+	bottom: -6px;
 	left: 50%;
 	width: 0;
 	height: 2px;
@@ -295,7 +295,7 @@ form.search-mobile button {
 	transform: translateX(-50%);
 }
 .login-btn.after-login::before {
-	bottom: -15px;
+	bottom: -16px;
 }
 .login-btn a {
 	display: block;
