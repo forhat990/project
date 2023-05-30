@@ -1329,7 +1329,7 @@ box-shadow: 0px 0px 20px 8px rgba(32,34,33,0.15);
 	border: 1px solid #7C0A26;
 	border-radius: 5px;
 	margin-top: 4px;
-	font-size: 20px;
+	font-size: 24px;
 	padding-bottom: 0;
 	height: 35px;
 	display: block;
@@ -1337,6 +1337,8 @@ box-shadow: 0px 0px 20px 8px rgba(32,34,33,0.15);
 	line-height: 38px;
 	padding-left: 5px;
 	color: #BE064A;
+	position: relative;
+	z-index: 9;
 }
 .load-more-btn {
 	display: table;
