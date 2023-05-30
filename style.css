@@ -278,7 +278,7 @@ form.search-mobile button {
 	line-height: 22px;
 	background: #972A25;
 	border-radius: 17px;
-	margin: 19px 0 0 26px;
+	margin: 15px 0 0 26px;
 }
 .login-btn::before {
 	content: '';
@@ -293,6 +293,9 @@ form.search-mobile button {
 .login-btn:hover::before {
 	width: 100%;
 	transform: translateX(-50%);
+}
+.login-btn.after-login::before {
+	bottom: -15px;
 }
 .login-btn a {
 	display: block;
