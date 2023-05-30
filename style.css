@@ -172,7 +172,7 @@ form input:focus,form button:focus {
 .header-top-right ul.user > li > a::before {
 	content: '';
 	position: absolute;
-	bottom: -8px;
+	bottom: -3px;
 	left: 50%;
 	width: 0;
 	height: 2px;
@@ -243,10 +243,29 @@ form.search-mobile button {
 	border-bottom-right-radius: 15px;
 }
 .header-top-right ul.user > li > a {
+	position: relative;
 	color: #972A25;
 	padding-top: 17px;
 	display: block;
 	padding: 26px 0 0 0;
+}
+.header-top-right ul.user > li > a span.counting {
+	font-family: 'Sansation_Bold';
+	position: absolute;
+	bottom: 14px;
+	right: -9px;
+	background: #39bb1e;
+	color: #fff;
+	width: 17px;
+	height: 17px;
+	border-radius: 20px;
+	line-height: 17px;
+	font-size: 11px;
+	text-align: center;
+}
+.header-top-right ul.user > li > a.wishlist span.counting {
+	right: 4px;
+	bottom: 14px;
 }
 .header-top-right ul.user a.cart { background: url('assets/images/icon-cart.png') no-repeat center 0; }
 .header-top-right ul.user a.wishlist { background: url('assets/images/icon-wishlist.png') no-repeat center 0; }
@@ -1188,7 +1207,9 @@ textarea {
 	transition: all 0.2s linear; 
 }
 .filter-item:hover {
-	box-shadow: 0 4px 19px rgba(33,33,33,.15);
+	-webkit-box-shadow: 0px 0px 20px 8px rgba(32,34,33,0.15);
+-moz-box-shadow: 0px 0px 20px 8px rgba(32,34,33,0.15);
+box-shadow: 0px 0px 20px 8px rgba(32,34,33,0.15);
 	transition: all 0.2s linear; 
 }
 .filter-item:hover .img-box-hover {
