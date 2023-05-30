@@ -1361,10 +1361,99 @@ textarea {
 	line-height: 17px;
 }
 .modal.filter-popup ul li button {
+	position: relative;
+	font-family: 'Sansation_Regular';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
 	color: #A46077 !important;
 	border-left: 5px solid transparent !important;
 	border: 0;
 	border-radius: 0;
+	width: 100%;
+	text-align: left;
+	padding-right: 50px;
+}
+.modal.filter-popup ul li button span {
+	font-family: 'Amiko', sans-serif;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	min-width: 25px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 13px;
+	background: #a46077;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	padding: 0 2px;
+}
+.modal.filter-popup ul li:not(:last-child) button {
+	border-bottom: 1px solid #A59E9E;
+}
+.modal.filter-popup .modal-body-wrap {
+	height: initial;
+}
+.modal.filter-popup .filter-label .checkmark {
+	width: 26px;
+	height: 26px;
+	border: 1px solid  #8F8D8D;
+	border-radius: 3px;
+}
+.modal.filter-popup .filter-label .checkbox-group label .checkmark::after {
+	width: 16px;
+	height: 29px;
+	left: 7px;
+	top: -7px;
+	border: solid #EB1B61;
+	border-width: 0 3px 3px 0;
+}
+.modal.filter-popup .filter-label > span {
+	font-family: 'Sansation_Regular';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #A46077;
+	margin-bottom: 8px;
+	padding-left: 36px;
+}
+.modal.filter-popup .radio-item {
+	padding-right: 10px;
+}
+.modal.filter-popup .radio-item > span {
+	display: block;
+	float: right;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #2b2b2b;
+	background: #FAF9F9;
+	border: 1px solid #979292;
+	border-radius: 2px;
+	padding: 0 4px;
+	margin-top: 5px;
+}
+.flter-popup-footer button {
+	font-family: 'Sansation_Bold';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #A46077;
+	padding: 0;
+}
+.flter-popup-footer {
+	border-top: 1px solid #D5D1D1;
+	padding-top: 10px;
+}
+.flter-popup-footer button.clear {
+	float: left;
+}
+.flter-popup-footer button.apply {
+	float: right;
+	background: #be064a;
+	color: #fff;
+	padding: 0 12px;
 }
 /*==============================
 	categories 
