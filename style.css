@@ -283,7 +283,7 @@ form.search-mobile button {
 .login-btn::before {
 	content: '';
 	position: absolute;
-	bottom: -8px;
+	bottom: -5px;
 	left: 50%;
 	width: 0;
 	height: 2px;
