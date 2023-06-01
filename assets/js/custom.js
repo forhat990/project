@@ -129,3 +129,24 @@ jQuery(document).ready(function(){
   });
 });
 
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 120) {
+        $('.sticky').addClass('fixed-header');
+    }
+    else {
+        $('.sticky').removeClass('fixed-header');
+    }
+
+    if ($(window).scrollTop() >= 400) {
+       $('.sticky').removeClass('fixed-header');
+       $('.filter-top').addClass('fixed-header');
+       $('.filter-mobile').addClass('fixed-header');
+    }
+    else {
+        $('.filter-top').removeClass('fixed-header');
+        $('.filter-mobile').removeClass('fixed-header');
+    }
+});
+
+

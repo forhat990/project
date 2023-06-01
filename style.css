@@ -103,6 +103,22 @@ form input:focus,form button:focus {
 /*==============================
 	header 
 ================================*/
+.header {
+	background: #fff;
+}
+.fixed-header {
+    position: fixed;
+    top: 2px;
+    left: 0;
+    width: 100%; 
+    z-index: 9999;
+}
+.sticky.fixed-header .search-mobile {
+	display: none;
+}
+.sticky.fixed-header .custom-order {
+	display: none;
+}
 .header-area {
 	position: relative;
 }
@@ -967,7 +983,11 @@ textarea {
 	border-bottom: 1px solid #C4C4C4;
 	padding-bottom: 35px;
 }
-.filter-area > ul {
+.filter-top-area {
+	max-width: 1200px;
+	padding-top: 10px;
+}
+.filter-top-area > ul {
 	margin-bottom: 12px;
 }
 .filter-area p {
@@ -977,7 +997,7 @@ textarea {
 	line-height: 20px;
 	color: #000;
 }
-.filter-area > ul > li {
+.filter-top-area > ul > li {
 	font-family: 'Sansation_Bold';
 	font-size: 14px;
 	line-height: 27px;
@@ -985,12 +1005,12 @@ textarea {
 	border-radius: 3px;
 	margin-right: 6px;
 }
-.filter-area > ul > li > a {
+.filter-top-area > ul > li > a {
 	display: block;
 	color: #5B404A;
 	padding: 0 15px;
 } 
-.filter-area > ul > li > a.dropdown-toggle::after {
+.filter-top-area > ul > li > a.dropdown-toggle::after {
 	position: absolute;
 	top: 50%;
 	right: 0;
@@ -1000,13 +1020,13 @@ textarea {
 	border-left: .4em solid transparent;
 	margin-right: .4em;
 }
-.filter-area > ul > li > a.dropdown-toggle span {
+.filter-top-area > ul > li > a.dropdown-toggle span {
 	display: block;
 	border-right: 1px solid #fff;
 	padding-right: 15px;
 	margin-right: 6px;
 }
-.filter-area > ul > li .dropdown-menu {
+.filter-top-area > ul > li .dropdown-menu {
 	min-width: 217px;
 	background: #FAF9F9;
 	border: 0.5px solid #C7C1C1;
@@ -1014,8 +1034,8 @@ textarea {
 	border-radius: 0px 0px 5px 5px;
 	padding: 5px;
 }
-.filter-area > ul > li .dropdown-menu li { overflow: hidden; }
-.filter-area > ul > li.filter-by {
+.filter-top-area > ul > li .dropdown-menu li { overflow: hidden; }
+.filter-top-area > ul > li.filter-by {
 	font-family: 'Sansation_Regular';
 	font-weight: 400;
 	font-size: 15px;
@@ -1023,10 +1043,10 @@ textarea {
 	background: none;
 	margin-right: 20px;
 }
-.filter-area > ul > li.more-filter-btn {
+.filter-top-area > ul > li.more-filter-btn {
 	background: #be708d;
 }
-.filter-area > ul > li .dropdown-menu li > span {
+.filter-top-area > ul > li .dropdown-menu li > span {
 	display: block;
 	float: right;
 	font-weight: 400;

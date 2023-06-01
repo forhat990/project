@@ -10,6 +10,31 @@
         margin-right: 35px;
     }
 }
+@media screen and (max-width: 1223px) {
+    .filter-top-area > ul > li {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .filter-top-area > ul > li.filter-by {
+        font-size: 13px;
+        margin-right: 6px;
+    }
+    .filter-top-area > ul > li > a {
+        padding: 0 15px 0 8px;
+    }
+    .filter-top-area > ul > li > a.dropdown-toggle span {
+        padding-right: 6px;
+    }
+    .search-list span {
+        font-size: 12px;
+    }
+    .search-list ul li {
+        font-size: 13px;
+    }
+    .search-list {
+        max-width: 960px;
+    }
+}
 @media screen and (max-width: 1199px) {
     .gift-item-content h4 {
         font-size: 21px;
@@ -41,6 +66,9 @@
     }
 }
 @media screen and (max-width: 1099px) {
+    .search-list {
+        max-width: 100%;
+    }
     .logo-area {
         width: 22%;
     }
@@ -206,7 +234,7 @@
         float: right;
         padding-left: 20px;
     }
-    .filter-area > ul {
+    .filter-top-area > ul {
         display: none;
     }
     .search-filter {
@@ -225,6 +253,14 @@
     }
     .filter-item-title .price h4 {
         font-size: 20px;
+    }
+    .load-more-btn {
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .load-more-btn a {
+        padding: 0 20px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -514,6 +550,9 @@
         font-size: 10px;
         margin-top: 0;
     }
+    .filter-item {
+        margin-bottom: 15px;
+    }
 }
 @media screen and (max-width: 535px) {
     .footer-area-right figure {
@@ -555,7 +594,7 @@
         float: none;
         font-size: 10px;
         margin-left: 24px;
-    margin-bottom: 13px;
+        margin-bottom: 13px;
     }
     .filter-label.clearfix {
         float: none;
