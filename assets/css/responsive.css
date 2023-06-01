@@ -577,7 +577,7 @@
 }
 @media screen and (max-width: 413px) {
     .col-6.p-rl-2 {
-        width: 100%;
+        width: 50%;
     }
     .filter-item {
         margin-right: auto;
