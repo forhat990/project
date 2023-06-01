@@ -534,7 +534,7 @@
         padding-top: 20px;
     }
     .modal.filter-popup .filter-label > span {
-        font-size: 12px;
+        font-size: 11px;
         line-height: 16px;
         padding-left: 23px;
     }
@@ -590,13 +590,7 @@
         padding: 0 5px !important;
     }
     .modal.filter-popup .radio-item > span {
-        display: table;
-        float: none;
         font-size: 10px;
-        margin-left: 24px;
         margin-bottom: 13px;
-    }
-    .filter-label.clearfix {
-        float: none;
     }
 }
