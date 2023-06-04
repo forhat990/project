@@ -321,6 +321,88 @@
     .details .filter-area {
         padding-bottom: 50px;
     }
+    .view-price ul li {
+        font-size: 11px;
+        margin-right: 15px !important;
+        padding: 3px 5px;
+    }
+    .product-info .title h3 {
+        font-size: 21px;
+    }
+    .product-info .title ul li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .product-info .title ul li:not(:last-child) {
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+    .product-info .price h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .product-info .price h3 .pre-price {
+        font-size: 16px;
+        line-height: 36px;
+    }
+    .product-info .price h3 .offer {
+        font-size: 14px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .accordion-item .view button {
+        font-size: 16px;
+    }
+    .product-info .accordion-item .customize-header button {
+        font-size: 16px;
+    }
+    .view-price ul li:not(:first-child)::after {
+        left: -15px;
+        top: 5px;
+    }
+    .quantity {
+        margin-left: 10px;
+    }
+    .customize form p {
+        font-size: 11px;
+        line-height: 25px;
+    }
+    .btn-minuse, .btn-plus, .quantity > input {
+        width: 25px;
+        height: 25px;
+        line-height: 20px;
+    }
+    .quantity > input {
+        min-width: 45px;
+        max-width: 20px; 
+        font-size: 14px;
+        border-radius: 3px;
+    }
+    .customize form select {
+        font-size: 12px;
+        max-width: 105px;
+        margin: 0 auto;
+    }
+    .customize form .form-select-wrap::after {
+        height: 26px;
+    }
+    .customize form .form-check {
+        margin-left: 5px;
+    }
+    .customize form label {
+        font-size: 11px;
+    }
+    .form-check .form-check-input {
+        margin-left: -1.25em;
+    }
+    .customize form.size {
+        float: right;
+    }
+    .size-chart {
+        float: right;
+        width: 100%;
+        margin-right: 4px;
+    }
 }
 @media screen and (max-width: 767px) {
     .banner > figure img {
@@ -411,6 +493,12 @@
     }
     .details .table tr td {
         font-size: 15px;
+    }
+    .customize form .form-select-wrap.ms-auto {
+        margin-left: 10px !important;
+    }
+    .customize form.size {
+        margin-bottom: 15px !important;
     }
 }
 @media screen and (max-width: 575px) {
@@ -657,19 +745,16 @@
         left: 0;
         background-size: 15px !important;
     }
-    .carousel + ul li {
-        max-width: 130px;
-    }
     .product-info .title h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .product-info .price h3 {
-        font-size: 25px;
-        line-height: 36px;
+        font-size: 21px;
+        line-height: 30px;
     }
     .product-info .price h3 .pre-price {
-        font-size: 16px;
-        line-height: 36px;
+        font-size: 14px;
+        line-height: 30px;
     }
     .product-info .price h3 .offer {
         height: 25px;
@@ -680,10 +765,10 @@
         font-size: 12px;
     }
     .accordion-item .view button {
-        font-size: 16px;
+        font-size: 14px;
     }
     .product-info .accordion-item .customize-header button {
-        font-size: 16px;
+        font-size: 14px;
     }
     .specification h4 {
         font-size: 20px;
@@ -706,6 +791,51 @@
     }
     .breadcrumb ul li {
         font-size: 11px;
+    }
+    .customize .col-sm-6.ps-0 {
+        padding-left: 15px !important;
+    }
+    .customize form {
+        margin-bottom: 10px;
+    }
+    .customize form.size {
+        float: right;
+        width: 100%;
+        max-width: 165px;
+        margin-bottom: 0 !important;
+    }
+    .size-chart {
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        padding-right: 8px;
+    }
+    .customize form {
+        margin-bottom: 10px !important;
+    }
+    .customize form select {
+        font-size: 10px;
+    }
+    .customize form .form-select-wrap::after {
+        height: 22px;
+    }
+    .customize form .form-select-wrap.ms-auto {
+        margin-left: 5px !important;
+    }
+    .customize form .form-select-wrap {
+        min-width: 90px;
+    }
+    .view-price ul li {
+        font-size: 10.75px;
+        padding: 3px 3px;
+    }
+    .product-info .title ul li:not(:last-child) {
+        padding-right: 5px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .product-info .price h4 {
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 535px) {
@@ -747,4 +877,16 @@
         font-size: 10px;
         margin-bottom: 13px;
     }
+    .customize form .form-check {
+        margin-left: 0px;
+    }
+    .form-check-input {
+        width: .75em;
+        height: .75em;
+        margin-top: .45em;
+    }
+    .customize form p {
+        margin-right: 2px;
+    }
+
 }
