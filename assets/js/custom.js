@@ -83,7 +83,38 @@ jQuery(document).ready(function() {
         loop: true,
         autoplay: true,
         margin: 30,
-        nav: false,
+        nav: true,
+        dots: false,
+        smartSpeed: 500,
+        responsiveClass: true,
+        autoplayTimeout: 5000,
+        fallbackEasing: 'easing',
+        transitionStyle: "fade",
+        autoplayHoverPause: true,
+        animateOut: 'fadeOut',
+        responsive: {
+          0: {
+            items: 1,
+          },
+          576: {
+            items: 2,
+          },
+          768: {
+            items: 3,
+          },
+          992: {
+            items: 4,
+          },
+        }
+    })
+});
+
+jQuery(document).ready(function() {
+    jQuery('.filter-area.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        margin: 30,
+        nav: true,
         dots: false,
         smartSpeed: 500,
         responsiveClass: true,
@@ -148,5 +179,56 @@ $(window).scroll(function(){
         $('.filter-mobile').removeClass('fixed-header');
     }
 });
+
+$(".img_product_container")
+  // tile mouse actions
+  .on("mouseover", function() {
+    $(this)
+      .children(".img_product")
+      .css({ transform: "scale(" + $(this).attr("data-scale") + ")" });
+  })
+  .on("mouseout", function() {
+    $(this)
+      .children(".img_product")
+      .css({ transform: "scale(1)" });
+  })
+  .on("mousemove", function(e) {
+    $(this)
+      .children(".img_product")
+      .css({
+        "transform-origin":
+          ((e.pageX - $(this).offset().left) / $(this).width()) * 100 +
+          "% " +
+          ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +
+          "%"
+      });
+  });
+
+  $(function () {
+
+    set_($('#three-max'), 3);  //return 3 maximum digites
+    set_($('#four-max'), 4);    //return 6 maximum digites
+    set_($('#five-max'), 5);  //return 9 maximum digites
+    set_($('#five'), 5);  //return 9 maximum digites
+
+    function set_(_this, max) {
+        var block = _this.parent();
+
+        block.find(".increase").click(function () {
+            var currentVal = parseInt(_this.val());
+            if (currentVal != NaN && (currentVal + 1) <= max) {
+                _this.val(currentVal + 1);
+            }
+        });
+
+        block.find(".decrease").click(function () {
+            var currentVal = parseInt(_this.val());
+            if (currentVal != NaN && currentVal != 0) {
+                _this.val(currentVal - 1);
+            }
+        });
+    }
+});
+
 
 
