@@ -89,6 +89,127 @@
     .view-price ul li:not(:first-child)::after {
         left: -20px;
     }
+    .about-area-content p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .about-area-content h3 {
+        font-size: 21px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    .about-info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0 5px;
+    }
+    .about-info h4 {
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .about-area-content {
+        padding: 0 0 0 30px;
+    }
+    .about-info .title {
+        padding-bottom: 20px;
+    }
+    .cart-area .title p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cart-item-wrap {
+        width: 75%;
+        padding: 0 0 0 25px;
+    }
+    .cart-item > figure {
+        width: 25%;
+    }
+    .cart-item-title h4 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 4px;
+    }
+    .cart-item-title > span {
+        font-size: 14px;
+    }
+    .cart-item-title {
+        margin-bottom: 8px;
+    }
+    .remove-btn {
+        font-size: 12px;
+        height: 25px;
+        line-height: 25px;
+        min-width: 130px;
+        border-radius: 4px;
+    }
+    .move-to-btn {
+        font-size: 12px;
+        line-height: 25px;
+        min-width: 130px;
+        height: 25px;
+        border-radius: 4px;
+    }
+    .cart-item-wrap .price h3 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .cart-item-wrap .price h3 .pre-price {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .cart-item-wrap .price h3 .offer {
+        font-size: 15px;
+        height: 25px;
+        line-height: 25px;
+        padding: 0 8px;
+    }
+    .cart-item-wrap .price {
+        padding-top: 33px;
+    }
+    .order-summery {
+        padding: 10px 20px 0 20px;
+        margin-bottom: 20px;
+    }
+    .order-summery h4 {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .order-summery ul li {
+        font-size: 16px;
+        line-height: 30px;
+        padding: 10px 0;
+    }
+    .book p {
+        font-size: 16px;
+        line-height: 30px;
+        background-size: 23px;
+        padding-left: 30px;
+    }
+    .book label {
+        line-height: 30px;
+        font-size: 16px;
+        background-size: 20px;
+        padding: 0 27px 0 2px;
+    }
+    .book form .form-check-input {
+        width: 20px;
+        height: 20px;
+    }
+    .order-summery p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .proceed-btn {
+        font-size: 16px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .continue-btn {
+        font-size: 16px;
+        height: 45px;
+        line-height: 45px;
+    }
 }
 @media screen and (max-width: 1099px) {
     .search-list {
@@ -403,6 +524,18 @@
         width: 100%;
         margin-right: 4px;
     }
+    .about-area-content h3 {
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .about-area-content p {
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .about-area > figure {
+        width: 40%;
+    }
 }
 @media screen and (max-width: 767px) {
     .banner > figure img {
@@ -500,6 +633,49 @@
     .customize form.size {
         margin-bottom: 15px !important;
     }
+    .about-area {
+        display: block;
+    }
+    .about-area > figure {
+        display: block;
+        width: 100%;
+        max-width: 480px;
+        margin-bottom: 30px;
+    }
+    .about-area > figure > img {
+        width: initial;
+        height: initial;
+        max-width: 100%;
+    }
+    .about-info {
+        max-width: 100%;
+    }
+    .about-area-wrap {
+        padding-bottom: 0;
+    }
+    .about-area-content {
+        padding: 0;
+    }
+    .cart-item-wrap .price {
+        padding-top: 0;
+    }
+    .cart-item-wrap .price {
+        width: 100%;
+    }
+    .cart-item-wrap .btn-wrap {
+        width: 100%;
+        float: none;
+    }
+    .remove-btn {
+        margin: 8px 0 0 0 !important; 
+    }
+    .move-to-btn {
+        margin: 8px 0 0 8px !important; 
+    }
+    .cart-item {
+        max-width: 552px;
+    }
+
 }
 @media screen and (max-width: 575px) {
     .banner > figure img {
@@ -836,6 +1012,31 @@
     }
     .product-info .price h4 {
         font-size: 14px;
+    }
+     .cart-item > figure {
+        width: 100%;
+       
+    }
+    .cart-item > figure img {
+        max-width: 187px;
+        margin: 0 auto;
+    }
+    .cart-item-wrap {
+        width: 100%;
+    }
+    .cart-item-wrap {
+        width: 100%;
+        padding: 12px 0 0 0;
+    }
+    .cart-item {
+        max-width: 302px;
+        padding: 16px 15px;
+    }
+    .cart-item-title > span {
+        display: block;
+    }
+    .cart-area .title p {
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 535px) {
