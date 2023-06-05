@@ -2470,6 +2470,8 @@ textarea {
 	line-height: 38px;
 	text-decoration: line-through;
 	color: #5D3640;
+	font-weight: 400;
+	padding: 0 5px;
 }
 .cart-item-wrap .price h3 .offer {
 	display: inline-block;
@@ -2532,8 +2534,6 @@ textarea {
 	font-size: 19px;
 	line-height: 38px;
 	color: #593E3D;
-	background: url('assets/images/3.png') no-repeat left center;
-	padding-left: 33px;
 }
 .order-summery p a {
 	color: #593E3D;
@@ -2564,15 +2564,30 @@ textarea {
 	border-bottom: 1px solid #A39E9E;
 }
 .book h4 {
-	display: table;
-	background: url('assets/images/3.png') no-repeat right center;
-	padding-right: 40px;
+	padding-right: 13px;
+}
+.book .filter-label.clearfix {
+	float: none;
+}
+.book .filter-label .checkmark {
+	top: -4px;
+	left: 0;
+	width: 27px;
+	height: 27px;
+	border: 2px solid #07A8A8;
+}
+.book .filter-label .checkbox-group label .checkmark::after {
+	left: 7px;
+	top: 2px;
+	width: 9px;
+	height: 14px;
+	border: solid #e3587a;
+	border-width: 0 3px 3px 0;
 }
 .book p {
 	font-size: 19px;
 	line-height: 30px;
 	color: #593E3D;
-	padding-left: 33px;
 	margin-bottom: 4px;
 }
 .book label {
@@ -2623,6 +2638,7 @@ textarea {
 	display: block;
 	padding: 0 15px;
 }
+
 
 /*==============================
 	about 
