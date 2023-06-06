@@ -1047,7 +1047,7 @@
 					<div class="row">
 						<div class="col-lg-8">
 							<div class="title bg-white mx-auto">
-								<p>Wallet Balance Available : ₹85,500 </p>
+								<p><span>Wallet Balance Available</span> : ₹85,500 </p>
 							</div>
 
 							<div class="cart-item bg-white clearfix mx-auto">
@@ -1344,12 +1344,34 @@
 										<span class="amount text-end">₹ 964</span>
 									</li>
 									<li class="clearfix">
-										<span class="text">Coupon Discount</span> 
-										<a href="#" class="amount text-end">Apply Coupon</a>
+										<div class="clearfix">
+											<span class="text">Coupon Discount</span> 
+											<a type="button" data-bs-toggle="collapse" data-bs-target="#cuppon" aria-expanded="false" aria-controls="cuppon" href="#" class="amount text-end">Apply Coupon</a>
+										</div>
+
+										<div class="collapse" id="cuppon">
+											<form class="mt-2">
+												<div class="input-group">
+													<input type="text" class="form-control" placeholder="Cuppon" aria-label="Example text with button addon" aria-describedby="button-addon2">
+													<button class="btn text-white" type="button" id="button-addon2">Apply</button>
+												</div>
+											</form>
+										</div>
 									</li>
-									<li class="clearfix">
-										<span>Wallet</span> 
-										<a href="#" class="amount text-end">Use Balance</a>
+									<li>
+										<div class="clearfix">
+											<span>Wallet</span> 
+											<a type="button" data-bs-toggle="collapse" data-bs-target="#use" aria-expanded="false" aria-controls="use" href="#" class="amount text-end">Use Balance</a>
+										</div>
+
+										<div class="collapse" id="use">
+											<form class="mt-2">
+												<div class="input-group">
+													<input type="text" class="form-control" placeholder="Enter Amount to use" aria-label="Example text with button addon" aria-describedby="button-addon3">
+													<button class="btn text-white" type="button" id="button-addon3">Apply</button>
+												</div>
+											</form>
+										</div>
 									</li>
 									<li class="clearfix">
 										<span class="text"><strong>Total Amount</strong></span> 
@@ -1404,7 +1426,18 @@
 								</ul>
 							</div>
 
-							<div class="order-summery bg-white py-2">
+							<div class="order-summery terms bg-white py-2">
+								<div class="filter-label clearfix m-0">
+                                    <form>
+                                        <div class="checkbox-group">
+                                            <label class="m-0">
+                                                <input type="checkbox">
+												<span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </form>
+                                </div>
+
 								<p>Accept <a href="#"><strong> Terms&Conditions</strong></a></p>
 							</div>
 

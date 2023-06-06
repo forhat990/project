@@ -210,6 +210,9 @@
         height: 45px;
         line-height: 45px;
     }
+    .cart-area .title p span {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 1099px) {
     .search-list {
@@ -536,6 +539,9 @@
     .about-area > figure {
         width: 40%;
     }
+    .cart-area .title p span {
+        font-size: 17px;
+    }
 }
 @media screen and (max-width: 767px) {
     .banner > figure img {
@@ -675,7 +681,6 @@
     .cart-item {
         max-width: 552px;
     }
-
 }
 @media screen and (max-width: 575px) {
     .banner > figure img {
