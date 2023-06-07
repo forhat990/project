@@ -2820,6 +2820,18 @@ textarea {
 .view-details {
 	padding: 27px 0 20px 15px;
 }
+.order-item-wrap figure {
+	overflow: hidden;
+	max-width: 185px;
+	max-height: 185px;
+	border: 0.3px solid #BE0B36;
+	border-radius: 5px;
+	margin-top: 32px;
+}
+.order-item-wrap.order-list table tr td {
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
 .order-value {
 	margin-bottom: 36px;
 }
@@ -3007,6 +3019,51 @@ textarea {
 .logout-btn a span {
 	background: url('assets/images/logout.png') no-repeat 0 center;
 	padding-left: 34px;
+}
+.view-details.bordered {
+	max-width: 195px;
+	border: 0.5px solid #C4C4C4;
+	border-radius: 5px;
+	padding: 10px;
+}
+.view-details h5 {
+	font-family: 'Sansation_Bold';
+	font-weight: 400;
+	font-size: px;
+	line-height: 20px;
+	color: #593E3D;
+	margin-bottom: 27px;
+}
+.view-details ul li {
+	font-family: 'Sansation_Bold';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 18px;
+}
+.view-details ul li.return a {
+	color: #E9661C;
+}
+.view-details ul li.review a {
+	color: #07A8A8;
+}
+.view-details ul li.cancel a {
+	color: #BE0B36;
+}
+.partial {
+	margin-left: -96px;
+	margin-bottom: 16px;
+}
+.partial p strong {
+	font-family: 'Sansation_Bold';
+	font-weight: 400;
+	color: #BE0B36;
+}
+.partial p {
+	font-family: 'Sansation_Regular';
+	font-size: 19.4px;
+	line-height: 24px;
+	color: #593E3D;
 }
 /*==============================
 	footer 
