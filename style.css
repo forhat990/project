@@ -409,6 +409,7 @@ form.search-mobile button {
 }
 .after-login.login-btn .dropdown-menu ul li a.edit-profile {
 	background: url('assets/images/useredit.png') no-repeat 0 0;
+	font-weight: 400;
 }
 .after-login.login-btn .dropdown-menu ul li a.logout {
 	background: url('assets/images/icon-logout.png') no-repeat 0 0;
