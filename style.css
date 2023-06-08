@@ -2673,7 +2673,7 @@ textarea {
 }
 .cart.checkout .order-item-title {
 	background: #F7EEF0;
-	padding: 4px 27px 3px 27px;
+	padding: 7px 27px 7px 27px;
 }
 .cart.checkout .order-item-title h4 {
 	font-weight: 600;
@@ -2684,6 +2684,10 @@ textarea {
 .cart.checkout .order-item-title h4 span {
 	background: url('assets/images/Traced-Image.png') no-repeat 0 center;
 	padding: 4px 0 3px 34px;
+}
+.cart.checkout .order-item-title.pay h4 span {
+	background: url('assets/images/Traced-Image-(1).png') no-repeat 0 center;
+	padding-left: 45px;
 }
 .cart.checkout .order-item-wrap {
 	padding: 21px 0 21px 32px;
@@ -3135,12 +3139,12 @@ textarea {
 	color: #BE0B36;
 	font-size: 15px;
 }
-.logout {
+.side-menu .logout {
 	border-top: 1px solid #5D3640;
 	padding: 19px 0 10px 0;
 	margin: 0 45px;
 }
-.logout-btn {
+.side-menu .logout-btn {
 	display: table;
 	font-weight: 700;
 	font-size: 19px;
@@ -3149,11 +3153,11 @@ textarea {
 	background: #CC9DAD;
 	border-radius: 5px;
 }
-.logout-btn a {
+.side-menu .logout-btn a {
 	display: block;
 	padding: 0 20px;
 }
-.logout-btn a span {
+.side-menu .logout-btn a span {
 	background: url('assets/images/logout.png') no-repeat 0 center;
 	padding-left: 34px;
 }
