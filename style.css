@@ -283,9 +283,16 @@ form.search-mobile button {
 	right: 4px;
 	bottom: 14px;
 }
-.header-top-right ul.user a.cart { background: url('assets/images/icon-cart.png') no-repeat center 0; }
-.header-top-right ul.user a.wishlist { background: url('assets/images/icon-wishlist.png') no-repeat center 0; }
-.header-top-right ul.user a.search { background: url('assets/images/icon-search.png') no-repeat center 0; }
+.header-top-right ul.user a.cart {
+	background: url('assets/images/icon-cart.png') no-repeat center 0;
+	border: 0;
+}
+.header-top-right ul.user a.wishlist { 
+	background: url('assets/images/icon-wishlist.png') no-repeat center 0; 
+}
+.header-top-right ul.user a.search { 
+	background: url('assets/images/icon-search.png') no-repeat center 0; 
+}
 .login-btn {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
