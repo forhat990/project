@@ -3405,7 +3405,49 @@ textarea {
 .upload + button {
 	margin-bottom: 20px;
 }
-
+.cart.checkout .tab-pane .form-check label {
+	line-height: 28px;
+}
+.cart.checkout .tab-pane .form-check .form-check-input {
+	float: right;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #07A8A8;
+	margin-top: -23px;
+}
+.cart.checkout .tab-pane .form-check-input:checked {
+	background-color: transparent;
+}
+.cart.checkout .tab-pane .form-check-input:checked[type="radio"] {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23E3587A'/%3e%3c/svg%3e");
+}
+.cart.checkout .tab-pane .accordion-button::after {
+	display: none;
+}
+.cart.checkout .tab-pane button {
+	background: none;
+	box-shadow: none;
+	background: #F7EEF0;
+	border: 0.5px solid #CAC6C6;
+	font-weight: 600;
+	font-size: 9px;
+	color: #5D3640;
+	padding: 0 10px 0 10px;
+	border-radius: 0;
+	font-size: 15px;
+}
+.payment .accordion ul li {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+.payment .accordion ul li span {
+	font-size: 14px;
+	line-height: 24px;
+	color: #593E3D;
+	font-weight: 400;
+}
 /*==============================
 	footer 
 ================================*/
