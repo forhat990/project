@@ -1154,102 +1154,354 @@
 									<h4><span>Choose Payment Method</span></h4>
 								</div>
 
-								<form>
-								 	<div class="row">
-								 		<div class="col-5">
-											<div class="order-item-wrap">
-												<div class="address-item">
-													<div class="row">
-														<div class="col-6">
-															<div class="title p-0 m-0">
-																<h5>Harsh Soni</h5>
-															</div>
-														</div>
+								<div class="row">
+									<div class="col-4">
+										<ul class="nav nav-pills d-block h-100" role="tablist">
+											<li class="text-center">Pay Using</li>
+											<li>
+												<button class="nav-link active" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one" aria-selected="false" tabindex="-1">Payment Gateway</button>
+											</li>
 
-														<div class="col-6">
-															<div class="address-item-btn ms-auto">
-																<ul class="nav">
-																	<li><a href="#">Edit</a></li>
-																	<li><a href="#">Remove</a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
+											<li>
+												<button class="nav-link" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two" type="button" role="tab" aria-controls="pills-two" aria-selected="false" tabindex="-1">Scan & Pay</button>
+											</li>
 
-													<address>
-														102B, Sarai Rohilla South Delhi , Delhi <br>
-														New Delhi, Delhi, 110023 <br>
-														India
-													</address>
+											<li>
+												<button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three" aria-selected="true">Offline Payment</button>
+											</li>
 
-													<div class="address-item-bottom">
-														<div class="tel">
-															<a href="tel:+918279932291">+918279932291</a>
-														</div>
-														<p>Address of - <span>Home</span></p>
+											<li class="option border-0 text-center">Select Any One Option</li>
+										</ul>
+									</div>
+									
+									<div class="col-8">
+										<div class="tab-content">
+											<div class="tab-pane fade active show pt-0" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+												<div class="payment">
+													<figure class="mx-auto">
+														<img src="assets/images/razor.png" alt="Img" width="338" height="92">
+													</figure>
+													<h3 class="text-center">Pay Using Razorpay Payment Gateway</h3>
 
-														<div class="form-check">
-															<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-														</div>
-													</div>
+													<ul>
+														<li class="text-center">1. If you pay through RazorPay you have to pay additionally 2% Fee and the Actual amount to be paid <span>₹ 28,116</span></li>
+														<li class="text-center or">OR</li>
+														<li class="text-center px-5">2. If you pay through offline or Scan & Pay mode, you will pay <span>₹ 27,564</span></li>
+													</ul>
+
+													<p class="text-center">You will be redirected to Razorpay website when you place an order.</p>
+													<span class="text-center">To Pay Click on Place Order</span>
 												</div>
 											</div>
-										</div>
 
-									 	<div class="col-5">
-											<div class="order-item-wrap middle">
-												<div class="address-item">
-													<div class="row">
-														<div class="col-6">
-															<div class="title p-0 m-0">
-																<h5>Harsh Soni</h5>
-															</div>
+											<div class="tab-pane fade pt-0" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+				                                <div class="payment ps-0">
+													<h3 class="text-center">Scan QR Code by any Wallet or Bank App</h3>
+
+													<div class="d-flex">
+														<ul class="nav nav-pills border-0 m-0" role="tablist">
+															<li class="border-0 p-0 me-1">
+																<button class="nav-link active p-0" id="pills-four-tab" data-bs-toggle="pill" data-bs-target="#pills-four" type="button" role="tab" aria-controls="pills-four" aria-selected="false" tabindex="-1">
+																	<figure class="m-0">
+																		<img src="assets/images/gpay.png" alt="" width="123" height="54">
+																	</figure>
+																</button>
+															</li>
+
+															<li class="border-0 p-0 mx-1">
+																<button class="nav-link p-0" id="pills-five-tab" data-bs-toggle="pill" data-bs-target="#pills-five" type="button" role="tab" aria-controls="pills-five" aria-selected="false" tabindex="-1">
+																	<figure class="m-0">
+																		<img src="assets/images/paytm.png" alt="" width="108" height="54">
+																	</figure>
+																</button>
+															</li>
+
+															<li class="border-0 p-0 mx-1">
+																<button class="nav-link p-0" id="pills-six-tab" data-bs-toggle="pill" data-bs-target="#pills-six" type="button" role="tab" aria-controls="pills-six" aria-selected="true">
+																	<figure class="m-0">
+																		<img src="assets/images/phonepe.png" alt="" width="117" height="54">
+																	</figure>
+																</button>
+															</li>
+
+															<li class="border-0 p-0 ms-1">
+																<button class="nav-link p-0" id="pills-seven-tab" data-bs-toggle="pill" data-bs-target="#pills-seven" type="button" role="tab" aria-controls="pills-seven" aria-selected="true">
+																	<figure class="m-0">
+																		<img src="assets/images/g24.png" alt="" width="108" height="54">
+																	</figure>
+																</button>
+															</li>
+														</ul>
+													</div>
+
+													<ul>
+														<li class="text-center or">Click any option above to see QR Code below</li>
+													</ul>
+
+													<div class="tab-content">
+														<div class="tab-pane fade active show pt-0" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
+															<figure class="mx-auto">
+																<img src="assets/images/barcode.png" alt="">
+															</figure>
 														</div>
-
-														<div class="col-6">
-															<div class="address-item-btn ms-auto">
-																<ul class="nav">
-																	<li><a href="#">Edit</a></li>
-																	<li><a href="#">Remove</a></li>
-																</ul>
-															</div>
+														<div class="tab-pane fade pt-0" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">
+															<figure class="mx-auto">
+																<img src="assets/images/barcode1.png" alt="">
+															</figure>
+														</div>
+														<div class="tab-pane fade pt-0" id="pills-six" role="tabpanel" aria-labelledby="pills-six-tab">
+															<figure class="mx-auto">
+																<img src="assets/images/barcode1.png" alt="">
+															</figure>
+														</div>
+														<div class="tab-pane fade pt-0" id="pills-seven" role="tabpanel" aria-labelledby="pills-seven-tab">
+															<figure class="mx-auto">
+																<img src="assets/images/barcode1.png" alt="">
+															</figure>
 														</div>
 													</div>
 
-													<address>
-														102B, Sarai Rohilla South Delhi , Delhi <br>
-														New Delhi, Delhi, 110023 <br>
-														India
-													</address>
-
-													<div class="address-item-bottom">
-														<div class="tel">
-															<a href="tel:+918279932291">+918279932291</a>
-														</div>
-														<p>Address of - <span>Home</span></p>
-
-														<div class="form-check">
-															<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-														</div>
+													<p class="text-center red">Once Payment done kindly Upload Payment confirmation Screenshot</p>
+													<div class="upload mx-auto">
+														<label for="Upload"></label>
+														<input class="custom-input" id="Upload" type="file">
+														<input class="close-btn" type="button" value="X">
+														
+														<small>File not uploaded</small>
 													</div>
+
+													<span class="text-center">To Pay Click on Place Order</span>
 												</div>
 											</div>
-										</div>
 
-										<div class="col-2">
-											<div class="plus-btn text-center">
-												<a href="#"><span>+</span>Add New</a>
-											</div>
-										</div>
+											<div class="tab-pane fade pt-0" id="pills-three" role="tabpanel" aria-labelledby="pills-three" style="overflow: hidden; outline: none;" tabindex="7">
+												<div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
 
-										<div class="col-5">
-											<div class="order-item-wrap">
-												<label>Gift Message</label>
-												<textarea class="form-control"></textarea>
+					                                    <span>EARRINGS</span>
+					                                </div>
+
+					                                <span>40</span>
+				                                </div>
+												<div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>RINGS</span>
+					                                </div>
+
+					                                <span>40</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>NECKLACES</span>
+					                                </div>
+
+					                                <span>852</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>PENDENTS</span>
+					                                </div>
+
+					                                <span>96</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>BRACELETES</span>
+					                                </div>
+
+					                                <span>405</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>BANGLES</span>
+					                                </div>
+
+					                                <span>3562</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>CHAINS</span>
+					                                </div>
+
+					                                <span>203</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+					                                	<span>SETS</span>
+					                                </div>
+
+					                                <span>105</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>MANGALSUTRA</span>
+					                                </div>
+
+					                                <span>6680</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>NOSE PIN</span>
+					                                </div>
+
+					                                <span>898</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>NATH</span>
+					                                </div>
+
+					                                <span>151</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>CHARMS</span>
+					                                </div>
+
+					                                <span>523</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>ADJUSTABLE RINGS</span>
+					                                </div>
+
+					                                <span>185</span>
+				                                </div>
+				                                <div class="radio-item clearfix">
+													<div class="filter-label clearfix">
+					                                    <form>
+					                                        <div class="checkbox-group">
+					                                            <label>
+					                                                <input type="checkbox">
+					                                                <span class="checkmark"></span>
+					                                            </label>
+					                                        </div>
+					                                    </form>
+
+					                                    <span>BABY BANGLES</span>
+					                                </div>
+
+					                                <span>600</span>
+				                                </div>
 											</div>
 										</div>
 									</div>
-								</form>
+								</div>
 							</div>
 						</div>
 
@@ -1672,9 +1924,12 @@
 									<input type="text" class="form-control">
 								</div>
 
-								<div class="mb-2">
-									<label for="formFileSm" class="form-label">Small file input example</label>
-									<input class="form-control" id="formFileSm" type="file">
+								<div class="upload-area">
+									<h6>Upload Photo</h6>
+									<div class="upload">
+										<label for="Upload1"></label>
+										<input class="custom-input" id="Upload1" type="file">
+									</div>
 								</div>
 
 								<div class="mb-2">
