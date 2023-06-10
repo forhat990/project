@@ -9,6 +9,95 @@
         font-size: 18px;
         margin-right: 35px;
     }
+    .order-content {
+        max-width: 850px;
+    }
+    .order-content .title h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .order-value span {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .order-value p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .view-estimate {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .order-number span {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .order-item-wrap table tr td {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 15px;
+    }
+    .order-item-wrap table tr td span {
+        font-size: 14px;
+    }
+    .view-details-btn {
+        height: 36px;
+        line-height: 36px;
+        border-radius: 4px;
+    }
+    .side-menu ul li button {
+        font-size: 16px;
+        line-height: 24px;
+        border-left: 4px solid transparent !important;
+        padding: 10px 16px 10px 35px;
+    }
+    .side-menu ul li button span.myorder {
+        background-size: 22px;
+    }
+    .side-menu ul li button span.mywallet {
+        background-size: 27px;
+    }
+    .side-menu ul li button span.mywishlist {
+        background-size: 27px;
+    }
+    .side-menu ul li button span.changepass {
+        background-size: 26px;
+    }
+    .side-menu ul li button span.manageaddress {
+        background-size: 23px;  
+    }
+    .side-menu .logout-btn {
+        font-size: 17px;
+        height: 39px;
+        line-height: 39px;
+    }
+    .user-profile figure {
+        width: 50px;
+        height: 50px;
+    }
+    .edit-profile {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .user-profile-info .gmail {
+        font-size: 13px;
+        line-height: 14px;
+        margin-bottom: 3px;
+    }
+    .user-profile-info h5 {
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+    .side-menu ul li button.active {
+        border-left: 4px solid #96546A !important;
+    }
+    .partial {
+        margin-left: -84px;
+    }
+    .partial p {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 1223px) {
     .filter-top-area > ul > li {
@@ -212,6 +301,157 @@
     }
     .cart-area .title p span {
         font-size: 18px;
+    }
+    .side-menu-wrap::after {
+        right: -15px;
+        width: 15px;
+    }
+    .order-content {
+        max-width: 700px;
+        margin-right: auto;
+    }
+    .order-value span {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .view-details-btn a {
+        padding: 0 7px;
+        font-size: 11px;
+    }
+    .order-value {
+        margin-bottom: 30px;
+    }
+    .side-menu ul li button {
+        padding: 10px 16px 10px 15px;
+    }
+    .side-menu ul li button span {
+        padding: 6px 0 6px 31px;
+    }
+    .side-menu ul li button span.myorder {
+        background-size: 20px;
+    }
+    .side-menu ul li button span.mywallet {
+        background-size: 25px;
+    }
+    .side-menu ul li button span.mywishlist {
+        background-size: 25px;
+    }
+    .side-menu ul li button span.changepass {
+        background-size: 24px;
+    }
+    .side-menu ul li button span.manageaddress {
+        background-size: 21px;  
+    }
+    .user-profile-info .gmail {
+        font-size: 11px;
+    }
+    .user-profile figure {
+        width: 40px;
+        height: 40px;
+    }
+    .side-menu ul li button {
+        font-size: 15px;
+        border-left: 3px solid transparent !important;
+    }
+    .side-menu ul li button.active {
+        border-left: 3px solid #96546A !important;
+    }
+    .side-menu .logout-btn a {
+        padding: 0 15px;
+    }
+    .side-menu .logout-btn {
+        font-size: 15px;
+        height: 36px;
+        line-height: 36px;
+    }
+    .side-menu .logout-btn a span {
+        padding-left: 26px;
+        background-size: 19px;
+    }
+    .order {
+        padding: 0 0 150px 0;
+    }
+    .order-item-wrap.order-list table tr td {
+        padding-left: 20px;
+    }
+    .partial {
+        margin-left: -75px;
+    }
+    .partial p {
+        font-size: 15px;
+    }
+    .order-item-wrap table tr td {
+        font-size: 15px;
+    }
+    .cart.checkout .order-item-title h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .cart.checkout .order-item-title h4 span {
+        padding: 4px 0 3px 30px;
+        background-size: 19px;
+    }
+    .cart.checkout .order-item-wrap {
+        padding: 21px 0 21px 10px;
+    }
+    .middle::before {
+        left: -7px;
+    }
+    .plus-btn a {
+        padding: 0;
+    }
+    .order-item-wrap label {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .address-item {
+        padding: 9px 8px 0 10px;
+    }
+    .address-item address {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .address-item p {
+        font-size: 15px;
+    }
+    .cart.checkout .order-item-title.pay h4 span {
+        padding-left: 40px;
+        background-size: 26px;
+    }
+    .cart.checkout .order-item ul.nav-pills li button {
+        font-size: 15px;
+    }
+    .cart.checkout .order-item ul.nav-pills li.option {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .payment h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .payment > figure {
+        max-width: 270px;
+    }
+    .payment {
+        padding: 11px 25px 11px 0;
+    }
+    .payment ul li {
+        font-size: 13px;
+    }
+    .payment p {
+        line-height: 20px;
+    }
+    .payment figure.gpay {
+        max-width: 93px;
+    }
+    .payment figure.paytm {
+        max-width: 78px;
+    }
+    .payment figure.phonepe {
+        max-width: 87px;
+    }
+    .payment figure.g24 {
+        max-width: 78px;
     }
 }
 @media screen and (max-width: 1099px) {
@@ -542,6 +782,31 @@
     .cart-area .title p span {
         font-size: 17px;
     }
+    .side-menu-wrap {
+        margin-bottom: 0;
+        padding-right: 12px !important;
+    }
+    .order-content {
+        max-width: 100%;
+    }
+    .side-menu {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .side-menu ul li button { overflow: hidden; }
+    .side-menu ul li button span.amount {
+        float: right;
+    }
+    .side-menu ul li button span.mywallet {
+        float: left;
+    }
+    .order-summery {
+        margin-left: 15px;
+    }
+    .proceed-btn {
+        margin-left: 15px;
+    }
 }
 @media screen and (max-width: 767px) {
     .banner > figure img {
@@ -680,6 +945,80 @@
     }
     .cart-item {
         max-width: 552px;
+    }
+    .order-number span {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .view-estimate {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .order-item-wrap .row .col-2 {
+        padding: 11px 10px 10px 10px;
+    }
+    .order-item-wrap {
+        padding: 10px 10px 10px 10px;
+    }
+    .view-details {
+        padding: 27px 0 20px 0;
+    }
+    .order-value p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .view-details-btn a {
+        padding: 0 5px;
+    }
+    .order-item-wrap table tr td {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px;
+        min-width: 170px;
+    }
+    .view-details-btn {
+        margin-right: auto;
+    }
+    .partial {
+        margin-left: 0;
+    }
+    .partial p {
+        text-align: center;
+    }
+    .view-details.bordered {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .address-item {
+        
+    }
+    .cart.checkout .order-item-wrap {
+        margin-right: 10px;
+    }
+    .payment {
+        padding: 11px 10px 11px 10px !important;
+    }
+    .plus-btn {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .payment figure.gpay {
+        max-width: 78px;
+    }
+    .payment figure.paytm {
+        max-width: 63px;
+    }
+    .payment figure.phonepe {
+        max-width: 72px;
+    }
+    .payment figure.g24 {
+        max-width: 63px;
+    }
+    .file-upload input {
+        font-size: 13px;
+    }
+    .file-upload input {
+        max-width: 200px;
     }
 }
 @media screen and (max-width: 575px) {
@@ -1042,6 +1381,15 @@
     }
     .cart-area .title p {
         font-size: 16px;
+    }
+    .view-estimate {
+        margin-right: auto;
+    }
+    .order-number {
+        text-align: center;
+    }
+    .order-item-wrap figure {
+        margin: 8px auto 10px auto;
     }
 }
 @media screen and (max-width: 535px) {
