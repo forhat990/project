@@ -230,5 +230,22 @@ $(function () {
     }
 });
 
+$(document).ready(function(){
+  $('#regdiv').hide();
+  $('#signup-btn').click(function(){
+    
+      $('#logindiv').hide();
+      $('#regdiv').show();
+
+  });
+
+  $('#login-btn').click(function(){
+    
+      $('#logindiv').show();
+      $('#regdiv').hide();
+
+  });
+});
+
 
 

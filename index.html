@@ -1825,7 +1825,7 @@
 							<button type="button" class="btn-close py-2" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
 
-						<div class="login-form"><!-- start .login-form -->
+						<div class="login-form" id="logindiv"><!-- start .login-form -->
 							<div class="heading">
 								<h4>Log in to Nandlal Jewellers</h4>
 								<p>Log in and unlock your world!</p>
@@ -1845,11 +1845,57 @@
 								<button type="submit" class="text-white border-0">LOG IN</button>
 								
 								<div class="sign-up-btn">
-									<a class="text-white text-center" href="#">SIGN UP</a>
+									<a id="signup-btn" class="text-white text-center" href="#">SIGN UP</a>
 								</div>
 
 								<div class="forget-pass text-center">
 									<a href="#">Forgot Password</a>
+								</div>
+							</form>
+						</div><!-- //end .login-form -->
+
+						<div class="login-form signup py-2" id="regdiv"><!-- start .login-form -->
+							<div class="heading mb-0">
+								<h4 class="text-center">Sign Up</h4>
+								<p class="text-center">Ready, set, sign up!</p>
+							</div>
+
+							<form action="after-login.html">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="mb-2">
+											<label class="form-label mb-0">First Name</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="mb-2">
+											<label class="form-label mb-0">Last Name</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+
+								<div class="mb-2">
+									<label class="form-label mb-0">Enter Email</label>
+									<input type="email" class="form-control">
+								</div>
+
+								<div class="mb-2">
+									<label class="form-label mb-0">Mobile Number</label>
+									<input type="text" class="form-control">
+								</div>
+
+								<div class="mb-2">
+									<label class="form-label mb-0">Enter Password</label>
+									<input type="password" class="form-control">
+								</div>
+
+								<button type="submit" class="text-white border-0 mt-0">SIGN UP</button>
+
+								<div class="forget-pass text-center">
+									<p>Already have an account? <strong><a id="login-btn" href="#">LOG IN</a></strong></p>
 								</div>
 							</form>
 						</div><!-- //end .login-form -->

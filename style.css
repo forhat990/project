@@ -3425,6 +3425,14 @@ textarea {
 	-webkit-appearance: none !important;
 	background: #000;
 }
+#addAddressModal .form-check-input:checked {
+	background-color: #fff;
+	border-color: #0d6efd;
+}
+#addAddressModal .login-form form label {
+	line-height: 22px;
+}
+
 /*==============================
 	footer 
 ================================*/
