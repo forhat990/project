@@ -662,9 +662,6 @@
         margin: 0 auto;
     }
     .product-info {
-        margin-top: 50px;
-    }
-    .product-info {
         max-width: 745px;
     }
     .filter-area.owl-carousel .owl-nav button.owl-prev {
@@ -839,6 +836,19 @@
     .terms .filter-label .checkmark {
         top: -15px;
     }
+    .zoom-image {
+        padding-right: 10px;
+    }
+    .zoom-bottom ul li {
+        font-size: 12px;
+    }
+    .zoom-bottom ul li:not(:last-child) {
+        padding-right: 10px;
+    }
+    .zoom-bottom ul li span {
+         background-size: 30px !important;
+         padding-left: 34px;
+    }
 }
 @media screen and (max-width: 767px) {
     .banner > figure img {
@@ -906,9 +916,6 @@
     }
     .filter-area-wrap {
         max-width: 476px;
-    }
-    .carousel + ul {
-        margin-left: 33px;
     }
     .carousel-inner {
         max-width: 385px;
@@ -1051,6 +1058,43 @@
     }
     .file-upload input {
         max-width: 200px;
+    }
+    .zoom-left > figure {
+        width: 100%;
+        float: none;
+        max-width: 483px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .zoom-image {
+        width: 100%;
+        float: none;
+        padding-right: 0;
+    }
+    .elevatezoom-gallery {
+        overflow: hidden;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .zoom-image {
+        width: 100%;
+        float: none;
+        padding-right: 0;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 483px;
+    }
+    .zoom-wrap {
+        max-width: 360px;
+        margin: 0 auto 40px auto;
+    }
+    .elevatezoom-gallery {
+        max-width: 70px;
+    }
+    .share {        
+        bottom: 168px;
     }
 }
 @media screen and (max-width: 575px) {
@@ -1422,6 +1466,13 @@
     }
     .order-item-wrap figure {
         margin: 8px auto 10px auto;
+    }
+    .zoom-bottom ul li span {
+         background-size: 25px !important;
+         padding-left: 30px;
+    }
+    .zoom-bottom ul li.trace span {
+        text-align: left !important;
     }
 }
 @media screen and (max-width: 535px) {

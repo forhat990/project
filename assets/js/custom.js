@@ -180,30 +180,6 @@ $(window).scroll(function(){
     }
 });
 
-// $(".img_product_container")
-//   // tile mouse actions
-//   .on("mouseover", function() {
-//     $(this)
-//       .children(".img_product")
-//       .css({ transform: "scale(" + $(this).attr("data-scale") + ")" });
-//   })
-//   .on("mouseout", function() {
-//     $(this)
-//       .children(".img_product")
-//       .css({ transform: "scale(1)" });
-//   })
-//   .on("mousemove", function(e) {
-//     $(this)
-//       .children(".img_product")
-//       .css({
-//         "transform-origin":
-//           ((e.pageX - $(this).offset().left) / $(this).width()) * 100 +
-//           "% " +
-//           ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +
-//           "%"
-//       });
-//   });
-
 $(function () {
 
     set_($('#three-max'), 3);  //return 3 maximum digites
@@ -246,6 +222,16 @@ $(document).ready(function(){
 
   });
 });
+
+
+$(document).ready(function () {
+    $("#zoom_06").ezPlus({
+        //zoomType: "inner",
+        //debug: true,
+        // cursor: "crosshair"
+    });
+});
+
 
 
 

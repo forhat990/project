@@ -1277,10 +1277,10 @@ textarea {
 .favorite {
 	position: absolute;
 	top: 12px;
-	right: 15px;
+	right: 20px;
 	width: 29px;
-	height: 28px;
-	z-index: 99;
+	height: 35px;
+	z-index: 9999;
 }
 .favorite a {
 	display: block;
@@ -1289,11 +1289,11 @@ textarea {
 }
 .share {
 	position: absolute;
-	bottom: 25px;
+	bottom: 70px;
 	right: 25px;
 	width: 29px;
 	height: 28px;
-	z-index: 99;
+	z-index: 9999;
 }
 .share a {
 	display: block;
@@ -1868,31 +1868,33 @@ textarea {
 .product-details-area {
 	max-width: 1234px;
 }
-.carousel + ul {
-	width: 100%;
-	max-width: 510px;
+.zoom-bottom ul {
+	float: right;
 }
-.carousel + ul li {
+.zoom-bottom ul li {
 	font-size: 13px;
 	line-height: 16px;
 	color: #593E3D;
 	width: 33%;
 	margin-top: 6px;
 }
-.carousel + ul li span {
+.zoom-bottom ul li:not(:last-child) {
+	padding-right: 40px;
+}
+.zoom-bottom ul li span {
 	display: inline-block;
 	max-width: 100px;
 	padding: 4px 0 4px 47px;
 	display: table;
 	min-width: 135px;
 }
-.carousel + ul li.ribon span {
+.zoom-bottom ul li.ribon span {
 	background: url('assets/images/Certified-Ribbon.png') no-repeat 0 center;
 }
-.carousel + ul li.return span {
+.zoom-bottom ul li.return span {
 	background: url('assets/images/Return-Package-(Traced).png') no-repeat 0 center;
 }
-.carousel + ul li.trace span {
+.zoom-bottom ul li.trace span {
 	background: url('assets/images/image-13-(Traced).png') no-repeat 0 center;
 }
 .carousel-indicators {
@@ -3694,3 +3696,40 @@ footer {
 	transition: 1s;
 }
 
+/* zoom */
+.zoom-image {
+	width: 20%;
+	float: left;
+	padding-right: 35px;
+}
+.zoom-left > figure {
+	width: 80%;
+	float: right;
+	position: relative;
+}
+.zoomWrapper img {
+	border: 1px solid #BBB2B2;
+}
+.elevatezoom-gallery {
+	overflow: hidden;
+	display: block;
+	margin-bottom: 10px;
+}
+.elevatezoom-gallery figure {
+	overflow: hidden;
+}
+.elevatezoom-gallery figure img {
+	border-radius: 5px;
+	border: 1px solid #BBB2B2;
+}
+.zoomGalleryActive figure img {
+	border: 1px solid #723040;
+}
+.zoomWindow {
+	height: 100% !important;
+	width: 100% !important;
+	border: 0 !important;
+}
+.zoom-wrap {
+	position: relative;
+}
