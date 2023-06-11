@@ -3711,6 +3711,4 @@ footer {
 	stroke-dashoffset: 0;
 	transition: stroke-dashoffset 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.terms .filter-label .checkmark {
-    top: -16px;
-}
+
