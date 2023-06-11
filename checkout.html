@@ -1616,7 +1616,10 @@
 														<div class="col-6">
 															<div class="address-item-btn ms-auto">
 																<ul class="nav">
-																	<li><a href="#">Edit</a></li>
+																	<li>
+																		<a data-bs-toggle="modal" data-bs-target="#editAddressModal" href="#">Edit</a>
+																	</li>
+
 																	<li><a href="#">Remove</a></li>
 																</ul>
 															</div>
@@ -1656,7 +1659,7 @@
 														<div class="col-6">
 															<div class="address-item-btn ms-auto">
 																<ul class="nav">
-																	<li><a href="#">Edit</a></li>
+																	<li><a data-bs-toggle="modal" data-bs-target="#editAddressModal" href="#">Edit</a></li>
 																	<li><a href="#">Remove</a></li>
 																</ul>
 															</div>
@@ -2261,10 +2264,96 @@
 						</div>
 
 						<div class="login-form signup py-2"><!-- start .login-form -->
-							<!-- <div class="heading mb-0">
-								<h4 class="text-center">Add Address</h4>
-							</div> -->
+							<form class="px-0">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="mb-2">
+											<label class="form-label mb-0">First Name</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
 
+									<div class="col-md-6">
+										<div class="mb-2">
+											<label class="form-label mb-0">Last Name</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+
+								<div class="mb-2">
+									<label class="form-label mb-0">Address</label>
+									<input type="text" class="form-control">
+								</div>
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="mb-2">
+											<label class="form-label mb-0">City</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="mb-2">
+											<label class="form-label mb-0">Pincode</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+								</div>
+
+								<div class="mb-2">
+									<label class="form-label mb-0">Mobile Number</label>
+									<input type="text" class="form-control">
+								</div>
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="mb-2">
+											<label class="form-label mb-0">State</label>
+											<input type="text" class="form-control">
+										</div>
+									</div>
+
+									<div class="col-md-6">
+										<div class="mb-2">
+											<label class="form-label mb-0">Address Type</label>
+										
+											<div class="form-check">
+												<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault111">
+												<label class="form-check-label" for="flexRadioDefault111">Home</label>
+											</div>
+
+											<div class="form-check">
+												<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault222">
+												<label class="form-check-label" for="flexRadioDefault222">Office</label>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<button type="submit" class="text-white border-0 mt-0">Add</button>
+							</form>
+						</div><!-- //end .login-form -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- editAddressModal -->
+		<div class="modal fade" id="editAddressModal" tabindex="-1" aria-labelledby="editAddressModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<figure class="d-none d-md-block">
+						<img src="assets/images/dl2.png" alt="Image" width="303" height="448">
+					</figure>
+
+					<div class="modal-body">
+						<div class="modal-header border-0 mb-2">
+							<button type="button" class="btn-close py-2" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+
+						<div class="login-form signup py-2"><!-- start .login-form -->
 							<form class="px-0">
 								<div class="row">
 									<div class="col-md-6">

@@ -3431,7 +3431,9 @@ textarea {
 #addAddressModal .login-form form label {
 	line-height: 22px;
 }
-
+#editAddressModal .login-form form label {
+	line-height: 22px;
+}
 /*==============================
 	footer 
 ================================*/
