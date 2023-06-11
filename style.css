@@ -3604,7 +3604,6 @@ footer {
 	font-size: 0;
 }
 
-
 /* popup tooltip */
 .title1 {
 	position: relative;
@@ -3660,7 +3659,6 @@ footer {
 	position: absolute;
 	top: -117px;
 	left: -120px;
-	transition: opacity 240ms 120ms cubic-bezier(0.4, 0, 0.2, 1);
 	width: 292px;
 	visibility: hidden;
 	z-index: 999;
@@ -3678,37 +3676,21 @@ footer {
 }
 .tooltip:hover ~ .popup-text {
 	display: block;
+	transition: 1s;
 }
 .popup-bg {
 	opacity: 0;
-	transition: opacity 240ms 120ms cubic-bezier(0.4, 0, 0.2, 1);
 	visibility: hidden;
-}
-.popup-outline-left {
-	stroke-dasharray: 0 426px;
-	stroke-dashoffset: 1px;
-	transition: stroke-dasharray 300ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.popup-outline-right {
-	stroke-dasharray: 352px 352px;
-	stroke-dashoffset: -352px;
-	transition: stroke-dashoffset 300ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: 1s;
 }
 .tooltip:hover ~ .popup-text {
 	opacity: 1;
 	visibility: visible;
+	transition: 1s;
 }
 .tooltip:hover ~ .popup-bg {
 	opacity: 1;
-	transition: opacity 240ms 120ms cubic-bezier(0.4, 0, 0.2, 1);
 	visibility: visible;
-}
-.tooltip:hover ~ .popup-outline .popup-outline-left {
-	stroke-dasharray: 426px 426px;
-	transition: stroke-dasharray 300ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.tooltip:hover ~ .popup-outline .popup-outline-right {
-	stroke-dashoffset: 0;
-	transition: stroke-dashoffset 300ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: 1s;
 }
 
