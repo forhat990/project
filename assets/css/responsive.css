@@ -849,6 +849,22 @@
          background-size: 30px !important;
          padding-left: 34px;
     }
+    .elevatezoom-gallery figure {
+        max-width: 50px;
+    }
+    .reverse.owl-carousel {
+        width: 200px;
+        top: 100px;
+        left: -90px;
+    }
+    .reverse.owl-carousel .owl-nav button.owl-prev {
+        left: -30px;
+        top: -8px;
+    }
+    .reverse.owl-carousel .owl-nav button.owl-next {
+        top: -8px;
+        right: -20px;
+    }
 }
 @media screen and (max-width: 767px) {
     .banner > figure img {
@@ -1073,7 +1089,6 @@
     }
     .elevatezoom-gallery {
         overflow: hidden;
-        display: inline-block;
         margin-bottom: 10px;
         margin-top: 10px;
     }
@@ -1087,7 +1102,7 @@
         max-width: 483px;
     }
     .zoom-wrap {
-        max-width: 360px;
+        max-width: 362px;
         margin: 0 auto 40px auto;
     }
     .elevatezoom-gallery {
@@ -1095,6 +1110,30 @@
     }
     .share {        
         bottom: 168px;
+    }
+    .reverse.owl-carousel {
+        transform: none;
+        width: initial;
+        position: relative;
+        top: initial;
+        left: initial;
+    }
+    .elevatezoom-gallery figure {
+        max-width: 90px;
+    }
+    .reverse.owl-carousel .item {
+        transform: none;
+    }
+    .reverse.owl-carousel .owl-nav button.owl-next {
+        top: 10px;
+        right: -30px;
+    }
+    .reverse.owl-carousel .owl-nav button.owl-prev {
+        left: -30px;
+        top: 10px;
+    }
+    .elevatezoom-gallery {
+        max-width: initial;
     }
 }
 @media screen and (max-width: 575px) {
@@ -1525,5 +1564,7 @@
     .customize form p {
         margin-right: 2px;
     }
-
+    .zoom-wrap {
+        max-width: 302px;
+    }
 }

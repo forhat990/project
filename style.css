@@ -3698,9 +3698,7 @@ footer {
 
 /* zoom */
 .zoom-image {
-	width: 20%;
 	float: left;
-	padding-right: 35px;
 }
 .zoom-left > figure {
 	width: 80%;
@@ -3713,7 +3711,6 @@ footer {
 .elevatezoom-gallery {
 	overflow: hidden;
 	display: block;
-	margin-bottom: 10px;
 }
 .elevatezoom-gallery figure {
 	overflow: hidden;
@@ -3729,7 +3726,55 @@ footer {
 	height: 100% !important;
 	width: 100% !important;
 	border: 0 !important;
+	z-index: 999999999;
 }
 .zoom-wrap {
 	position: relative;
 }
+.reverse.owl-carousel {
+	transform: rotate(90deg);
+	width: 270px;
+	position: absolute;
+	top: 120px;
+	left: -100px;
+}
+.reverse.owl-carousel .owl-nav button.owl-prev {
+	left: -21px;
+}
+.reverse.owl-carousel .item {
+	transform: rotate(-90deg);
+}
+.reverse.owl-carousel .owl-nav {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	top: calc(50% - 33px);
+}
+.reverse.owl-carousel .owl-nav .owl-prev, .reverse.owl-carousel .owl-nav .owl-next {
+	font-size: 36px;
+	top: 5px;
+}
+.reverse.owl-carousel .owl-nav button.owl-prev, 
+.reverse.owl-carousel .owl-nav button.owl-next{
+	background: url('assets/images/angle-up.png') no-repeat 0 0 !important;
+	transform: rotate(-90deg);
+	width: 27px;
+	height: 15px;
+}
+.owl-carousel .owl-nav button.owl-next {
+	top: -20px;
+	right: -40px;
+}
+.reverse.owl-carousel .owl-nav button.owl-prev {
+	left: -40px;
+}
+.reverse.owl-carousel .owl-nav button.owl-next {
+	transform: rotate(90deg);
+}
+.reverse.owl-carousel .owl-stage {
+	height: 95px;
+}
+
+
+

@@ -233,5 +233,30 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function() {
+  $(".owl-carousel.reverse").owlCarousel({
+    items: 3,
+    loop: false,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    rewind: true,
+    autoplay: false,
+    margin: 10,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+          items: 4,
+        },
+        768: {
+          items: 3,
+        },
+
+      }
+  });
+});
+
+
 
 
