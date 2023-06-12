@@ -1868,34 +1868,36 @@ textarea {
 .product-details-area {
 	max-width: 1234px;
 }
+.zoom-bottom {
+	max-width: 80%;
+	margin-left: auto;
+}
 .zoom-bottom ul {
-	float: right;
+	overflow: hidden;
 }
 .zoom-bottom ul li {
+	overflow: hidden;
 	font-size: 13px;
 	line-height: 16px;
 	color: #593E3D;
-	width: 33%;
 	margin-top: 6px;
-}
-.zoom-bottom ul li:not(:last-child) {
-	padding-right: 40px;
+	float: left;
+	width: 33%;
 }
 .zoom-bottom ul li span {
 	display: inline-block;
-	max-width: 100px;
 	padding: 4px 0 4px 47px;
-	display: table;
-	min-width: 135px;
 }
 .zoom-bottom ul li.ribon span {
 	background: url('assets/images/Certified-Ribbon.png') no-repeat 0 center;
 }
 .zoom-bottom ul li.return span {
 	background: url('assets/images/Return-Package-(Traced).png') no-repeat 0 center;
+	display: table;
 }
 .zoom-bottom ul li.trace span {
 	background: url('assets/images/image-13-(Traced).png') no-repeat 0 center;
+	float: right;
 }
 .carousel-indicators {
 	display: block;
@@ -3712,6 +3714,7 @@ footer {
 .zoom-left-wrap > figure img {
 	min-width: 483px;
 	max-height: 484px;
+	object-fit: fill;
 }
 .elevatezoom-gallery {
 	overflow: hidden;
