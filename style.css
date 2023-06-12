@@ -1280,7 +1280,7 @@ textarea {
 	right: 20px;
 	width: 29px;
 	height: 35px;
-	z-index: 9999;
+	z-index: 99;
 }
 .favorite a {
 	display: block;
@@ -1289,11 +1289,11 @@ textarea {
 }
 .share {
 	position: absolute;
-	bottom: 70px;
+	top: 50px;
 	right: 25px;
 	width: 29px;
 	height: 28px;
-	z-index: 9999;
+	z-index: 99;
 }
 .share a {
 	display: block;
