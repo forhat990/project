@@ -3701,13 +3701,17 @@ footer {
 	float: left;
 }
 .zoom-left-wrap > figure {
+	overflow: hidden;
 	width: 80%;
 	float: right;
 	position: relative;
-	max-height: 484px;
 	overflow: hidden;
 	padding-right: 1px;
 	border: 1px solid #BBB2B2;
+}
+.zoom-left-wrap > figure img {
+	min-width: 483px;
+	max-height: 484px;
 }
 .elevatezoom-gallery {
 	overflow: hidden;
