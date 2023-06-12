@@ -3700,12 +3700,13 @@ footer {
 .zoom-image {
 	float: left;
 }
-.zoom-left > figure {
+.zoom-left-wrap > figure {
 	width: 80%;
 	float: right;
 	position: relative;
-}
-.zoomWrapper img {
+	max-height: 484px;
+	overflow: hidden;
+	padding-right: 1px;
 	border: 1px solid #BBB2B2;
 }
 .elevatezoom-gallery {
@@ -3718,6 +3719,7 @@ footer {
 .elevatezoom-gallery figure img {
 	border-radius: 5px;
 	border: 1px solid #BBB2B2;
+	height: 90px;
 }
 .zoomGalleryActive figure img {
 	border: 1px solid #723040;
@@ -3728,15 +3730,9 @@ footer {
 	border: 0 !important;
 	z-index: 999999999;
 }
-.zoom-wrap {
-	position: relative;
-}
 .reverse.owl-carousel {
 	transform: rotate(90deg);
 	width: 270px;
-	position: absolute;
-	top: 120px;
-	left: -100px;
 }
 .reverse.owl-carousel .owl-nav button.owl-prev {
 	left: -21px;
@@ -3775,6 +3771,26 @@ footer {
 .reverse.owl-carousel .owl-stage {
 	height: 95px;
 }
+
+
+/* --- */
+.zoom-left-wrap { position: relative; }
+.zoom-image-wrap {
+	position: absolute;
+	top: 50%;
+	left: -155px;
+	transform: translateY(-50%);
+}
+.reverse.owl-carousel .owl-stage {
+	width: 520px !important;
+}
+.reverse.owl-carousel .owl-item {
+	width: 90px !important;
+}
+.reverse.owl-carousel {
+	width: 398px;
+}
+
 
 
 

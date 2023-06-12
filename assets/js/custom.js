@@ -250,7 +250,7 @@ $(document).ready(function() {
           items: 4,
         },
         768: {
-          items: 3,
+          items: 4,
         },
 
       }
