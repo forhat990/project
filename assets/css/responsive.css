@@ -95,10 +95,7 @@
     .partial {
         margin-left: -66px;
     }
-    .zoom-left-wrap > figure img {
-        min-width: 460px;
-        max-height: 460px;
-    }
+   
 }
 @media screen and (max-width: 1223px) {
     .filter-top-area > ul > li {
@@ -468,11 +465,7 @@
     .zoom-image-wrap {
         left: -135px;
     }
-    .zoom-left-wrap > figure img {
-        min-width: 375px;
-        max-height: 375px;
-        width: 100%;
-    }
+    
     .cart.checkout .cart-area .text p {
         font-size: 20px;
         line-height: 30px;
@@ -893,11 +886,6 @@
         left: -32px;
         top: -8px;
     }
-    .zoom-left-wrap > figure img {
-        width: 100%;
-        min-width: 285px;
-        max-height: 285px;
-    }
     .zoom-bottom ul li span {
         padding-left: 30px;
         font-size: 9px;
@@ -1166,7 +1154,7 @@
         width: 390px;
     }
     .zoom-left {
-        margin: 0 20px 20px 20px;
+        margin-bottom: 20px;
     }
     .elevatezoom-gallery figure img {
         height: 90px;
@@ -1181,23 +1169,9 @@
         top: 13px;
         right: -32px;
     }
-     .zoom-left-wrap > figure {
-        float: none;
-        margin-right: auto;
-        width: 100%;
-        max-width: 390px;
-    }
     .zoom-bottom {
         max-width: 390px;
         margin-left: 0;
-    }
-    .zoom-left-wrap > figure {
-        min-height: 390px;
-        min-width: 390px;
-    }
-    .zoom-left-wrap > figure img {
-        min-height: 390px;
-        min-width: 390px;
     }
     .zoom-bottom ul {
         margin-top: 10px;
@@ -1208,6 +1182,14 @@
     .cart.checkout .cart-area .text p {
         font-size: 16px;
         line-height: 21px;
+    }
+    .zoom-left-wrap > figure {
+        width: 100%;
+        float: none;
+    }
+    .zoom-image-wrap {
+        display: table;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 575px) {
@@ -1588,8 +1570,7 @@
         text-align: left !important;
     }
     .zoom-left {
-        max-width: 390px;
-        margin: 0 auto 10px auto;
+        margin-bottom: 10px;
     }
     .reverse.owl-carousel {
         width: 390px;
@@ -1605,12 +1586,6 @@
     }
     .reverse.owl-carousel .owl-nav button.owl-next {
         right: -15px;
-    }
-    .zoom-left-wrap > figure {
-        min-height: 150px;
-    }
-    .zoom-left-wrap > figure img {
-        min-height: 150px;
     }
     .about {
         padding: 25px 0 170px 0;
@@ -1672,25 +1647,11 @@
     .reverse.owl-carousel .owl-item {
         width: 76px !important;
     }
-    .zoom-image-wrap {
-        display: table;
-        margin: 0 auto;
-    }
-    .zoom-left-wrap > figure {
-        min-height: 335px;
-        min-width: 335px;
-        max-width: 335px;
-        margin-left: auto;
-    }
-    .zoom-left-wrap > figure img {
-        min-height: 335px;
-        min-width: 335px;
-    }
     .reverse.owl-carousel {
-        width: 335px;
+        width: 336px;
     }
     .zoom-bottom {
-        max-width: 335px;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
     }

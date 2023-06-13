@@ -3729,11 +3729,6 @@ footer {
 	padding-right: 1px;
 	border: 1px solid #BBB2B2;
 }
-.zoom-left-wrap > figure img {
-	min-width: 483px;
-	max-height: 484px;
-	object-fit: fill;
-}
 .elevatezoom-gallery {
 	overflow: hidden;
 	display: block;
