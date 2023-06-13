@@ -490,6 +490,9 @@
     .header-top-right ul.user > li:not(:first-child) {
         margin-left: 20px;
     }
+    .zoom-bottom ul li {
+        font-size: 11px;
+    }
 }
 @media screen and (max-width: 991px) {
     .header .menu > ul > li > a > i {
