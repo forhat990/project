@@ -226,9 +226,9 @@ $(document).ready(function(){
 
 $(document).ready(function () {
     $("#zoom_06").ezPlus({
-        //zoomType: "inner",
-        //debug: true,
-        // cursor: "crosshair"
+        zoomType: "inner",
+        debug: true,
+        cursor: "crosshair"
     });
 });
 
