@@ -3729,6 +3729,10 @@ footer {
 	padding-right: 1px;
 	border: 1px solid #BBB2B2;
 }
+.zoom-left-wrap > figure img {
+	width: 100% !important;
+	height: auto !important;
+}
 .elevatezoom-gallery {
 	overflow: hidden;
 	display: block;
