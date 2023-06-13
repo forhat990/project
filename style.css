@@ -465,13 +465,12 @@ form.search-mobile button {
 	line-height: 24px;
 	margin-right: 41px;
 }
-.header-nav nav ul.navbar-nav li:last-child { margin-right: 0; }
 .header .menu > ul > li a {
 	color: #593E3D !important;
 	padding: 12px 0;
 	position: relative;
 }
-.header-nav nav ul.navbar-nav li a::before {
+nav.menu ul.menu-main li a::before {
 	content: '';
 	position: absolute;
 	bottom: 8px;
@@ -480,7 +479,7 @@ form.search-mobile button {
 	height: 2px;
 	background: #07A8A8;
 }
-.header-nav nav ul.navbar-nav li a:hover::before {
+nav.menu ul.menu-main li a:hover::before {
 	width: 100%;
 }
 .custom-order {
@@ -500,11 +499,14 @@ form.search-mobile button {
 	display: none;
 }
 .special-item h4 {
+	display: table;
 	font-family: 'Allerta Stencil', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000;
 	margin-bottom: 8px;
+	border-bottom: 1px solid #AEA7A7;
+	padding-bottom: 2px;
 }
 .special-item ul li {
 	font-family: 'Sansation_Regular';
@@ -1856,6 +1858,7 @@ textarea {
 ================================*/
 .product-details {
 	padding: 0 0 40px 0;
+	border-top: 1px solid #BDB7B7;
 	border-bottom: 14px solid #f8f6f6;
 }
 .product-details .breadcrumb {
@@ -2679,6 +2682,20 @@ textarea {
 .terms p {
 	padding-left: 35px;
 }
+.cart.checkout {
+	margin-bottom: 150px;
+}
+.cart.checkout .cart-area {
+    padding-bottom: 50px;
+}
+.cart.checkout .cart-area .text p {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+}
+.cart.checkout .cart-area .text p a {
+	color: #BE064A;
+}
 .cart.checkout .order-item {
 	max-width: 784px;
 }
@@ -2910,6 +2927,7 @@ textarea {
 	order 
 ================================*/
 .order {
+	border-top: 1px solid #BDB7B7;
 	padding: 0 0 100px 0;
 }
 .order-area {
@@ -2978,7 +2996,7 @@ textarea {
 	max-height: 185px;
 	border: 0.3px solid #BE0B36;
 	border-radius: 5px;
-	margin-top: 32px;
+	margin-top: 19px;
 }
 .order-item-wrap.order-list table tr td {
 	padding-left: 40px;
@@ -3181,17 +3199,17 @@ textarea {
 .view-details h5 {
 	font-family: 'Sansation_Bold';
 	font-weight: 400;
-	font-size: px;
-	line-height: 20px;
+	font-size: 27px;
+	line-height: 36px;
 	color: #593E3D;
-	margin-bottom: 27px;
+	margin-bottom: 18px;
 }
 .view-details ul li {
 	font-family: 'Sansation_Bold';
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 20px;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 .view-details ul li.return a {
 	color: #E9661C;
@@ -3203,7 +3221,7 @@ textarea {
 	color: #BE0B36;
 }
 .partial {
-	margin-left: -96px;
+	margin-left: -70px;
 	margin-bottom: 16px;
 }
 .partial p strong {
@@ -3213,7 +3231,7 @@ textarea {
 }
 .partial p {
 	font-family: 'Sansation_Regular';
-	font-size: 19.4px;
+	font-size: 17px;
 	line-height: 24px;
 	color: #593E3D;
 }

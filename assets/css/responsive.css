@@ -93,10 +93,7 @@
         border-left: 4px solid #96546A !important;
     }
     .partial {
-        margin-left: -84px;
-    }
-    .partial p {
-        font-size: 18px;
+        margin-left: -66px;
     }
     .zoom-left-wrap > figure img {
         min-width: 460px;
@@ -320,7 +317,9 @@
     }
     .view-details-btn a {
         padding: 0 7px;
-        font-size: 11px;
+    }
+    .view-details {
+        padding: 27px 0 20px 0;
     }
     .order-value {
         margin-bottom: 30px;
@@ -379,10 +378,10 @@
         padding-left: 20px;
     }
     .partial {
-        margin-left: -75px;
+        margin-left: -60px;
     }
     .partial p {
-        font-size: 15px;
+        font-size: 14px;
     }
     .order-item-wrap table tr td {
         font-size: 15px;
@@ -473,6 +472,10 @@
         min-width: 375px;
         max-height: 375px;
         width: 100%;
+    }
+    .cart.checkout .cart-area .text p {
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 @media screen and (max-width: 1099px) {
@@ -902,6 +905,19 @@
     .zoom-bottom ul li span {
         background-size: 23px !important;
     }
+    .cart.checkout .cart-area .text {
+        margin-bottom: 20px;
+    }
+    .cart.checkout .cart-area {
+        padding-bottom: 20px;
+    }
+    .banner.about-us > figure img {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: auto !important;
+        max-width: 100%;
+        margin: 0 0;
+    }
 }
 @media screen and (max-width: 767px) {
     .banner > figure img {
@@ -1188,6 +1204,10 @@
     }
     .reverse.owl-carousel .item {
         transform: none;
+    }
+    .cart.checkout .cart-area .text p {
+        font-size: 16px;
+        line-height: 21px;
     }
 }
 @media screen and (max-width: 575px) {
@@ -1569,7 +1589,7 @@
     }
     .zoom-left {
         max-width: 390px;
-        margin: 0 auto 20px auto;
+        margin: 0 auto 10px auto;
     }
     .reverse.owl-carousel {
         width: 390px;
@@ -1591,6 +1611,9 @@
     }
     .zoom-left-wrap > figure img {
         min-height: 150px;
+    }
+    .about {
+        padding: 25px 0 170px 0;
     }
 }
 @media screen and (max-width: 535px) {
@@ -1649,7 +1672,29 @@
     .reverse.owl-carousel .owl-item {
         width: 76px !important;
     }
+    .zoom-image-wrap {
+        display: table;
+        margin: 0 auto;
+    }
+    .zoom-left-wrap > figure {
+        min-height: 335px;
+        min-width: 335px;
+        max-width: 335px;
+        margin-left: auto;
+    }
+    .zoom-left-wrap > figure img {
+        min-height: 335px;
+        min-width: 335px;
+    }
     .reverse.owl-carousel {
         width: 335px;
+    }
+    .zoom-bottom {
+        max-width: 335px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .zoom-bottom ul li {
+        margin-top: 0;
     }
 }
