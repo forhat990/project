@@ -3728,10 +3728,6 @@ footer {
 	overflow: hidden;
 	border: 1px solid #BBB2B2;
 }
-.zoom-left-wrap > figure img {
-	width: 100% !important;
-	height: auto !important;
-}
 .elevatezoom-gallery {
 	overflow: hidden;
 	display: block;
@@ -3794,7 +3790,6 @@ footer {
 .reverse.owl-carousel .owl-stage {
 	height: 95px;
 }
-
 
 /* --- */
 .zoom-left-wrap { position: relative; }
