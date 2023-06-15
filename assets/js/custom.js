@@ -256,6 +256,47 @@ $(document).ready(function() {
       }
   });
 });
+jQuery(document).ready(function(){
+  jQuery(".eyeslash > a").click(function(e) {
+    e.preventDefault();
+     var val = $(this).attr('id');
+     if (val == 'active' ) {
+        $(this).attr('id', '');
+      } 
+      else {
+        $(this).attr('id', 'active');
+      }
+  });
+});
+const togglePassword = document.querySelector("#togglePassword");
+const password = document.querySelector("#password");
+
+const newtogglePassword = document.querySelector("#newtogglePassword");
+const newpassword = document.querySelector("#newpassword");
+
+const confirmtogglePassword = document.querySelector("#confirmtogglePassword");
+const confirmpassword = document.querySelector("#confirmpassword");
+
+togglePassword.addEventListener("click", function () {
+   
+  const type = password.getAttribute("type") === "password" ? "text" : "password";
+  password.setAttribute("type", type);
+
+});
+
+newtogglePassword.addEventListener("click", function () {
+   
+  const type = newpassword.getAttribute("type") === "password" ? "text" : "password";
+  newpassword.setAttribute("type", type);
+
+});
+
+confirmtogglePassword.addEventListener("click", function () {
+   
+  const type = confirmpassword.getAttribute("type") === "password" ? "text" : "password";
+  confirmpassword.setAttribute("type", type);
+
+});
 
 
 

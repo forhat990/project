@@ -1292,7 +1292,7 @@ textarea {
 .share {
 	position: absolute;
 	top: 50px;
-	right: 25px;
+	right: 20px;
 	width: 29px;
 	height: 28px;
 	z-index: 99;
