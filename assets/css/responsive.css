@@ -1456,12 +1456,12 @@
         margin-bottom: 15px;
     }
     .owl-carousel .owl-nav button.owl-next {
-        right: -10px;
-        background-size: 15px;
+        right: -20px;
+        background-size: 15px !important;
     }
     .owl-carousel .owl-nav button.owl-prev {
-        left: -20px;
-        background-size: 15px;
+        left: -10px;
+        background-size: 15px !important;
     }
     .filter-area.owl-carousel .owl-nav button.owl-next {
         right: -10px;

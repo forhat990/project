@@ -3557,6 +3557,128 @@ textarea {
 	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
 	border-radius: 5px;
 }
+.changepass form {
+	max-width: 285px;
+}
+.changepass form .form-group {
+	position: relative;
+	margin-bottom: 30px;
+}
+.changepass form input {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 36px;
+	border: 1px solid #C4C1C1;
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 60px;
+}
+.changepass form input::placeholder {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 17px;
+	color: #948C8C;
+}
+.changepass form button {
+	width: 100%;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 40px;
+	background: #BE0B36;
+	border-radius: 5px;
+	height: 40px;
+}
+.eyeslash {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 31px;
+	z-index: 9;
+}
+.eyeslash a {
+	display: block;
+	color: #BE0B36;
+}
+.eyeslash a i {
+	margin-top: -4px;
+	margin-left: -1px;
+}
+.eyeslash a#active i {
+	display: block !important;
+} 
+.eyeslash a#active figure {
+	display: none !important;
+} 
+.wallet-area-wrap {
+	max-width: 700px;
+}
+.wallet-item {
+	border: 0.5px solid #C06379;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25), -1px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	padding-top: 12px;
+	margin-bottom: 40px;
+}
+.wallet-item figure {
+	display: table;
+	padding: 0 10px;
+	margin: 0 auto 12px auto;
+}
+.wallet-item span {
+	font-family: 'Sansation_Bold';
+	font-size: 23px;
+	line-height: 36px;
+	display: block;
+	background: #C06379;
+	padding: 0 10px;
+}
+.wallet-item h4 {
+	font-family: 'Sansation_Bold';
+	font-size: 23px;
+	line-height: 30px;
+	color: #C06379;
+	padding: 0 10px;
+}
+.wallet-area-table {
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+.wallet-area-table table thead th {
+	font-family: 'Sansation_Bold';
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 30px;
+	color: #5D3640;
+}
+.wallet-area-table table thead {
+	background: #F2F1F1;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.wallet-area-table table tr:not(:last-child) {
+	border-bottom: 0.5px solid #898989;
+}
+.wallet-area-table table tr td {
+	font-family: 'Sansation_Regular';
+	font-size: 19px;
+	line-height: 33px;
+	color: #5D3640;
+}
+.wallet-area-table table tr td:not(:last-child) {
+	text-align: center;
+}
+.wallet-area-table table tr td:not(:first-child) {
+	border-left: 1px solid #898989;
+}
+.wallet-area-table table tr td strong {
+	font-family: 'Sansation_Bold';
+	font-weight: 400;
+}
+
 /*==============================
 	footer 
 ================================*/
@@ -3878,7 +4000,7 @@ footer {
 	width: 27px;
 	height: 15px;
 }
-.owl-carousel .owl-nav button.owl-next {
+.reverse.owl-carousel .owl-carousel .owl-nav button.owl-next {
 	top: -20px;
 	right: -40px;
 }
