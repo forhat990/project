@@ -3456,9 +3456,16 @@ textarea {
 #editAddressModal .login-form form label {
 	line-height: 22px;
 }
+.order-area .order-content {
+	position: relative;
+}
 .order-area .navbar-toggler {
-	position: initial;
-	padding: 0 5px;
+	float: right;
+	position: absolute;
+	padding: 0 10px;
+	right: 0;
+	top: 32px;
+	z-index: 999;
 }
 .order-area .navbar-toggler span {
 	display: block;
@@ -3469,7 +3476,9 @@ textarea {
 	margin-bottom: 4px;
 	border-radius: 5px;
 }
-
+.order-area .dropdown-toggle::after {
+	display: none;
+}
 /* ---- */
 .order-area button.accordion-button {
 	font-family: 'Sansation_Regular';
