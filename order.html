@@ -1664,415 +1664,825 @@
 		<section class="order"><!-- start .order -->
 			<div class="container">
 				<div class="order-area mx-auto">
-					<div class="row">
-						<div class="col-lg-3 side-menu-wrap pe-0">
-							<div class="side-menu">
-								<div class="user-profile d-flex">
-									<figure>
-										<img src="assets/images/people-icon-sign-symbol-design-free-png-1.png" alt="">
-									</figure>
+				    <div class="d-none d-lg-block">
+						<div class="row">
+							<div class="col-lg-3 side-menu-wrap pe-0">
+								<div class="side-menu">
+									<div class="user-profile d-flex">
+										<figure>
+											<img src="assets/images/people-icon-sign-symbol-design-free-png-1.png" alt="">
+										</figure>
 
-									<div class="user-profile-info">
-										<h5>Harsh Soni</h5>
-										<div class="gmail">
-											<a href="mailto:indiatechnow@gmail.com">indiatechnow@gmail.com</a>
+										<div class="user-profile-info">
+											<h5>Harsh Soni</h5>
+											<div class="gmail">
+												<a href="mailto:indiatechnow@gmail.com">indiatechnow@gmail.com</a>
+											</div>
+											<div class="edit-profile">
+												<a href="#">Edit Profile</a>
+											</div>
 										</div>
-										<div class="edit-profile">
-											<a href="#">Edit Profile</a>
+									</div>
+
+									<ul class="nav nav-pills d-block mb-3" id="pills-tab" role="tablist">
+										<li class="nav-item" role="presentation">
+											<button class="nav-link active" id="pills-order-tab" data-bs-toggle="pill" data-bs-target="#pills-order" type="button" role="tab" aria-controls="pills-order" aria-selected="true"><span class="myorder">My Orders</span></button>
+										</li>
+
+										<li class="nav-item" role="presentation">
+											<button class="nav-link clearfix" id="pills-wallet-tab" data-bs-toggle="pill" data-bs-target="#pills-wallet" type="button" role="tab" aria-controls="pills-wallet" aria-selected="false">
+												<span class="mywallet">My Wallet</span>
+												<span class="amount">₹ 27,250</span>
+											</button>
+										</li>
+
+										<li class="nav-item" role="presentation">
+											<button class="nav-link" id="pills-wishlist-tab" data-bs-toggle="pill" data-bs-target="#pills-wishlist" type="button" role="tab" aria-controls="pills-wishlist" aria-selected="false"><span class="mywishlist">My Wish List</span></button>
+										</li>
+
+										<li class="nav-item" role="presentation">
+											<button class="nav-link" id="pills-changepass-tab" data-bs-toggle="pill" data-bs-target="#pills-changepass" type="button" role="tab" aria-controls="pills-changepass" aria-selected="false"><span class="changepass">Change password</span></button>
+										</li>
+
+										<li class="nav-item" role="presentation">
+											<button class="nav-link" id="pills-manageaddress-tab" data-bs-toggle="pill" data-bs-target="#pills-manageaddress" type="button" role="tab" aria-controls="pills-manageaddress" aria-selected="false"><span class="manageaddress">Manage Address</span></button>
+										</li>
+									</ul>
+
+									<div class="logout">
+										<div class="logout-btn mx-auto">
+											<a class="text-white" href="#"><span>Log Out</span></a>
 										</div>
 									</div>
 								</div>
+							</div>
 
-								<ul class="nav nav-pills d-block mb-3" id="pills-tab" role="tablist">
-									<li class="nav-item" role="presentation">
-										<button class="nav-link active" id="pills-order-tab" data-bs-toggle="pill" data-bs-target="#pills-order" type="button" role="tab" aria-controls="pills-order" aria-selected="true"><span class="myorder">My Orders</span></button>
-									</li>
+							<div class="col-lg-9">
+								<div class="tab-content" id="pills-tabContent">
+									<div class="tab-pane fade show active" id="pills-order" role="tabpanel" aria-labelledby="pills-order-tab">
+										<div class="order-content ms-auto">
+											<div class="title">
+												<h3>My Orders</h3>
+											</div>
 
-									<li class="nav-item" role="presentation">
-										<button class="nav-link clearfix" id="pills-wallet-tab" data-bs-toggle="pill" data-bs-target="#pills-wallet" type="button" role="tab" aria-controls="pills-wallet" aria-selected="false">
-											<span class="mywallet">My Wallet</span>
-											<span class="amount">₹ 27,250</span>
-										</button>
-									</li>
+											<div class="order-item bg-white">
+												<div class="order-item-title">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="order-number">
+																<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
+															</div>
+														</div>
+														<div class="col-sm-6">
+															<div class="view-estimate ms-auto">
+																<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
+															</div>
+														</div>
+													</div>
+												</div>
 
-									<li class="nav-item" role="presentation">
-										<button class="nav-link" id="pills-wishlist-tab" data-bs-toggle="pill" data-bs-target="#pills-wishlist" type="button" role="tab" aria-controls="pills-wishlist" aria-selected="false"><span class="mywishlist">My Wish List</span></button>
-									</li>
+												<div class="order-item-wrap">
+													<div class="row">
+														<div class="col-md-10">
+															<div class="table-responsive">
+																<table class="table mb-0">
+																	<tbody>
+																		<tr>
+																			<td>
+																				Order Date 
+																				<span>04-04-2026 3:30 PM</span>
+																			</td>
 
-									<li class="nav-item" role="presentation">
-										<button class="nav-link" id="pills-changepass-tab" data-bs-toggle="pill" data-bs-target="#pills-changepass" type="button" role="tab" aria-controls="pills-changepass" aria-selected="false"><span class="changepass">Change password</span></button>
-									</li>
+																			<td>
+																				Coupon Discount
+																				<span>₹ 2000 / Diamond</span>
+																			</td>
+																			<td>
+																				Payment Mode
+																				<span>Online WB <span class="red">(₹ 2,500)</span> </span>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				Order Status
 
-									<li class="nav-item" role="presentation">
-										<button class="nav-link" id="pills-manageaddress-tab" data-bs-toggle="pill" data-bs-target="#pills-manageaddress" type="button" role="tab" aria-controls="pills-manageaddress" aria-selected="false"><span class="manageaddress">Manage Address</span></button>
-									</li>
-								</ul>
+																				<span>Placed <a href="#" class="red">Cancel Order </a></span>
+																			</td>
 
-								<div class="logout">
-									<div class="logout-btn mx-auto">
-										<a class="text-white" href="#"><span>Log Out</span></a>
+																			<td>
+																				Delivery Status 
+																				<span>Shipped</span>
+																			</td>
+																			<td>
+																				Tracking ID 
+																				<span>JKKS546464SD216</span>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				Booking Paid Amount 
+																				<span>₹ 5,015</span>
+																			</td>
+
+																			<td>
+																				Order Final Amount
+																				<span>₹ 25,526</span>
+																			</td>
+																			<td>
+																				Pending Amount
+				  
+																				<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+														<div class="col-md-2 ps-0">
+															<div class="view-details">
+																<div class="order-value">
+																	<p class="text-center">Order Value</p>
+																	<span class="text-center">₹ 27,526</span>
+																</div>
+
+																<div class="view-details-btn ms-auto">
+																	<a href="#">View Details</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="order-item bg-white">
+												<div class="order-item-title">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="order-number">
+																<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
+															</div>
+														</div>
+														<div class="col-sm-6">
+															<div class="view-estimate ms-auto">
+																<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="order-item-wrap">
+													<div class="row">
+														<div class="col-md-10">
+															<div class="table-responsive">
+																<table class="table mb-0">
+																	<tbody>
+																		<tr>
+																			<td>
+																				Order Date 
+																				<span>04-04-2026 3:30 PM</span>
+																			</td>
+
+																			<td>
+																				Coupon Discount
+																				<span>₹ 2000 / Diamond</span>
+																			</td>
+																			<td>
+																				Payment Mode
+																				<span>Online WB <span class="red">(₹ 2,500)</span> </span>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				Order Status
+
+																				<span>Placed <a href="#" class="red">Cancel Order </a></span>
+																			</td>
+
+																			<td>
+																				Delivery Status 
+																				<span>Shipped</span>
+																			</td>
+																			<td>
+																				Tracking ID 
+																				<span>JKKS546464SD216</span>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				Booking Paid Amount 
+																				<span>₹ 5,015</span>
+																			</td>
+
+																			<td>
+																				Order Final Amount
+																				<span>₹ 25,526</span>
+																			</td>
+																			<td>
+																				Pending Amount
+				  
+																				<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+														<div class="col-md-2 ps-0">
+															<div class="view-details">
+																<div class="order-value">
+																	<p class="text-center">Order Value</p>
+																	<span class="text-center">₹ 27,526</span>
+																</div>
+
+																<div class="view-details-btn ms-auto">
+																	<a href="#">View Details</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="order-item bg-white">
+												<div class="order-item-title">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="order-number">
+																<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
+															</div>
+														</div>
+														<div class="col-sm-6">
+															<div class="view-estimate ms-auto">
+																<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="order-item-wrap">
+													<div class="row">
+														<div class="col-md-10">
+															<div class="table-responsive">
+																<table class="table">
+																	<tbody>
+																		<tr>
+																			<td>
+																				Order Date 
+																				<span>04-04-2026 3:30 PM</span>
+																			</td>
+
+																			<td>
+																				Coupon Discount
+																				<span>₹ 2000 / Diamond</span>
+																			</td>
+																			<td>
+																				Payment Mode
+																				<span>Online WB <span class="red">(₹ 2,500)</span> </span>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				Order Status
+
+																				<span>Placed <a href="#" class="red">Cancel Order </a></span>
+																			</td>
+
+																			<td>
+																				Delivery Status 
+																				<span>Shipped</span>
+																			</td>
+																			<td>
+																				Tracking ID 
+																				<span>JKKS546464SD216</span>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				Booking Paid Amount 
+																				<span>₹ 5,015</span>
+																			</td>
+
+																			<td>
+																				Order Final Amount
+																				<span>₹ 25,526</span>
+																			</td>
+																			<td>
+																				Pending Amount
+				  
+																				<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+														<div class="col-md-2 ps-0">
+															<div class="view-details">
+																<div class="order-value">
+																	<p class="text-center">Order Value</p>
+																	<span class="text-center">₹ 27,526</span>
+																</div>
+
+																<div class="view-details-btn ms-auto">
+																	<a href="#">View Details</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="order-item bg-white">
+												<div class="order-item-title">
+													<div class="row">
+														<div class="col-sm-6">
+															<div class="order-number">
+																<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
+															</div>
+														</div>
+														<div class="col-sm-6">
+															<div class="view-estimate ms-auto">
+																<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="order-item-wrap">
+													<div class="row">
+														<div class="col-md-10">
+															<div class="table-responsive">
+																<table class="table">
+																	<tbody>
+																		<tr>
+																			<td>
+																				Order Date 
+																				<span>04-04-2026 3:30 PM</span>
+																			</td>
+
+																			<td>
+																				Coupon Discount
+																				<span>₹ 2000 / Diamond</span>
+																			</td>
+																			<td>
+																				Payment Mode
+																				<span>Online WB <span class="red">(₹ 2,500)</span> </span>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				Order Status
+
+																				<span>Placed <a href="#" class="red">Cancel Order </a></span>
+																			</td>
+
+																			<td>
+																				Delivery Status 
+																				<span>Shipped</span>
+																			</td>
+																			<td>
+																				Tracking ID 
+																				<span>JKKS546464SD216</span>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				Booking Paid Amount 
+																				<span>₹ 5,015</span>
+																			</td>
+
+																			<td>
+																				Order Final Amount
+																				<span>₹ 25,526</span>
+																			</td>
+																			<td>
+																				Pending Amount
+				  
+																				<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</div>
+														</div>
+														<div class="col-md-2 ps-0">
+															<div class="view-details">
+																<div class="order-value">
+																	<p class="text-center">Order Value</p>
+																	<span class="text-center">₹ 27,526</span>
+																</div>
+
+																<div class="view-details-btn ms-auto">
+																	<a href="#">View Details</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="tab-pane fade" id="pills-wallet" role="tabpanel" aria-labelledby="pills-wallet-tab">
+										<div class="order-content ms-auto">My Wallet</div>
+									</div>
+
+									<div class="tab-pane fade" id="pills-wishlist" role="tabpanel" aria-labelledby="pills-wishlist-tab">
+										<div class="order-content ms-auto">My Wish List</div>
+									</div>
+
+									<div class="tab-pane fade" id="pills-changepass" role="tabpanel" aria-labelledby="pills-changepass-tab">
+										<div class="order-content ms-auto">Change password</div>
+									</div>
+									
+									<div class="tab-pane fade" id="pills-manageaddress" role="tabpanel" aria-labelledby="pills-manageaddress-tab">
+										<div class="order-content ms-auto">Manage Address</div>
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="col-lg-9">
-							<div class="tab-content" id="pills-tabContent">
-								<div class="tab-pane fade show active" id="pills-order" role="tabpanel" aria-labelledby="pills-order-tab">
-									<div class="order-content ms-auto">
-										<div class="title">
-											<h3>My Orders</h3>
-										</div>
+					<div class="d-block d-lg-none">
+						<div class="sidemenu-mobile pt-0 mt-4">
+							<div class="user-profile d-flex">
+								<figure>
+									<img src="assets/images/people-icon-sign-symbol-design-free-png-1.png" alt="">
+								</figure>
 
-										<div class="order-item bg-white">
-											<div class="order-item-title">
-												<div class="row">
-													<div class="col-sm-6">
-														<div class="order-number">
-															<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="view-estimate ms-auto">
-															<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
-														</div>
-													</div>
-												</div>
-											</div>
+								<div class="user-profile-info">
+									<h5>Harsh Soni</h5>
+									<div class="gmail">
+										<a href="mailto:indiatechnow@gmail.com">indiatechnow@gmail.com</a>
+									</div>
+									<div class="edit-profile">
+										<a href="#">Edit Profile</a>
+									</div>
+								</div>
+							</div>
 
-											<div class="order-item-wrap">
-												<div class="row">
-													<div class="col-md-10">
-														<div class="table-responsive">
-															<table class="table mb-0">
-																<tbody>
-																	<tr>
-																		<td>
-																			Order Date 
-																			<span>04-04-2026 3:30 PM</span>
-																		</td>
+							<div class="accordion" id="accordionExample">
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingOne">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											<span class="myorder">My Orders</span>
+										</button>
+									</h2>
 
-																		<td>
-																			Coupon Discount
-																			<span>₹ 2000 / Diamond</span>
-																		</td>
-																		<td>
-																			Payment Mode
-																			<span>Online WB <span class="red">(₹ 2,500)</span> </span>
-																		</td>
-																	</tr>
-																	<tr>
-																		<td>
-																			Order Status
-
-																			<span>Placed <a href="#" class="red">Cancel Order </a></span>
-																		</td>
-
-																		<td>
-																			Delivery Status 
-																			<span>Shipped</span>
-																		</td>
-																		<td>
-																			Tracking ID 
-																			<span>JKKS546464SD216</span>
-																		</td>
-																	</tr>
-																	<tr>
-																		<td>
-																			Booking Paid Amount 
-																			<span>₹ 5,015</span>
-																		</td>
-
-																		<td>
-																			Order Final Amount
-																			<span>₹ 25,526</span>
-																		</td>
-																		<td>
-																			Pending Amount
-			  
-																			<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>
-													<div class="col-md-2 ps-0">
-														<div class="view-details">
-															<div class="order-value">
-																<p class="text-center">Order Value</p>
-																<span class="text-center">₹ 27,526</span>
+									<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+										<div class="accordion-body px-2 p-md-3">
+											<div class="order-content ms-auto">
+												<div class="order-item bg-white">
+													<div class="order-item-title">
+														<div class="row">
+															<div class="col-sm-6">
+																<div class="order-number">
+																	<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
+																</div>
 															</div>
-
-															<div class="view-details-btn ms-auto">
-																<a href="#">View Details</a>
+															<div class="col-sm-6">
+																<div class="view-estimate ms-auto">
+																	<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
+																</div>
 															</div>
 														</div>
 													</div>
-												</div>
-											</div>
-										</div>
 
-										<div class="order-item bg-white">
-											<div class="order-item-title">
-												<div class="row">
-													<div class="col-sm-6">
-														<div class="order-number">
-															<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="view-estimate ms-auto">
-															<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
-														</div>
-													</div>
-												</div>
-											</div>
+													<div class="order-item-wrap">
+														<div class="row">
+															<div class="col-md-10">
+																<div class="table-responsive">
+																	<table class="table mb-0">
+																		<tbody>
+																			<tr>
+																				<td>
+																					Order Date 
+																					<span>04-04-2026 3:30 PM</span>
+																				</td>
 
-											<div class="order-item-wrap">
-												<div class="row">
-													<div class="col-md-10">
-														<div class="table-responsive">
-															<table class="table mb-0">
-																<tbody>
-																	<tr>
-																		<td>
-																			Order Date 
-																			<span>04-04-2026 3:30 PM</span>
-																		</td>
+																				<td>
+																					Coupon Discount
+																					<span>₹ 2000 / Diamond</span>
+																				</td>
+																				<td>
+																					Payment Mode
+																					<span>Online WB <span class="red">(₹ 2,500)</span> </span>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					Order Status
 
-																		<td>
-																			Coupon Discount
-																			<span>₹ 2000 / Diamond</span>
-																		</td>
-																		<td>
-																			Payment Mode
-																			<span>Online WB <span class="red">(₹ 2,500)</span> </span>
-																		</td>
-																	</tr>
-																	<tr>
-																		<td>
-																			Order Status
+																					<span>Placed <a href="#" class="red">Cancel Order </a></span>
+																				</td>
 
-																			<span>Placed <a href="#" class="red">Cancel Order </a></span>
-																		</td>
+																				<td>
+																					Delivery Status 
+																					<span>Shipped</span>
+																				</td>
+																				<td>
+																					Tracking ID 
+																					<span>JKKS546464SD216</span>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					Booking Paid Amount 
+																					<span>₹ 5,015</span>
+																				</td>
 
-																		<td>
-																			Delivery Status 
-																			<span>Shipped</span>
-																		</td>
-																		<td>
-																			Tracking ID 
-																			<span>JKKS546464SD216</span>
-																		</td>
-																	</tr>
-																	<tr>
-																		<td>
-																			Booking Paid Amount 
-																			<span>₹ 5,015</span>
-																		</td>
-
-																		<td>
-																			Order Final Amount
-																			<span>₹ 25,526</span>
-																		</td>
-																		<td>
-																			Pending Amount
-			  
-																			<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>
-													<div class="col-md-2 ps-0">
-														<div class="view-details">
-															<div class="order-value">
-																<p class="text-center">Order Value</p>
-																<span class="text-center">₹ 27,526</span>
+																				<td>
+																					Order Final Amount
+																					<span>₹ 25,526</span>
+																				</td>
+																				<td>
+																					Pending Amount
+					  
+																					<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
 															</div>
+															<div class="col-md-2 ps-0">
+																<div class="view-details">
+																	<div class="order-value">
+																		<p class="text-center">Order Value</p>
+																		<span class="text-center">₹ 27,526</span>
+																	</div>
 
-															<div class="view-details-btn ms-auto">
-																<a href="#">View Details</a>
+																	<div class="view-details-btn ms-auto">
+																		<a href="#">View Details</a>
+																	</div>
+																</div>
 															</div>
 														</div>
 													</div>
 												</div>
-											</div>
-										</div>
 
-										<div class="order-item bg-white">
-											<div class="order-item-title">
-												<div class="row">
-													<div class="col-sm-6">
-														<div class="order-number">
-															<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="view-estimate ms-auto">
-															<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
-														</div>
-													</div>
-												</div>
-											</div>
-
-											<div class="order-item-wrap">
-												<div class="row">
-													<div class="col-md-10">
-														<div class="table-responsive">
-															<table class="table">
-																<tbody>
-																	<tr>
-																		<td>
-																			Order Date 
-																			<span>04-04-2026 3:30 PM</span>
-																		</td>
-
-																		<td>
-																			Coupon Discount
-																			<span>₹ 2000 / Diamond</span>
-																		</td>
-																		<td>
-																			Payment Mode
-																			<span>Online WB <span class="red">(₹ 2,500)</span> </span>
-																		</td>
-																	</tr>
-																	<tr>
-																		<td>
-																			Order Status
-
-																			<span>Placed <a href="#" class="red">Cancel Order </a></span>
-																		</td>
-
-																		<td>
-																			Delivery Status 
-																			<span>Shipped</span>
-																		</td>
-																		<td>
-																			Tracking ID 
-																			<span>JKKS546464SD216</span>
-																		</td>
-																	</tr>
-																	<tr>
-																		<td>
-																			Booking Paid Amount 
-																			<span>₹ 5,015</span>
-																		</td>
-
-																		<td>
-																			Order Final Amount
-																			<span>₹ 25,526</span>
-																		</td>
-																		<td>
-																			Pending Amount
-			  
-																			<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>
-													<div class="col-md-2 ps-0">
-														<div class="view-details">
-															<div class="order-value">
-																<p class="text-center">Order Value</p>
-																<span class="text-center">₹ 27,526</span>
+												<div class="order-item bg-white">
+													<div class="order-item-title">
+														<div class="row">
+															<div class="col-sm-6">
+																<div class="order-number">
+																	<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
+																</div>
 															</div>
-
-															<div class="view-details-btn ms-auto">
-																<a href="#">View Details</a>
+															<div class="col-sm-6">
+																<div class="view-estimate ms-auto">
+																	<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
+																</div>
 															</div>
 														</div>
 													</div>
-												</div>
-											</div>
-										</div>
 
-										<div class="order-item bg-white">
-											<div class="order-item-title">
-												<div class="row">
-													<div class="col-sm-6">
-														<div class="order-number">
-															<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="view-estimate ms-auto">
-															<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
-														</div>
-													</div>
-												</div>
-											</div>
+													<div class="order-item-wrap">
+														<div class="row">
+															<div class="col-md-10">
+																<div class="table-responsive">
+																	<table class="table mb-0">
+																		<tbody>
+																			<tr>
+																				<td>
+																					Order Date 
+																					<span>04-04-2026 3:30 PM</span>
+																				</td>
 
-											<div class="order-item-wrap">
-												<div class="row">
-													<div class="col-md-10">
-														<div class="table-responsive">
-															<table class="table">
-																<tbody>
-																	<tr>
-																		<td>
-																			Order Date 
-																			<span>04-04-2026 3:30 PM</span>
-																		</td>
+																				<td>
+																					Coupon Discount
+																					<span>₹ 2000 / Diamond</span>
+																				</td>
+																				<td>
+																					Payment Mode
+																					<span>Online WB <span class="red">(₹ 2,500)</span> </span>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					Order Status
 
-																		<td>
-																			Coupon Discount
-																			<span>₹ 2000 / Diamond</span>
-																		</td>
-																		<td>
-																			Payment Mode
-																			<span>Online WB <span class="red">(₹ 2,500)</span> </span>
-																		</td>
-																	</tr>
-																	<tr>
-																		<td>
-																			Order Status
+																					<span>Placed <a href="#" class="red">Cancel Order </a></span>
+																				</td>
 
-																			<span>Placed <a href="#" class="red">Cancel Order </a></span>
-																		</td>
+																				<td>
+																					Delivery Status 
+																					<span>Shipped</span>
+																				</td>
+																				<td>
+																					Tracking ID 
+																					<span>JKKS546464SD216</span>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					Booking Paid Amount 
+																					<span>₹ 5,015</span>
+																				</td>
 
-																		<td>
-																			Delivery Status 
-																			<span>Shipped</span>
-																		</td>
-																		<td>
-																			Tracking ID 
-																			<span>JKKS546464SD216</span>
-																		</td>
-																	</tr>
-																	<tr>
-																		<td>
-																			Booking Paid Amount 
-																			<span>₹ 5,015</span>
-																		</td>
-
-																		<td>
-																			Order Final Amount
-																			<span>₹ 25,526</span>
-																		</td>
-																		<td>
-																			Pending Amount
-			  
-																			<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-													</div>
-													<div class="col-md-2 ps-0">
-														<div class="view-details">
-															<div class="order-value">
-																<p class="text-center">Order Value</p>
-																<span class="text-center">₹ 27,526</span>
+																				<td>
+																					Order Final Amount
+																					<span>₹ 25,526</span>
+																				</td>
+																				<td>
+																					Pending Amount
+					  
+																					<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
 															</div>
+															<div class="col-md-2 ps-0">
+																<div class="view-details">
+																	<div class="order-value">
+																		<p class="text-center">Order Value</p>
+																		<span class="text-center">₹ 27,526</span>
+																	</div>
 
-															<div class="view-details-btn ms-auto">
-																<a href="#">View Details</a>
+																	<div class="view-details-btn ms-auto">
+																		<a href="#">View Details</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="order-item bg-white">
+													<div class="order-item-title">
+														<div class="row">
+															<div class="col-sm-6">
+																<div class="order-number">
+																	<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
+																</div>
+															</div>
+															<div class="col-sm-6">
+																<div class="view-estimate ms-auto">
+																	<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<div class="order-item-wrap">
+														<div class="row">
+															<div class="col-md-10">
+																<div class="table-responsive">
+																	<table class="table">
+																		<tbody>
+																			<tr>
+																				<td>
+																					Order Date 
+																					<span>04-04-2026 3:30 PM</span>
+																				</td>
+
+																				<td>
+																					Coupon Discount
+																					<span>₹ 2000 / Diamond</span>
+																				</td>
+																				<td>
+																					Payment Mode
+																					<span>Online WB <span class="red">(₹ 2,500)</span> </span>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					Order Status
+
+																					<span>Placed <a href="#" class="red">Cancel Order </a></span>
+																				</td>
+
+																				<td>
+																					Delivery Status 
+																					<span>Shipped</span>
+																				</td>
+																				<td>
+																					Tracking ID 
+																					<span>JKKS546464SD216</span>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					Booking Paid Amount 
+																					<span>₹ 5,015</span>
+																				</td>
+
+																				<td>
+																					Order Final Amount
+																					<span>₹ 25,526</span>
+																				</td>
+																				<td>
+																					Pending Amount
+					  
+																					<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="col-md-2 ps-0">
+																<div class="view-details">
+																	<div class="order-value">
+																		<p class="text-center">Order Value</p>
+																		<span class="text-center">₹ 27,526</span>
+																	</div>
+
+																	<div class="view-details-btn ms-auto">
+																		<a href="#">View Details</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="order-item bg-white">
+													<div class="order-item-title">
+														<div class="row">
+															<div class="col-sm-6">
+																<div class="order-number">
+																	<span>Order Id <strong># NAN04JEW0423-0001</strong></span>
+																</div>
+															</div>
+															<div class="col-sm-6">
+																<div class="view-estimate ms-auto">
+																	<a href="#"><span><i class="fa fa-eye"></i></span>View Estimate</a>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<div class="order-item-wrap">
+														<div class="row">
+															<div class="col-md-10">
+																<div class="table-responsive">
+																	<table class="table">
+																		<tbody>
+																			<tr>
+																				<td>
+																					Order Date 
+																					<span>04-04-2026 3:30 PM</span>
+																				</td>
+
+																				<td>
+																					Coupon Discount
+																					<span>₹ 2000 / Diamond</span>
+																				</td>
+																				<td>
+																					Payment Mode
+																					<span>Online WB <span class="red">(₹ 2,500)</span> </span>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					Order Status
+
+																					<span>Placed <a href="#" class="red">Cancel Order </a></span>
+																				</td>
+
+																				<td>
+																					Delivery Status 
+																					<span>Shipped</span>
+																				</td>
+																				<td>
+																					Tracking ID 
+																					<span>JKKS546464SD216</span>
+																				</td>
+																			</tr>
+																			<tr>
+																				<td>
+																					Booking Paid Amount 
+																					<span>₹ 5,015</span>
+																				</td>
+
+																				<td>
+																					Order Final Amount
+																					<span>₹ 25,526</span>
+																				</td>
+																				<td>
+																					Pending Amount
+					  
+																					<span>₹ 254223315 <span class="blue">UnPaid</span> </span>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+															<div class="col-md-2 ps-0">
+																<div class="view-details">
+																	<div class="order-value">
+																		<p class="text-center">Order Value</p>
+																		<span class="text-center">₹ 27,526</span>
+																	</div>
+
+																	<div class="view-details-btn ms-auto">
+																		<a href="#">View Details</a>
+																	</div>
+																</div>
 															</div>
 														</div>
 													</div>
@@ -2082,20 +2492,83 @@
 									</div>
 								</div>
 
-								<div class="tab-pane fade" id="pills-wallet" role="tabpanel" aria-labelledby="pills-wallet-tab">
-									<div class="order-content ms-auto">My Wallet</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingTwo">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											<span class="mywallet">My Wallet</span>
+											<span class="amount">₹ 27,250</span>
+										</button>
+									</h2>
+
+									<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+										<div class="accordion-body px-2 p-md-3">
+											<div class="order-content ms-auto">
+												<div class="title">
+													<h3>My Wallet</h3>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 
-								<div class="tab-pane fade" id="pills-wishlist" role="tabpanel" aria-labelledby="pills-wishlist-tab">
-									<div class="order-content ms-auto">My Wish List</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingThree">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											<span class="mywishlist">My Wish List</span>
+										</button>
+									</h2>
+
+									<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+										<div class="accordion-body px-2 p-md-3">
+											<div class="order-content ms-auto">
+												<div class="title">
+													<h3>My Wish List</h3>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 
-								<div class="tab-pane fade" id="pills-changepass" role="tabpanel" aria-labelledby="pills-changepass-tab">
-									<div class="order-content ms-auto">Change password</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingFour">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											<span class="changepass">Change password</span>
+										</button>
+									</h2>
+
+									<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+										<div class="accordion-body px-2 p-md-3">
+											<div class="order-content ms-auto">
+												<div class="title">
+													<h3>Change password</h3>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
-								
-								<div class="tab-pane fade" id="pills-manageaddress" role="tabpanel" aria-labelledby="pills-manageaddress-tab">
-									<div class="order-content ms-auto">Manage Address</div>
+
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingFive">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											<span class="manageaddress">Manage Address</span>
+										</button>
+									</h2>
+
+									<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+										<div class="accordion-body px-2 p-md-3">
+											<div class="order-content ms-auto">
+												<div class="title">
+													<h3>Manage Address</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="logout mt-4">
+								<div class="logout-btn mx-auto">
+									<a class="text-white" href="#"><span>Log Out</span></a>
 								</div>
 							</div>
 						</div>

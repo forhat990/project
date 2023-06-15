@@ -465,10 +465,38 @@
     .zoom-image-wrap {
         left: -135px;
     }
-    
     .cart.checkout .cart-area .text p {
         font-size: 20px;
         line-height: 30px;
+    }
+    .order-area .logout-btn a {
+        padding: 0 15px;
+    }
+    .order-area .logout-btn {
+        font-size: 15px;
+        height: 36px;
+        line-height: 36px;
+    }
+    .order-area button.accordion-button {
+        padding: 10px 16px 10px 15px;
+    }
+    .order-area button.accordion-button span {
+        padding: 6px 0 6px 31px;
+    }
+    .order-area button.accordion-button span.myorder {
+        background-size: 20px;
+    }
+    .order-area button.accordion-button span.mywallet {
+        background-size: 25px;
+    }
+    .order-area button.accordion-button span.mywishlist {
+        background-size: 25px;
+    }
+    .order-area button.accordion-button span.changepass {
+        background-size: 24px;
+    }
+    .order-area button.accordion-button span.manageaddress {
+        background-size: 21px;  
     }
 }
 @media screen and (max-width: 1099px) {
@@ -806,11 +834,6 @@
     .order-content {
         max-width: 100%;
     }
-    .side-menu {
-        max-width: 550px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .side-menu ul li button { overflow: hidden; }
     .side-menu ul li button span.amount {
         float: right;
@@ -908,6 +931,10 @@
         max-height: auto !important;
         max-width: 100%;
         margin: 0 0;
+    }
+    .order-area button.accordion-button {
+        font-size: 16px;
+        line-height: 21px;
     }
 }
 @media screen and (max-width: 767px) {

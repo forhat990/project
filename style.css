@@ -3456,6 +3456,98 @@ textarea {
 #editAddressModal .login-form form label {
 	line-height: 22px;
 }
+.order-area .navbar-toggler {
+	position: initial;
+	padding: 0 5px;
+}
+.order-area .navbar-toggler span {
+	display: block;
+	height: 5px;
+	background-color: #A46077;
+	width: 5px;
+	position: relative;
+	margin-bottom: 4px;
+	border-radius: 5px;
+}
+
+/* ---- */
+.order-area button.accordion-button {
+	font-family: 'Sansation_Regular';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #A46077 !important;
+	border: 0;
+	border-radius: 0;
+	width: 100%;
+	text-align: left;
+	padding: 14px 16px 14px 45px;
+	background-color: #fff;
+}
+.order-area button.accordion-button:focus {
+	box-shadow: none;
+} 
+.order-area button.accordion-button.active {
+	border-left: 5px solid #96546A !important;
+	background: transparent !important;
+	border-radius: 0;
+}
+.order-area button.accordion-button span {
+	padding: 6px 0 6px 42px;
+}
+.order-area button.accordion-button span.myorder {
+	background: url('assets/images/icon-order1.png') no-repeat 0 center;	
+}
+.order-area button.accordion-button span.mywallet {
+	background: url('assets/images/emptywallet.png') no-repeat 0 center;	
+}
+.order-area button.accordion-button span.mywishlist {
+	background: url('assets/images/heart.png') no-repeat 0 center;	
+}
+.order-area button.accordion-button span.changepass {
+	background: url('assets/images/passwordcheck.png') no-repeat 0 center;	
+}
+.order-area button.accordion-button span.manageaddress {
+	background: url('assets/images/locationadd.png') no-repeat 0 center;	
+}
+.order-area button.accordion-button span.amount {
+	float: right;
+	color: #BE0B36;
+	font-size: 15px;
+}
+.order-area .accordion-item {
+	border-radius: 0;
+}
+.order-area .logout {
+	border-top: 1px solid #5D3640;
+	padding: 19px 0 10px 0;
+	margin: 0 45px;
+}
+.order-area .logout-btn {
+	display: table;
+	font-weight: 700;
+	font-size: 19px;
+	height: 41px;
+	line-height: 41px;
+	background: #CC9DAD;
+	border-radius: 5px;
+}
+.order-area .logout-btn a {
+	display: block;
+	padding: 0 20px;
+}
+.order-area .logout-btn a span {
+	background: url('assets/images/logout.png') no-repeat 0 center;
+	padding-left: 34px;
+}
+.sidemenu-mobile {
+	padding-top: 25px;
+	margin-bottom: 40px;
+	padding-bottom: 25px;
+	border: 0.5px solid #C5C0C0;
+	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+}
 /*==============================
 	footer 
 ================================*/
@@ -3808,7 +3900,3 @@ footer {
 .reverse.owl-carousel {
 	width: 398px;
 }
-
-
-
-
