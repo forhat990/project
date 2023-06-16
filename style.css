@@ -100,6 +100,7 @@ form input:focus,form button:focus {
 	border-color: #972A25 !important;
 }
 .text-red { color: #bc004a !important; }
+.bg-red { background: #972A25 !important; }
 /*==============================
 	header 
 ================================*/
@@ -3630,10 +3631,22 @@ textarea {
 .wallet-item span {
 	font-family: 'Sansation_Bold';
 	font-size: 23px;
-	line-height: 36px;
+	line-height: 30px;
 	display: block;
 	background: #C06379;
-	padding: 0 10px;
+	padding: 3px 10px;
+}
+.wallet-item span a {
+	display: table;
+	font-family: 'Amiko', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+	color: #C06379;
+	border-radius: 5px;
+	padding: 0 15px;
+	margin: 0 auto;
 }
 .wallet-item h4 {
 	font-family: 'Sansation_Bold';
@@ -3677,6 +3690,10 @@ textarea {
 .wallet-area-table table tr td strong {
 	font-family: 'Sansation_Bold';
 	font-weight: 400;
+}
+.wallet-area-table table tr td strong + a {
+	float: right;
+	color: #DE9191;
 }
 
 /*==============================
