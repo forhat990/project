@@ -101,6 +101,7 @@ form input:focus,form button:focus {
 }
 .text-red { color: #bc004a !important; }
 .bg-red { background: #972A25 !important; }
+.no-shadow { box-shadow: none !important; }
 /*==============================
 	header 
 ================================*/
@@ -2122,7 +2123,7 @@ textarea {
 }
 .customize form label {
 	font-size: 14px;
-	line-height: 29px;
+	line-height: 22px;
 	color: #593E3D;
 }
 .customize form p {
@@ -3695,7 +3696,104 @@ textarea {
 	float: right;
 	color: #DE9191;
 }
-
+/* --- */
+.order-content .cart-item {
+	max-width: 302px;
+	padding: 10px 10px 15px 10px;
+}
+.order-content .cart-item > figure {
+	width: 100%;
+}
+.order-content .cart-item > figure img {
+	max-width: 187px;
+	margin: 0 auto;
+}
+.order-content .cart-item-wrap {
+	width: 100%;
+	padding: 12px 0 0 0;
+}
+.order-content .cart-item-title {
+	margin-bottom: 8px;
+}
+.order-content .cart-item-title h4 {
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 4px;
+}
+.order-content .cart-item-title > span {
+	display: block;
+}
+.order-content .cart-item-title > span {
+	font-size: 14px;
+	display: block;
+}
+.order-content .customize form {
+	margin-bottom: 10px !important;
+}
+.order-content .customize form label {
+	font-size: 11px;
+}
+.order-content .customize form .form-select-wrap.ms-auto {
+	margin-left: 5px !important;
+}
+.order-content .customize form select {
+	font-size: 10px;
+}
+.order-content .cart-item-wrap .customize form .form-select-wrap::after {
+	height: 21px;
+}
+.order-content .cart-item-wrap .price {
+	width: 100%;
+	padding-top: 0;
+}
+.order-content .cart-item-wrap .price h3 {
+	font-size: 16px;
+	line-height: 25px;
+}
+.order-content .cart-item-wrap .price h3 .pre-price {
+	font-size: 16px;
+	line-height: 25px;
+}
+.order-content .cart-item-wrap .btn-wrap {
+	width: 100%;
+	float: none;
+}
+.order-content .remove-btn {
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	min-width: 105px;
+	border-radius: 4px;
+	margin: 8px 0 0 0 !important;
+}
+.order-content .move-to-btn {
+	font-size: 12px;
+	line-height: 25px;
+	min-width: 105px;
+	height: 25px;
+	border-radius: 4px;
+	margin: 8px 0 0 8px !important;
+}
+.order-content .cart-item-wrap .price h3 .offer {
+	font-size: 15px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 8px;
+}
+.order-content .cart-item-title h4 {
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 4px;
+}
+.order-content .cart-item-wrap .customize form .form-group {
+	margin-right: 15px;
+}
+.order-content-wrap {
+	max-width: 850px;
+}
+.order-content .middle::before {
+	left: -16px;
+}
 /*==============================
 	footer 
 ================================*/

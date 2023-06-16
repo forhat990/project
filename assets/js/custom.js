@@ -48,6 +48,31 @@ jQuery(document).ready(function() {
       }
     })
 });
+
+jQuery(document).ready(function() {
+    jQuery('.gallery-area-carousel').owlCarousel({
+      loop: true,
+      autoplay: true,
+      margin: 20,
+      nav: false,
+      dots: true,
+      smartSpeed: 900,
+      responsiveClass: true,
+      autoplayTimeout: 5000,
+      fallbackEasing: 'easing',
+      transitionStyle: "fade",
+      autoplayHoverPause: true,
+      animateOut: 'fadeOut',
+      responsive: {
+        0: {
+          items: 4,
+        },
+        992: {
+          items: 7,
+        },
+      }
+    })
+});
 jQuery(document).ready(function() {
   jQuery('.arrival-carousel-mobile').owlCarousel({
     loop: true,

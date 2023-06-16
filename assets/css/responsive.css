@@ -521,6 +521,9 @@
     .zoom-bottom ul li {
         font-size: 11px;
     }
+    .order-content-wrap {
+        max-width: 560px;
+    }
 }
 @media screen and (max-width: 991px) {
     .header .menu > ul > li > a > i {
@@ -940,6 +943,9 @@
         max-width: 335px;
         left: initial !important;
         right: 0 !important;
+    }
+    .cart-item-wrap .customize form .form-select-wrap::after {
+        height: 24px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -1624,6 +1630,9 @@
     }
     .about {
         padding: 25px 0 170px 0;
+    }
+    .cart-item-wrap .customize form .form-select-wrap::after {
+        height: 21px;
     }
 }
 @media screen and (max-width: 535px) {
