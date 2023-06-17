@@ -1170,10 +1170,10 @@
 
 		 					<ul class="menu-main">
 								<li>
-									<a href="#">Home</a>
+									<a href="#"><span>Home</span></a>
 								</li>
 		 						<li class="menu-item-has-children">
-		 							<a href="#">Rings <i class="fa fa-angle-down"></i></a>
+		 							<a href="#"><span>Rings</span> <i class="fa fa-angle-down"></i></a>
 		 							<div class="sub-menu mega-menu mega-menu-column-4">
 		 								<div class="dropdown-menu-container">
 											<div class="container">
@@ -1247,7 +1247,7 @@
 		 							</div>
 		 						</li>
 		 						<li class="menu-item-has-children">
-		 							<a href="#">Earrings <i class="fa fa-angle-down"></i></a>
+		 							<a href="#"><span>Earrings</span> <i class="fa fa-angle-down"></i></a>
 		 							<div class="sub-menu mega-menu mega-menu-column-4">
 		 								<div class="dropdown-menu-container">
 											<div class="container">
@@ -1321,7 +1321,7 @@
 		 							</div>
 		 						</li>
 		 						<li class="menu-item-has-children">
-		 							<a href="#">Bangles & Bracelets <i class="fa fa-angle-down"></i></a>
+		 							<a href="#"><span>Bangles & Bracelets</span> <i class="fa fa-angle-down"></i></a>
 		 							<div class="sub-menu mega-menu mega-menu-column-4">
 		                               	<div class="dropdown-menu-container">
 											<div class="container">
@@ -1395,7 +1395,7 @@
 		 							</div>
 		 						</li>
 		 						<li class="menu-item-has-children">
-		 							<a href="#">Gifts <i class="fa fa-angle-down"></i></a>
+		 							<a href="#"><span>Gifts</span> <i class="fa fa-angle-down"></i></a>
 		 							<div class="sub-menu mega-menu mega-menu-column-4">
 		                               	<div class="dropdown-menu-container">
 											<div class="container">
@@ -1469,7 +1469,7 @@
 		 							</div>
 		 						</li>
 		 						<li class="menu-item-has-children">
-		 							<a href="#">All Categories <i class="fa fa-angle-down"></i></a>
+		 							<a href="#"><span>All Categories</span> <i class="fa fa-angle-down"></i></a>
 		 							<div class="sub-menu mega-menu mega-menu-column-4">
 		                               	<div class="dropdown-menu-container">
 											<div class="container">
@@ -1548,13 +1548,13 @@
 		 							</div>
 		 						</li>
 		 						<li>
-									<a href="#">Kids</a>
+									<a href="#"><span>Kids</span></a>
 								</li>
 								<li>
-									<a href="about-us.html">About Us</a>
+									<a href="about-us.html"><span>About Us</span></a>
 								</li>
 								<li class="menu-item-has-children">
-		 							<a href="#">Offers <i class="fa fa-angle-down"></i></a>
+		 							<a href="#"><span>Offers</span> <i class="fa fa-angle-down"></i></a>
 		 							<div class="sub-menu mega-menu mega-menu-column-4">
 		                               	<div class="dropdown-menu-container">
 											<div class="container">
@@ -1678,38 +1678,42 @@
 							<div class="zoom-left-wrap">
 								<div class="zoom-left">
 									<div class="zoom-left-wrap clearfix">
-										<figure>
+										<figure id="v_01">
 											<img id="img_01" src="assets/images/product-111111.png" alt="">
 										</figure>
+
+										<video width="100%" height="100%" muted autoplay>
+											<source src="assets/video/BISP0103R661-VIDEO-33791.mp4" type="video/mp4">
+										</video>
 										
 										<div class="zoom-image-wrap">
 											<div id="gal1" class="zoom-image reverse owl-carousel owl-theme">
 												<a href="#" class="item elevatezoom-gallery" data-update="" data-image="assets/images/product-111111.png" data-zoom-image="assets/images/product-111111.png" class="slide-content">
-													<figure>
+													<figure class="video-img02">
 														<img src="assets/images/product-111111.png" width="100">
 													</figure>
 												</a>
 
 												<a href="#" class="item elevatezoom-gallery" data-image="assets/images/product-details1.png" data-zoom-image="assets/images/product-details1.png" class="slide-content">
-													<figure>
-														<img src="assets/images/product-details1.png" width="100">
+													<figure id="video-img">
+														<img src="https://kinclimg1.bluestone.com/f_webp/static/resources/themes/bluestone/images/new/video-thumb.png" width="100">
 													</figure>
 												</a>
 
 												<a href="tester" class="item elevatezoom-gallery" data-image="assets/images/product-details2.png" data-zoom-image="assets/images/product-details2.png" class="slide-content">
-													<figure>
+													<figure class="video-img03">
 														<img src="assets/images/product-details2.png" width="100">
 													</figure>
 												</a>
 
 												<a href="tester" class="item elevatezoom-gallery" data-image="assets/images/product-details1.png" data-zoom-image="assets/images/product-details1.png" class="slide-content">
-													<figure>
+													<figure class="video-img04">
 														<img src="assets/images/product-details1.png" width="100">
 													</figure>
 												</a>
 
 												<a href="tester" class="item elevatezoom-gallery" data-image="assets/images/product-details2.png" data-zoom-image="assets/images/product-details2.png" class="slide-content">
-													<figure>
+													<figure class="video-img05">
 														<img id="" src="assets/images/product-details2.png" width="100">
 													</figure>
 												</a>
@@ -2706,6 +2710,55 @@
 	        },
 		  });
 		});
+    </script>
+
+    <script>
+    	var video_img = document.getElementById('video-img');
+		var addvideo = document.getElementById('v_01');
+		
+		video_img.addEventListener("click", function () {
+		   
+	
+		  	addvideo.classList.add("showVideo");
+
+		});
+
+		var video_img02 = document.querySelector('.video-img02');
+
+		video_img02.addEventListener("click", function () {
+
+		  
+		  	addvideo.classList.remove("showVideo");
+
+		});
+
+		var video_img03 = document.querySelector('.video-img03');
+
+		video_img03.addEventListener("click", function () {
+
+		  
+		  	addvideo.classList.remove("showVideo");
+
+		});
+
+		var video_img04 = document.querySelector('.video-img04');
+
+		video_img04.addEventListener("click", function () {
+
+		  
+		  	addvideo.classList.remove("showVideo");
+
+		});
+
+		var video_img05 = document.querySelector('.video-img05');
+
+		video_img05.addEventListener("click", function () {
+
+		  
+		  	addvideo.classList.remove("showVideo");
+
+		});
+
     </script>
 </body>
 </html>

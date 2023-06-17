@@ -472,16 +472,20 @@ form.search-mobile button {
 	padding: 12px 0;
 	position: relative;
 }
-nav.menu ul.menu-main li a::before {
+nav.menu ul.menu-main li a span { 
+	position: relative;
+	padding-bottom: 2px; 
+}
+nav.menu ul.menu-main li a span::before {
 	content: '';
 	position: absolute;
-	bottom: 8px;
+	bottom: 0;
 	left: 0;
 	width: 0;
 	height: 2px;
 	background: #07A8A8;
 }
-nav.menu ul.menu-main li a:hover::before {
+nav.menu ul.menu-main li a span:hover::before {
 	width: 100%;
 }
 .custom-order {
@@ -3795,6 +3799,27 @@ textarea {
 	left: -16px;
 }
 /*==============================
+	gallery 
+================================*/
+.owl-item:nth-child(odd) .gallery-item figure img {
+	margin-top: 80px;
+}
+.video {
+	border-bottom: 1px solid #C4C4C4;
+	margin-bottom: 140px;
+}
+.video-area {
+	max-width: 909px;
+	padding-bottom: 30px;
+}
+.video-area ul li {
+	width: 31.7%;
+}
+.video-area ul li:not(:last-child) {
+	margin-right: 22px;
+}
+
+/*==============================
 	footer 
 ================================*/
 footer { 
@@ -4066,6 +4091,15 @@ footer {
 	overflow: hidden;
 	border: 1px solid #BBB2B2;
 }
+.zoom-left-wrap video {
+	width: 80%;
+	float: right;
+	height: 100% !important;
+}
+.zoom-left-wrap > figure img {
+	width: 100% !important;
+	height: auto !important;
+}
 .elevatezoom-gallery {
 	overflow: hidden;
 	display: block;
@@ -4146,3 +4180,14 @@ footer {
 .reverse.owl-carousel {
 	width: 398px;
 }
+
+/* -- */
+#v_01 + video {
+	display: none;
+}
+.showVideo {
+	display: none;
+}
+.showVideo#v_01 + video {
+	display: block;
+} 

@@ -52,8 +52,8 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
     jQuery('.gallery-area-carousel').owlCarousel({
       loop: true,
-      autoplay: true,
-      margin: 20,
+      autoplay: false,
+      margin: 23,
       nav: false,
       dots: true,
       smartSpeed: 900,
@@ -65,6 +65,12 @@ jQuery(document).ready(function() {
       animateOut: 'fadeOut',
       responsive: {
         0: {
+          items: 2,
+        },
+        414: {
+          items: 3,
+        },
+        576: {
           items: 4,
         },
         992: {
@@ -322,6 +328,7 @@ confirmtogglePassword.addEventListener("click", function () {
   confirmpassword.setAttribute("type", type);
 
 });
+
 
 
 
