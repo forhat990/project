@@ -254,7 +254,6 @@ $(document).ready(function(){
   });
 });
 
-
 $(document).ready(function () {
     $("#zoom_06").ezPlus({
         zoomType: "inner",
@@ -262,7 +261,6 @@ $(document).ready(function () {
         cursor: "crosshair"
     });
 });
-
 
 $(document).ready(function() {
   $(".owl-carousel.reverse").owlCarousel({

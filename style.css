@@ -1877,10 +1877,6 @@ textarea {
 .product-details-area {
 	max-width: 1234px;
 }
-.zoom-bottom {
-	max-width: 80%;
-	margin-left: auto;
-}
 .zoom-bottom ul {
 	overflow: hidden;
 }
@@ -4180,14 +4176,28 @@ footer {
 .reverse.owl-carousel {
 	width: 398px;
 }
-
-/* -- */
-#v_01 + video {
-	display: none;
+.main-box-diamo {
+	max-width: 1234px;
 }
-.showVideo {
-	display: none;
+.img-display {
+	border: 1px solid #BBB2B2;
 }
-.showVideo#v_01 + video {
+.thumbnail_slider.owl-carousel .owl-dots.disabled, 
+.thumbnail_slider.owl-carousel .owl-nav.disabled {
 	display: block;
-} 
+}
+.thumbnail_slider.owl-carousel .owl-nav button.owl-prev, 
+.thumbnail_slider.owl-carousel .owl-nav button.owl-next {
+	background: url('assets/images/angle-up.png') no-repeat 0 0 !important;
+	transform: rotate(-90deg);
+	width: 27px;
+	height: 15px;
+}
+.thumbnail_slider.owl-carousel .owl-nav button.owl-next {
+	transform: rotate(90deg);
+	top: 32%;
+	right: -25px;
+}
+.thumbnail_slider.owl-carousel .owl-nav button.owl-prev {
+	top: 32%;
+}
