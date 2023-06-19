@@ -1762,7 +1762,7 @@
         max-width: 265px;
         margin: 0 auto 20px auto;
     }
-    .owl-carousel .owl-nav button.owl-prev {
+    .thumbnail_slider.owl-carousel .owl-carousel .owl-nav button.owl-prev {
         left: -20px;
     }
     .product-imgs .img-item {
