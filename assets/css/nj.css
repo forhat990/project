@@ -161,9 +161,6 @@ video::-webkit-media-controls {
     position: relative;
 }
 @media only screen and (max-width: 991px) {
-    .demo-trigger{
-        display: none;
-    }
     .cer--card--box .grid--box .box--a img {
         width: 95px;
         height: 85px;
