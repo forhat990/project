@@ -1778,6 +1778,9 @@
     .thumbnail_slider.owl-carousel .owl-stage-outer {
         padding-left: 5px;
     }
+    .thumbnail_slider.owl-carousel .owl-nav button.owl-prev {
+        left: -20px;
+    }
 }
 @media screen and (max-width: 535px) {
     .footer-area-right figure {
