@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
     jQuery('.arrival-carousel-desktop').owlCarousel({
       loop: true,
       autoplay: true,
-      margin: 63,
+      margin: 62,
       nav: false,
       dots: true,
       smartSpeed: 900,
@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function() {
     jQuery('.gallery-area-carousel').owlCarousel({
       loop: true,
-      autoplay: false,
+      autoplay: true,
       margin: 23,
       nav: false,
       dots: true,
@@ -254,6 +254,23 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function(){
+  $('#logindiv22').hide();
+  $('#login-btn2').click(function(){
+    
+      $('#logindiv2').hide();
+      $('#logindiv22').show();
+
+  });
+
+  $('#signup-btn2').click(function(){
+    
+      $('#logindiv22').hide();
+      $('#logindiv2').show();
+
+  });
+});
+
 $(document).ready(function () {
     $("#zoom_06").ezPlus({
         zoomType: "inner",
@@ -286,6 +303,7 @@ $(document).ready(function() {
   });
 });
 jQuery(document).ready(function(){
+
   jQuery(".eyeslash > a").click(function(e) {
     e.preventDefault();
      var val = $(this).attr('id');
@@ -297,35 +315,44 @@ jQuery(document).ready(function(){
       }
   });
 });
-const togglePassword = document.querySelector("#togglePassword");
-const password = document.querySelector("#password");
-
-const newtogglePassword = document.querySelector("#newtogglePassword");
-const newpassword = document.querySelector("#newpassword");
-
-const confirmtogglePassword = document.querySelector("#confirmtogglePassword");
-const confirmpassword = document.querySelector("#confirmpassword");
-
-togglePassword.addEventListener("click", function () {
-   
-  const type = password.getAttribute("type") === "password" ? "text" : "password";
-  password.setAttribute("type", type);
-
+$(".toggle-password").click(function() {
+    $(this).toggleClass("fa-eye fa-eye-slash");
+    var input = $('#password').attr('type');
+    if (input.attr("type") == "password") {
+        input.attr("type", "text");
+    } else {
+        input.attr("type", "password");
+    }
 });
+// const togglePassword = document.querySelector("#togglePassword");
+// const password = document.querySelector("#password");
 
-newtogglePassword.addEventListener("click", function () {
+// const newtogglePassword = document.querySelector("#newtogglePassword");
+// const newpassword = document.querySelector("#newpassword");
+
+// const confirmtogglePassword = document.querySelector("#confirmtogglePassword");
+// const confirmpassword = document.querySelector("#confirmpassword");
+
+// togglePassword.addEventListener("click", function () {
    
-  const type = newpassword.getAttribute("type") === "password" ? "text" : "password";
-  newpassword.setAttribute("type", type);
+//   const type = password.getAttribute("type") === "password" ? "text" : "password";
+//   password.setAttribute("type", type);
 
-});
+// });
 
-confirmtogglePassword.addEventListener("click", function () {
+// newtogglePassword.addEventListener("click", function () {
    
-  const type = confirmpassword.getAttribute("type") === "password" ? "text" : "password";
-  confirmpassword.setAttribute("type", type);
+//   const type = newpassword.getAttribute("type") === "password" ? "text" : "password";
+//   newpassword.setAttribute("type", type);
 
-});
+// });
+
+// confirmtogglePassword.addEventListener("click", function () {
+   
+//   const type = confirmpassword.getAttribute("type") === "password" ? "text" : "password";
+//   confirmpassword.setAttribute("type", type);
+
+// });
 
 
 

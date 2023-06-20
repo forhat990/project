@@ -2986,35 +2986,35 @@
 																<td>04-04-2023 11:05 PM</td>
 																<td>Credit</td>
 																<td><strong>₹ 50,563</strong></td>
-																<td><strong>Order placed from wallet amount</strong></td>
+																<td><strong>Order placed from wallet amount</strong><a href="#"><i class="fa fa-eye"></i></a></td>
 															</tr>
 															<tr>
 																<td>2</td>
 																<td>04-04-2023 06:52 PM</td>
 																<td>Debit</td>
 																<td><strong>₹ 192,777</strong></td>
-																<td><strong>Order product returned by user</strong></td>
+																<td><strong>Order product returned by user</strong><a href="#"><i class="fa fa-eye"></i></a></td>
 															</tr>
 															<tr>
 																<td>3</td>
 																<td>04-04-2023 06:35 PM</td>
 																<td>Credit</td>
 																<td><strong>₹ 2,500</strong></td>
-																<td><strong>Withdraw wallet amount</strong></td>
+																<td><strong>Withdraw wallet amount</strong><a href="#"><i class="fa fa-eye"></i></a></td>
 															</tr>
 															<tr>
 																<td>4</td>
 																<td>04-04-2023 06:31 PM</td>
 																<td>Credit</td>
 																<td><strong>₹ 121,493</strong></td>
-																<td><strong>Order product returned by user</strong></td>
+																<td><strong>Order product returned by user</strong><a href="#"><i class="fa fa-eye"></i></a></td>
 															</tr>
 															<tr>
 																<td>5</td>
 																<td>04-04-2023 06:25 PM</td>
 																<td>Debit</td>
 																<td><strong>₹ 161,821</strong></td>
-																<td><strong>Order cancelled by admin</strong></td>
+																<td><strong>Order cancelled by admin</strong><a href="#"><i class="fa fa-eye"></i></a></td>
 															</tr>
 														</tbody>
 													</table>
@@ -3163,7 +3163,7 @@
 										<div class="changepass mx-auto">
 											<form>
 												<div class="form-group">
-													<input type="password" id="password" class="form-control" placeholder="Old Password">
+													<!-- <input type="password" class="form-control" placeholder="Old Password">
 													
 													<div class="eyeslash" id="togglePassword">
 														<a href="#">
@@ -3172,7 +3172,11 @@
 															</figure>
 															<i class="d-none bi bi-eye"></i>
 														</a>
-													</div>
+													</div> -->
+													<input type="password" id="password" placeholder="Password" required="" name="password">
+                                            		<span toggle="#password" class="toggle-password fa fa-eye  "></span>
+
+                                      
 												</div>
 												<div class="form-group">
 													<input type="password" id="newpassword"  class="form-control" placeholder="New Password">
@@ -3777,10 +3781,6 @@
 		<div class="modal fade" id="withdrawModal" tabindex="-1" aria-labelledby="withdrawModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<figure class="d-none d-md-block">
-						<img src="assets/images/dl2.png" alt="Image" width="303" height="448">
-					</figure>
-
 					<div class="modal-body">
 						<div class="modal-header border-0 mb-2">
 							<button type="button" class="btn-close py-2" data-bs-dismiss="modal" aria-label="Close"></button>

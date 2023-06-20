@@ -1945,7 +1945,7 @@
 							<button type="button" class="btn-close py-2" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
 
-						<div class="login-form signup py-2"><!-- start .login-form -->
+						<div class="login-form signup py-2" id="logindiv2"><!-- start .login-form -->
 							<div class="heading mb-0">
 								<h4 class="text-center">Sign Up</h4>
 								<p class="text-center">Ready, set, sign up!</p>
@@ -1986,7 +1986,36 @@
 								<button type="submit" class="text-white border-0 mt-0">SIGN UP</button>
 
 								<div class="forget-pass text-center">
-									<p>Already have an account? <strong><a href="#">LOG IN</a></strong></p>
+									<p>Already have an account? <strong><a id="login-btn2" href="#">LOG IN</a></strong></p>
+								</div>
+							</form>
+						</div><!-- //end .login-form -->
+
+						<div class="login-form" id="logindiv22"><!-- start .login-form -->
+							<div class="heading">
+								<h4>Log in to Nandlal Jewellers</h4>
+								<p>Log in and unlock your world!</p>
+							</div>
+
+							<form action="after-login.html">
+								<div class="mb-2">
+									<label class="form-label mb-0">Enter Email / Mobile Number</label>
+									<input type="email" class="form-control">
+								</div>
+
+								<div class="mb-2">
+									<label class="form-label mb-0">Enter Password</label>
+									<input type="password" class="form-control">
+								</div>
+
+								<button type="submit" class="text-white border-0">LOG IN</button>
+								
+								<div class="sign-up-btn">
+									<a id="signup-btn2" class="text-white text-center" href="#">SIGN UP</a>
+								</div>
+
+								<div class="forget-pass text-center">
+									<a href="#">Forgot Password</a>
 								</div>
 							</form>
 						</div><!-- //end .login-form -->

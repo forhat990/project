@@ -973,7 +973,7 @@ textarea {
 	padding: 4px;
 	overflow: hidden;
 	border-radius: 50%;
-	background: linear-gradient(45deg, rgba(250,159,77,1) 0%, rgba(250,159,177,1) 35%, rgba(198,52,149,1) 100%);
+	background: linear-gradient(50deg, rgb(254, 218, 117), rgb(250,126,30)30%, rgb(214,41,118)50%);
 }
 .arrival-item figure img {
 	border-radius: 50%;
