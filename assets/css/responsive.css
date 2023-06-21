@@ -1035,11 +1035,9 @@
         height: 30px;
         font-size: 25px;
     }
-    .password-showhide1, 
-    .old-password-showhide1, 
-    .confirm-password-showhide1 {
-        top: 1px;
-        right: 34px;
+    .password-showhide1, .old-password-showhide1, .confirm-password-showhide1 {
+        top: 6px;
+        right: 13px;
         width: 30px;
         height: 30px;
         font-size: 25px;

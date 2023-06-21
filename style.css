@@ -3596,14 +3596,14 @@ textarea {
 	height: 40px;
 }
 .password-showhide, .old-password-showhide, .confirm-password-showhide {
-    position: absolute;
-    top: 5px;
-    right: 19px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    font-size: 31px;
-    z-index: 9;
+	position: absolute;
+	top: 10px;
+	right: 14px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 31px;
+	z-index: 9;
 }
 .password-showhide span i,
 .old-password-showhide span i,
