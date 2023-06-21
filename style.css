@@ -3584,7 +3584,6 @@ textarea {
 .changepass form input::placeholder {
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-	line-height: 17px;
 	color: #948C8C;
 }
 .changepass form button {
@@ -3596,9 +3595,29 @@ textarea {
 	border-radius: 5px;
 	height: 40px;
 }
-.eyeslash {
+.password-showhide, .old-password-showhide, .confirm-password-showhide {
+    position: absolute;
+    top: 5px;
+    right: 19px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 31px;
+    z-index: 9;
+}
+.password-showhide span i,
+.old-password-showhide span i,
+.confirm-password-showhide span i {
+	margin-top: -3px;
+	margin-left: -1px;
+	color: #BE0B36;
+	display: block;
+}
+.password-showhide1,
+.old-password-showhide1,
+.confirm-password-showhide1 {
 	position: absolute;
-	top: 10px;
+	top: 4px;
 	right: 10px;
 	width: 30px;
 	height: 30px;
@@ -3606,20 +3625,14 @@ textarea {
 	font-size: 31px;
 	z-index: 9;
 }
-.eyeslash a {
-	display: block;
-	color: #BE0B36;
-}
-.eyeslash a i {
-	margin-top: -4px;
+.password-showhide1 span i,
+.old-password-showhide1 span i,
+.confirm-password-showhide1 span i {
+	margin-top: -3px;
 	margin-left: -1px;
+	color: #BE0B36;
+	display: block;
 }
-.eyeslash a#active i {
-	display: block !important;
-} 
-.eyeslash a#active figure {
-	display: none !important;
-} 
 .wallet-area-wrap {
 	max-width: 700px;
 }
@@ -4206,4 +4219,11 @@ footer {
 }
 .thumbnail_slider.owl-carousel .owl-nav button.owl-prev {
 	top: 32%;
+}
+
+.hide-password {
+  display: none
+}
+.hide-password1 {
+  display: none
 }

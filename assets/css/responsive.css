@@ -997,7 +997,6 @@
     }
     .changepass form input::placeholder {
         font-size: 16px;
-        line-height: 30px;
     }
     .changepass form .form-group {
         margin-bottom: 20px;
@@ -1026,6 +1025,46 @@
     }
     .thumbnail_slider.owl-carousel .owl-nav button.owl-prev {
         top: 20%;
+    }
+    .password-showhide, 
+    .old-password-showhide, 
+    .confirm-password-showhide {
+        top: 1px;
+        right: 34px;
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+    }
+    .password-showhide1, 
+    .old-password-showhide1, 
+    .confirm-password-showhide1 {
+        top: 1px;
+        right: 34px;
+        width: 30px;
+        height: 30px;
+        font-size: 25px;
+    }
+    .password-showhide span i, 
+    .old-password-showhide span i, 
+    .confirm-password-showhide span i {
+        margin-top: 0px;
+    }
+    .password-showhide1 span i, 
+    .old-password-showhide1 span i, 
+    .confirm-password-showhide1 span i {
+        margin-top: 0px;
+    }
+    .password-showhide span figure ,
+    .old-password-showhide span figure ,
+    .confirm-password-showhide span figure  {
+        max-width: 25px;
+        margin-top: 4px;
+    }
+    .password-showhide1 span figure ,
+    .old-password-showhide1 span figure ,
+    .confirm-password-showhide1 span figure  {
+        max-width: 25px;
+        margin-top: 4px;
     }
 }
 @media screen and (max-width: 767px) {

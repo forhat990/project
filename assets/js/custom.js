@@ -271,14 +271,6 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function () {
-    $("#zoom_06").ezPlus({
-        zoomType: "inner",
-        debug: true,
-        cursor: "crosshair"
-    });
-});
-
 $(document).ready(function() {
   $(".owl-carousel.reverse").owlCarousel({
     items: 3,
@@ -302,59 +294,36 @@ $(document).ready(function() {
       }
   });
 });
-jQuery(document).ready(function(){
 
-  jQuery(".eyeslash > a").click(function(e) {
-    e.preventDefault();
-     var val = $(this).attr('id');
-     if (val == 'active' ) {
-        $(this).attr('id', '');
-      } 
-      else {
-        $(this).attr('id', 'active');
-      }
+$(document).ready(function() {
+
+  $(".show-password, .hide-password").on('click', function() {
+    var passwordId = $(this).parents('li:first').find('input').attr('id');
+    if ($(this).hasClass('show-password')) {
+      $("#" + passwordId).attr("type", "text");
+      $(this).parent().find(".show-password").hide();
+      $(this).parent().find(".hide-password").show();
+    } else {
+      $("#" + passwordId).attr("type", "password");
+      $(this).parent().find(".hide-password").hide();
+      $(this).parent().find(".show-password").show();
+    }
   });
 });
-$(".toggle-password").click(function() {
-    $(this).toggleClass("fa-eye fa-eye-slash");
-    var input = $('#password').attr('type');
-    if (input.attr("type") == "password") {
-        input.attr("type", "text");
+
+$(document).ready(function() {
+
+  $(".show-password1, .hide-password1").on('click', function() {
+    var passwordId1 = $(this).parents('li:first').find('input').attr('id');
+    if ($(this).hasClass('show-password1')) {
+      $("#" + passwordId1).attr("type", "text");
+      $(this).parent().find(".show-password1").hide();
+      $(this).parent().find(".hide-password1").show();
     } else {
-        input.attr("type", "password");
+      $("#" + passwordId1).attr("type", "password");
+      $(this).parent().find(".hide-password1").hide();
+      $(this).parent().find(".show-password1").show();
     }
+  });
 });
-// const togglePassword = document.querySelector("#togglePassword");
-// const password = document.querySelector("#password");
-
-// const newtogglePassword = document.querySelector("#newtogglePassword");
-// const newpassword = document.querySelector("#newpassword");
-
-// const confirmtogglePassword = document.querySelector("#confirmtogglePassword");
-// const confirmpassword = document.querySelector("#confirmpassword");
-
-// togglePassword.addEventListener("click", function () {
-   
-//   const type = password.getAttribute("type") === "password" ? "text" : "password";
-//   password.setAttribute("type", type);
-
-// });
-
-// newtogglePassword.addEventListener("click", function () {
-   
-//   const type = newpassword.getAttribute("type") === "password" ? "text" : "password";
-//   newpassword.setAttribute("type", type);
-
-// });
-
-// confirmtogglePassword.addEventListener("click", function () {
-   
-//   const type = confirmpassword.getAttribute("type") === "password" ? "text" : "password";
-//   confirmpassword.setAttribute("type", type);
-
-// });
-
-
-
-
 

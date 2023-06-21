@@ -2368,42 +2368,50 @@
 
 											<div class="changepass mx-auto">
 												<form>
-													<div class="form-group">
-														<input type="password" id="password" class="form-control" placeholder="Old Password">
-														
-														<div class="eyeslash" id="togglePassword">
-															<a href="#">
-																<figure>
-																	<img src="assets/images/eyeslash.png" alt="">
-																</figure>
-																<i class="d-none bi bi-eye"></i>
-															</a>
-														</div>
-													</div>
-													<div class="form-group">
-														<input type="password" id="newpassword"  class="form-control" placeholder="New Password">
-														<div class="eyeslash" id="newtogglePassword">
-															<a href="#">
-																<figure>
-																	<img src="assets/images/eyeslash.png" alt="">
-																</figure>
-																<i class="d-none bi bi-eye"></i>
-															</a>
-														</div>
-													</div>
-													<div class="form-group">
-														<input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password">
-														<div class="eyeslash" id="confirmtogglePassword">
-															<a href="#">
-																<figure>
-																	<img src="assets/images/eyeslash.png" alt="">
-																</figure>
-																<i class="d-none bi bi-eye"></i>
-															</a>
-														</div>
-													</div>
+													<ul>
+														<li class="form-group">
+															<input type="password" name="password" placeholder="Old Password" id="password">
+															<span class="password-showhide">
+																<span class="show-password">
+																	<figure>
+																		<img src="assets/images/eyeslash.png" alt="">
+																	</figure>
+																</span>
 
-													<button type="submit" class="text-white text-center px-2 border-0 mt-0">Update Password</button>
+																<span class="hide-password">
+																	<i class="bi bi-eye"></i>
+																</span>
+															</span>
+														<li>
+
+														<li class="form-group">
+															<input type="password" name="password" placeholder="New Password" id="oldPassword">
+															<span class="old-password-showhide">
+																<span class="show-password">
+																	<figure>
+																		<img src="assets/images/eyeslash.png" alt="">
+																	</figure>
+																</span>
+																<span class="hide-password">
+																	<i class="bi bi-eye"></i>
+																</span>
+															</span>
+														<li>
+
+														<li class="form-group">
+															<input type="password" name="password" placeholder="Confirm Password" id="confirmPassword">
+															<span class="confirm-password-showhide">
+																<span class="show-password">
+																	<figure>
+																		<img src="assets/images/eyeslash.png" alt="">
+																	</figure>
+																</span>
+																<span class="hide-password">
+																	<i class="bi bi-eye"></i>
+																</span>
+															</span>
+														<li>
+													</ul>
 												</form>
 											</div>
 										</div>
@@ -3162,46 +3170,50 @@
 
 										<div class="changepass mx-auto">
 											<form>
-												<div class="form-group">
-													<!-- <input type="password" class="form-control" placeholder="Old Password">
-													
-													<div class="eyeslash" id="togglePassword">
-														<a href="#">
-															<figure>
-																<img src="assets/images/eyeslash.png" alt="">
-															</figure>
-															<i class="d-none bi bi-eye"></i>
-														</a>
-													</div> -->
-													<input type="password" id="password" placeholder="Password" required="" name="password">
-                                            		<span toggle="#password" class="toggle-password fa fa-eye  "></span>
+												<ul>
+													<li class="form-group">
+														<input type="password" name="password" placeholder="Old Password" id="password1">
+														<span class="password-showhide1">
+															<span class="show-password1">
+																<figure>
+																	<img src="assets/images/eyeslash.png" alt="">
+																</figure>
+															</span>
+															
+															<span class="hide-password1">
+																<i class="bi bi-eye"></i>
+															</span>
+														</span>
+													<li>
 
-                                      
-												</div>
-												<div class="form-group">
-													<input type="password" id="newpassword"  class="form-control" placeholder="New Password">
-													<div class="eyeslash" id="newtogglePassword">
-														<a href="#">
-															<figure>
-																<img src="assets/images/eyeslash.png" alt="">
-															</figure>
-															<i class="d-none bi bi-eye"></i>
-														</a>
-													</div>
-												</div>
-												<div class="form-group">
-													<input type="password" id="confirmpassword" class="form-control" placeholder="Confirm Password">
-													<div class="eyeslash" id="confirmtogglePassword">
-														<a href="#">
-															<figure>
-																<img src="assets/images/eyeslash.png" alt="">
-															</figure>
-															<i class="d-none bi bi-eye"></i>
-														</a>
-													</div>
-												</div>
+													<li class="form-group">
+														<input type="password" name="password" placeholder="New Password" id="oldPassword1">
+														<span class="old-password-showhide1">
+															<span class="show-password1">
+																<figure>
+																	<img src="assets/images/eyeslash.png" alt="">
+																</figure>
+															</span>
+															<span class="hide-password1">
+																<i class="bi bi-eye"></i>
+															</span>
+														</span>
+													<li>
 
-												<button type="submit" class="text-white text-center px-2 border-0 mt-0">Update Password</button>
+													<li class="form-group">
+														<input type="password" name="password" placeholder="Confirm Password" id="confirmPassword1">
+														<span class="confirm-password-showhide1">
+															<span class="show-password1">
+																<figure>
+																	<img src="assets/images/eyeslash.png" alt="">
+																</figure>
+															</span>
+															<span class="hide-password1">
+																<i class="bi bi-eye"></i>
+															</span>
+														</span>
+													<li>
+												</ul>
 											</form>
 										</div>
 									</div>
