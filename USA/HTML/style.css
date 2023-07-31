@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'CairoSemiBold';
+    src: url('assets/fonts/CairoSemiBold.eot');
+    src: url('assets/fonts/CairoSemiBold.eot') format('embedded-opentype'),
+         url('assets/fonts/CairoSemiBold.woff2') format('woff2'),
+         url('assets/fonts/CairoSemiBold.woff') format('woff'),
+         url('assets/fonts/CairoSemiBold.ttf') format('truetype'),
+         url('assets/fonts/CairoSemiBold.svg#CairoSemiBold') format('svg');
+}
+
+@font-face {
+    font-family: 'CircularStdMedium';
+    src: url('assets/fonts/CircularStdMedium.eot');
+    src: url('assets/fonts/CircularStdMedium.eot') format('embedded-opentype'),
+         url('assets/fonts/CircularStdMedium.woff2') format('woff2'),
+         url('assets/fonts/CircularStdMedium.woff') format('woff'),
+         url('assets/fonts/CircularStdMedium.ttf') format('truetype'),
+         url('assets/fonts/CircularStdMedium.svg#CircularStdMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'CircularStdBlack';
+    src: url('assets/fonts/CircularStdBlack.eot');
+    src: url('assets/fonts/CircularStdBlack.eot') format('embedded-opentype'),
+         url('assets/fonts/CircularStdBlack.woff2') format('woff2'),
+         url('assets/fonts/CircularStdBlack.woff') format('woff'),
+         url('assets/fonts/CircularStdBlack.ttf') format('truetype'),
+         url('assets/fonts/CircularStdBlack.svg#CircularStdBlack') format('svg');
+}
+
+/* Css Reset */
+*::before {
+	-webkit-transition: all .3s ease-out; 
+	-moz-transition: all .3s ease-out; 
+	-ms-transition: all .3s ease-out; 
+	-o-transition: all .3s ease-out; 
+	transition: all .3s ease-out;
+}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,a,abbr,address,cite,code,del,
+dfn,em,img,ins,kbd,q,s,samp,small,strong,sub,
+var,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	padding:0;
+    margin:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	background: #fff;
+	color: #000;
+	overflow-x: hidden;
+}
+ul,ol { list-style:none; }
+img,fieldset { border:none; }
+a {text-decoration: none;}
+a:hover { text-decoration:none; }
+article,aside,details,figcaption,figure,footer,
+header,main,nav,section,summary { display: block; }
+figure { margin:0; padding:0; }
+embed, iframe, object, video { max-width: 100%; }
+input, textarea { -webkit-appearance: none; -webkit-border-radius: 0; }
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+img { max-width: 100%; height: auto; display: block; }
+a {
+	-webkit-transition: all .3s ease-out; -moz-transition: all .3s ease-out; -ms-transition: all .3s ease-out; -o-transition: all .3s ease-out; transition: all .3s ease-out;
+}
+[type="reset"], [type="submit"], button, html [type="button"] { 
+	-webkit-appearance: none; 
+}
+input, textarea { -webkit-appearance: none; -webkit-border-radius: 0; }
+img {
+	-webkit-transition: all .3s ease-out; 
+	-moz-transition: all .3s ease-out; 
+	-ms-transition: all .3s ease-out; 
+	-o-transition: all .3s ease-out; 
+	transition: all .3s ease-out;
+}
+/*==============================
+	Page structure      
+================================*/
+#wrapper {
+	overflow: hidden; 
+	width: 100%; 
+}
+.navbar-toggler {
+	border: 0;
+	border-radius: 0;
+	border-color: transparent;
+}
+.navbar-toggler:focus { outline: 0; }
+.navbar-toggler:focus {
+	box-shadow: none;
+	outline: 0;
+}
+
+/*==============================
+	login 
+================================*/
+.login {
+	height: 100vh;
+	background: url('assets/images/BACKGROUND.png') no-repeat center center;
+	background-size: cover;
+}
+.login-area {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 368px;
+	z-index: 9;
+}
+.login-area form {
+	max-width: 368px;
+	border-radius: 10px;
+	padding: 35px 33px 39px 33px;
+	box-shadow: 0px 2px 4px rgba(136, 144, 194, 0.2);
+}
+.login-area form .heading {
+	margin-bottom: 20px;
+}
+.login-area form .heading h2 {
+	font-family: 'CircularStdBlack';
+	font-size: 36px;
+	line-height: 36px;
+	color: #565656;
+	margin-bottom: 4px;
+}
+.login-area form .heading p {
+	font-family: 'CircularStdMedium';
+	font-size: 20px;
+	line-height: 24px;
+	color: #565656;
+}
+.login-area form .form-group {
+	position: relative;
+	margin-bottom: 19px;
+}
+.login-area form label {
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 16px;
+	color: #c7c7c7;
+	margin-bottom: 8px;
+}
+.login-area form input {
+	font-family: 'CairoSemiBold';
+	font-size: 13px;
+	background: #f5f5f5;
+	border-radius: 10px;
+	padding: 7px 15px;
+	color: #202020;
+}
+.login-area form input:focus {
+	box-shadow: none;
+	border-color: #8ec9e9 !important;
+}
+.login-area form .eye {
+	position: absolute;
+	bottom: 12px;
+	right: 12px;
+	width: 16px;
+	height: 12px;
+	z-index: 9;
+}
+.login-area form .eye a {
+	display: block;
+}
+.login-area form button {
+	font-family: 'CircularStdMedium';
+	font-size: 11px;
+	line-height: 40px;
+	background: #87c6e8;
+	border-radius: 10px;
+	width: 100%;
+	padding: 0 20px;
+	box-shadow: 0px 2px 4px rgba(136, 144, 194, 0.2);
+	margin: 5px 0 21px 0;
+}
+.sign-up-btn {
+	font-family: 'CircularStdMedium';
+	font-size: 11px;
+	line-height: 40px;
+	background: #ff675b;
+	border-radius: 10px;
+}
+.sign-up-btn a {
+	display: block;
+	padding: 0 20px;
+}
+.forget-pass {
+	overflow: hidden;
+	margin-bottom: 26px;
+}
+.forget-pass span {
+	display: block;
+	line-height: 16px;
+	font-size: 10px;
+	float: left;
+	color: #202020;
+}
+.forget-pass a {
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 16px;
+	float: right;
+	color: #87c6e8;
+	text-decoration: underline;
+}
+
+
