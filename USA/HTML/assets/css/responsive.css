@@ -1,6 +1,906 @@
-@media screen and (max-width: 399px) {
-	.login-area { min-width: 300px; }
-	.login-area form { padding: 30px 15px 30px 15px; }
-	.login-area form .heading h2 { font-size: 34px; }
-	.login-area form .heading p { font-size: 18px; }
+@media screen and (max-width: 1549px) {
+	.container { max-width: 1280px; }
+	.header-top ul li {font-size: 15.25px; }
+	.header-area nav { padding: 26px 0 21px 0; }
+	.header-area nav ul li { font-size: 17px; }
+	.membership-btn { 
+		font-size: 15.5px; 
+		height: 40px;
+		line-height: 40px;
+		margin: 4px 27px 4px 27px;
+	}
+	.membership-btn a {
+		display: block;
+		padding: 0 22px;
+	}
+	.header-area nav .navbar-brand { margin-right: 32px; }
+	.logo { max-width: 90px; }
+	.header-area nav form {
+		max-width: 355px;
+	}
+	.header-area nav form { margin: 4px 0; }
+	.header-area nav form input {
+		font-size: 14px;
+		padding: 5px 20px;
+	}
+	.header-area nav ul li {
+		font-size: 15.5px;
+		margin: 0 13px;
+	}
+	.header-area nav ul { margin: 4px 0; }
+	.header-area nav ul.user li {
+		width: 28px;
+		height: 28px;
+		margin: 0 29px;
+	}
+	.header-top { padding: 12px 0; }
+	.shop-now-btn {
+		font-size: 16px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.shop-now-btn a { padding: 0 30px; }
+	.banner-content-inner { max-width: 500px; }
+	.banner-content-inner h1 {
+		font-size: 57px;
+		line-height: 75px;
+	}
+	.banner-content-inner p {
+		font-size: 17px;
+		line-height: 29px;
+	}
+	.banner { margin-top: 144px; }
+	.heading { margin-bottom: 20px; }
+	.heading h2 {
+		font-size: 28px;
+		line-height: 50px;
+	}
+	.category-item-info { padding: 0 25px; }
+	.category-item-info h3 { font-size: 20px; }
+	.category-item { margin-bottom: 20px; }
+	.brand-item-inner { padding: 0 40px; }
+	.seller-item-top { padding: 20px 20px 20px 20px; }
+	.seller-item ul li {
+		line-height: 20px;
+		font-size: 14px;
+	}
+	.seller-item ul li span.amount { font-size: 15px; }
+	.seller-item ul li.normal-price { padding: 10px 18px 10px 20px; }
+	.seller-item-top h4 {
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 5px;
+	}
+	.seller-item-top figure { margin-bottom: 18px; }
+	.seller-item-top p {
+		font-size: 15px;
+		line-height: 23px;
+		margin-bottom: 10px;
+	}
+	.seller-item {
+		max-width: 300px;
+		margin-right: 15px;
+	}
+	.deal-area ul li button {
+		font-size: 16px;
+		line-height: 41px;
+		padding: 0 17px;
+	}
+	.offer-item {
+		max-width: 500px;
+		padding: 30px 35px 40px 35px;
+	}
+	.offer-item h3 {
+		font-size: 40px;
+		line-height: 50px;
+		margin-bottom: 14px;
+	}
+	.offer-item h3 span { font-size: 68px; }
+	.offer-item p {
+		font-size: 18px;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
+	.offer-item .shop-now-btn { font-size: 16px; }
+	.join-area {
+		max-width: 520px;
+		padding: 36px 30px 36px 30px;
+	}
+	.join-area h3 {
+		font-size: 28px;
+		line-height: 43px;
+	}
+	.join-area p {
+		font-size: 18px;
+		line-height: 30px;
+		margin: 10px 20px 10px 0;
+	}
+	.service-item {
+		max-width: 400px;
+		padding: 35px 35px 35px 35px;
+		margin: 25px 0 25px 0;
+	}
+	.service-item h3 {
+		font-size: 20px;
+		line-height: 33px;
+		margin-bottom: 15px;
+	}
+	.service-item p {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 25px;
+	}
+	.subscribe { padding: 60px 0 50px 0; }
+	.subscribe-area h3 {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	.subscribe-area form input {
+		font-size: 17px;
+		padding: 0 35px;
+		line-height: 50px;
+		margin-right: 35px;
+	}
+	.subscribe-area form button {
+		font-size: 18px;
+		padding: 0 35px;
+		line-height: 47px;
+	}
+	.subscribe-area form { padding: 10px 10px 15px 60px; }
+	.copyright { padding-top: 45px; }
+	footer { padding: 55px 0 40px 0; }
+	.footer-area { padding-bottom: 30px; }
+	.footer-area-left { max-width: 375px; }
+	.footer-area p {
+		line-height: 26px;
+		margin-bottom: 36px;
+		font-size: 16px;
+	}
+	.footer-area figure { max-width: 145px; }
+	.footer-area h4 {
+		line-height: 24px;
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+	.copyright p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.social h5 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.social ul li {
+		margin-left: 30px;
+		max-width: 28px;
+	}
+	.footer-item h4 {
+		font-size: 20px;
+		line-height: 40px;
+		margin-bottom: 10px;
+	}
+	.footer-item ul li {
+		font-size: 16px;
+		line-height: 38px;
+	}
+	.footer-area-right { max-width: 800px; }
+	.description-area ul.nav-pills li button.active { font-size: 22px; }
+	.description-area ul.nav-pills li {
+		font-size: 20px;
+		line-height: 34px;
+		margin-right: 35px;
+	}
+	.description-area ul.nav-pills li button { padding: 12px 0; }
+	.description-area .content p {
+		font-size: 18px;
+		line-height: 36px;
+		margin-bottom: 30px;
+	}
+	.description-area .content ul li {
+		font-size: 18px;
+		line-height: 36px;
+	}
+	.right-box-b {
+		margin-left: 0;
+	}
+	.add-to-cart-btn {
+		max-width: 343px;
+		font-size: 18px;
+		height: 55px;
+		line-height: 55px;
+	}
+	.btn-minuse, .btn-plus, .quantity > input { height: 55px; }
+	.btn-plus input, .btn-minuse input, .quantity > input { line-height: 55px; }
+	.product-info p {
+		font-size: 18px;
+		line-height: 40px;
+	}
+	.product-info .title p {
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 13px;
+	}
+	.product-info .title h3 {
+		font-size: 23px;
+		line-height: 36px;
+	}
+	.product-info ul li {
+		font-size: 18px;
+		line-height: 33px;
+		padding: 0 16px;
+		margin-right: 15px;
+	}
+	.product-imgs .img-display {
+		max-width: 600px;
+	}
+	.product-imgs .img-select {
+		top: 250px;
+		left: -253px;
+		width: 600px;
+		height: 97px;
+	}
+	.description-area .tab-pane ul.details li {
+		font-size: 16px;
+	}
+	.description-area .tab-pane ul.details li span {
+		padding: 13px 35px;
+	}
+	.description-area .tab-pane ul.details_r li {
+		font-size: 18px;
+		line-height: 48px;
+	}
+}
+@media screen and (max-width: 1439px) {
+	.logo { max-width: 75px; }
+	.header-top ul li {
+		font-size: 13.25px; 
+		line-height: 20px;
+		padding-right: 10px;
+	}
+	.header-top ul li:not(:first-child) { padding-left: 10px; }
+	.header-top { padding: 10px 0; }
+	.header-top ul li:not(:first-child)::before {
+		top: 4px;
+		height: 15px;
+		width: 1px;
+	}
+	.header-area nav ul li {
+		font-size: 14.75px;
+		margin: 0 11px;
+	}
+	.header-area nav form { max-width: 300px; }
+	.header-area nav form input {
+		font-size: 13px;
+		line-height: 24px;
+	}
+	.membership-btn {
+		font-size: 14.75px;
+		height: 34px;
+		line-height: 34px;
+		margin: 4px 20px 4px 20px;
+	}
+	.header-area nav { padding: 22px 0 17px 0; }
+	.header-area nav ul.user li {
+		width: 23px;
+		height: 23px;
+		margin: 0 25px;
+	}
+	.container { max-width: 1200px; }
+	.banner { margin-top: 121px; }
+	.heading h2 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.category-item-info { padding: 0 20px; }
+	.seller-item-top { padding: 15px 15px 15px 15px; }
+	.seller-item ul li.normal-price { padding: 10px 10px 10px 15px; }
+	.seller-item ul li.membership-price { padding: 10px 15px 10px 15px; }
+	.seller-item-top figure { margin-bottom: 16px; }
+	.seller-item-top h4 {
+		font-size: 17px;
+		line-height: 22px;
+	}
+	.seller-item-top p {
+		font-size: 14px;
+		line-height: 22px;
+		margin-bottom: 8px;
+	}
+	.seller-item ul li { font-size: 13px; }
+	.seller-item ul li span.amount { font-size: 14px; }
+	.seller-item {
+		border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+	.seller-item { max-width: 279px; }
+	.deal-area ul li button {
+		font-size: 16px;
+		line-height: 42px;
+		padding: 0 20px;
+	}
+	.flex-direction-nav .flex-prev { left: 0; }
+	.flex-direction-nav .flex-next { right: 0; }
+	.offer-item {
+		max-width: 500px;
+		padding: 30px 30px 40px 30px;
+	}
+	.offer-item h3 {
+		font-size: 40px;
+		line-height: 50px;
+		margin-bottom: 16px;
+	}
+	.offer-item h3 span { font-size: 60px; }
+	.offer-item p {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.shop-now-btn {
+		height: 45px;
+		line-height: 45px;
+		margin-top: 30px;
+	}
+	.join-area h3 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.join-area p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.join-area {
+		max-width: 478px;
+		padding: 30px;
+	}
+	.service-item p {
+		font-size: 17px;
+		line-height: 27px;
+		margin-bottom: 20px;
+	}
+	.service-item h3 {
+		font-size: 19px;
+		line-height: 30px;
+		margin-bottom: 13px;
+	}
+	.service-item {
+		padding: 30px 30px 30px 30px;
+		margin: 20px 0 20px 0;
+	}
+	.subscribe-area h3 {
+		font-size: 23px;
+		line-height: 34px;
+	}
+	.subscribe { padding: 50px 0 40px 0; }
+	.subscribe-area form input {
+		font-size: 16px;
+		line-height: 48px;
+		height: 48px;
+	}
+	.subscribe-area form button {
+		font-size: 16px;
+		line-height: 43px;
+	}
+	.footer-area-right { max-width: 700px; }
+	.services { padding: 60px 0 50px 0; }
+	.deal {
+		padding-top: 60px;
+		margin-bottom: 70px;
+	}
+	.brand { padding: 30px 0 20px 0; }
+	.seller-area { padding-bottom: 30px; }
+	.description-area ul.nav-pills li button.active { font-size: 20px; }
+	.description-area ul.nav-pills li {
+		font-size: 18px;
+		line-height: 30px;
+		margin-right: 30px;
+	}
+	.description-area ul.nav-pills li button { padding: 10px 0; }
+	.description-area .content p {
+		font-size: 16px;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+	.description-area .content ul li {
+		font-size: 16px;
+		line-height: 30px;
+		background-position: left 10px;
+		background-size: 16px;
+	}
+	.description-area { padding-bottom: 40px; }
+	.add-to-cart-btn {
+		max-width: 310px;
+		font-size: 16px;
+		height: 50px;
+		line-height: 50px;
+	}	.btn-minuse, .btn-plus, .quantity > input { height: 50px; }
+	.btn-plus input, .btn-minuse input, .quantity > input { line-height: 50px; }
+	.product-info p {
+		font-size: 16px;
+	}
+	.product-info .title p {
+		font-size: 19px;
+	}
+	.product-info .title h3 {
+		font-size: 22px;
+		line-height: 34px;
+	}
+	.product-info ul li {
+		font-size: 16px;
+		line-height: 30px;
+		padding: 0 15px;
+	}
+	.product-imgs .img-display {
+		max-width: 550px;
+	}
+	.product-imgs .img-select {
+		top: 225px;
+		left: -225px;
+		width: 550px;
+	}
+	.description-area .tab-pane ul.details_r li {
+		font-size: 16px;
+		line-height: 46px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	.header-area nav form { max-width: 200px; }
+	.header-area nav .navbar-brand { margin-right: 25px; }
+	.header-area nav ul li {
+		font-size: 14px;
+		margin: 0 10px;
+	}
+	.membership-btn {
+		font-size: 14px;
+		margin: 4px 15px 4px 15px;
+	}
+	.banner-content-inner { max-width: 450px; }
+	.banner-content-inner h1 {
+		font-size: 45px;
+		line-height: 55px;
+	}
+	.banner-content-inner p {
+		font-size: 15px;
+		line-height: 27px;
+	}
+	.shop-now-btn {
+		font-size: 15px;
+		height: 45px;
+		line-height: 45px;
+		margin-top: 30px;
+	}
+	.shop-now-btn a { padding: 0 35px; }
+	.heading { margin-bottom: 16px; }
+	.heading h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.category-item-info h3 { font-size: 16px; }
+	.category-item-info { padding: 0 15px; }
+	.brand-item-inner { padding: 0 30px; }
+	.seller-item-top p {
+		overflow: hidden;
+		max-height: 44px;
+		min-height: 44px;
+	}
+	.service-item p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.service-item h3 {
+		font-size: 17px;
+		line-height: 26px;
+	}
+	.service-item { padding: 20px 20px 20px 20px; }
+	.offer-item h3 {
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 16px;
+		padding: 0 60px 0 60px;
+	}
+	.offer-item h3 span { font-size: 50px; }
+	.offer-item { max-width: 437px; }
+	.subscribe { padding: 40px 0 40px 0; }
+	.footer-area figure { max-width: 120px; }
+	.footer-area p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 25px;
+	}
+	.footer-area h4 { font-size: 15px; }
+	.footer-item h4 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.footer-item ul li {
+		font-size: 15px;
+		line-height: 35px;
+	}
+	footer { padding: 40px 0 25px 0; }
+	.copyright { padding-top: 25px; }
+	.social h5 {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.social ul li {
+		margin-left: 25px;
+		max-width: 26px;
+	}
+	.description-area ul.nav-pills li button.active { font-size: 18px; }
+	.description-area ul.nav-pills li {
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.description-area .content p { font-size: 15px; }
+	.description-area .content ul li { font-size: 15px; }
+	.description-area figure {
+		margin-right: auto;
+		margin-top: 40px;
+	}
+	.add-to-cart-btn {
+		max-width: 235px;
+		font-size: 15px;
+		height: 45px;
+		line-height: 45px;
+	}
+	.btn-minuse, .btn-plus, .quantity > input { height: 45px; width: 30px;}
+	.btn-plus input, .btn-minuse input, .quantity > input { line-height: 45px; }
+	.quantity > input {
+		font-size: 18px;
+		min-width: 40px;
+	}
+	.product-info p {
+		font-size: 15px;
+	}
+	.product-info .title p {
+		font-size: 17px;
+	}
+	.product-info .title h3 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.product-imgs .img-display {
+		max-width: 83%;
+		max-height: 450px;
+	}
+	.product-imgs .img-item {
+		width: 75px;
+		height: 75px;
+	}
+	.product-imgs .img-select {
+		top: 172px;
+		left: -192px;
+		width: 440px;
+	}
+	.description-area .tab-pane ul.details li {
+		font-size: 14px;
+	}
+	.description-area .tab-pane ul.details_r {
+		padding-left: 10px;
+	}
+	.description-area .tab-pane ul.details li span.left {
+		max-width: 200px;
+		min-width: 200px;
+	}
+	.description-area .tab-pane ul.details li span {
+		padding: 12px 20px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.header-area nav ul.user { display: none; }
+	.header-area nav > ul.user {
+		display: flex;
+		position: absolute;
+		top: 30px;
+		right: 60px;
+		z-index: 9;
+		margin: 0;
+	}
+	.header-area nav ul { margin: 20px 0; }
+	.header-area nav ul li:first-child { margin-left: 10px; }
+	.membership-btn { margin: 10px 0 0 0; }
+	.header-area nav form { max-width: 295px; }
+	.category { padding-top: 50px; }
+	.brand-item-inner { padding: 0 15px; }
+	.brand-area-wrap { margin: 0 -5px; }
+	.brand-item { padding: 0 5px; }
+	.seller-item-top h4 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.seller-item-top p {
+		font-size: 13px;
+		line-height: 20px;
+		margin-bottom: 5px;
+	}
+	.seller-item-top figure { margin-bottom: 12px; }
+	.star span { font-size: 13px; }
+	.star i { font-size: 12px; }
+	.seller-item ul li.membership-price { padding: 5px 10px 5px 10px; }
+	.seller-item ul li.normal-price { padding: 10px 10px 10px 10px; }
+	.seller-item ul li {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.seller-item ul li span.amount { font-size: 13px; }
+	.seller-item { max-width: 230px; }
+	.deal-area ul li button {
+		font-size: 13px;
+		line-height: 35px;
+		padding: 0 15px;
+	}
+	.deal-area ul.nav-pills li { margin-right: 5px; }
+	.service-item { padding: 20px 15px 20px 15px; }
+	.service-item h3 {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.service-item p {
+		font-size: 13px;
+		line-height: 18px;
+		max-height: 32px;
+		overflow: hidden;
+	}
+	.subscribe-area h3 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.subscribe-area form { padding: 10px 0 15px 0; }
+	.subscribe { padding: 30px 0 20px 0; }
+	.subscribe-area form button {
+		font-size: 15px;
+		padding: 0 20px;
+	}
+	.subscribe-area form input {
+		font-size: 16px;
+		padding: 0 25px;
+		margin-right: 20px;
+	}
+	.subscribe-area h3 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.footer-area figure {
+		max-width: 100px;
+		margin-bottom: 20px;
+	}
+	.description-area ul.nav-pills li button.active { font-size: 16px; }
+	.description-area ul.nav-pills li {
+		font-size: 14px;
+		line-height: 28px;
+	}
+	.description-area .content p { font-size: 14px; }
+	.description-area .content ul li { font-size: 14px; }
+	.product-info p {
+		font-size: 14px;
+	}
+	.product-info {
+		margin-top: 50px;
+	}
+	.product-imgs .img-display {
+		margin-bottom: 20px;
+	}
+	.product-imgs {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.product-imgs .img-select {
+		top: 0;
+		left: 50%;
+		width: 440px;
+		transform: translateX(-50%);
+	}
+	.product-imgs .img-display {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.owl-theme .owl-nav [class*="owl-"] {
+		margin: 0;
+	}
+}
+@media screen and (max-width: 950px){
+	.banner > figure img {
+		width: 950px !important;
+		height: 367px !important;
+		max-width: initial;
+	}
+}
+@media screen and (max-width: 814px) {
+	.banner { margin-top: 140px; }
+}
+@media screen and (max-width: 767px) {
+	.banner-content-inner h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.banner-content-inner p {
+		font-size: 14px;
+		line-height: 25px;
+	}
+	.shop-now-btn {
+		font-size: 14px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.shop-now-btn a { padding: 0 30px; }
+	.brand-item { width: 50%; }
+	.join-area h3 {
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.join-area {
+		max-width: 460px;
+		padding: 25px;
+	}
+	.join-area p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.service-item {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-top: 0;
+	}
+	.footer-area-right { max-width: 100%; }
+	.footer-area-left {
+		margin-bottom: 25px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer-area { padding-bottom: 0; }
+	.footer-area figure {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer-area p { text-align: center; }
+	.footer-area h4 { text-align: center; }
+	.footer-item h4 { text-align: left; }
+	.payment-item-wrap {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.social h5 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.social ul li { margin-left: 18px; }
+	.copyright p {
+		font-size: 15px;
+		line-height: 24px;
+	}
+}
+@media screen and (max-width: 636px) {
+	.banner { margin-top: 160px; }
+}
+@media screen and (max-width: 575px){
+	.banner { margin-top: 149px; }
+	.banner-content-inner h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.banner > figure img {
+		width: 767px !important;
+		height: 297px !important;
+	}
+	.header-top ul li {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.header-area nav { padding: 17px 0; }
+	.header-area nav > ul.user { top: 26px; }
+	.category-item { max-width: 360px; }
+	.heading h2 { font-size: 18px; }
+	.seller-item.d-block {
+		margin-left: auto;
+		margin-right: auto !important;
+	}
+	.join-area h3 { font-size: 16px; }
+	.join-area { padding: 20px; }
+	.join-area p {
+		font-size: 14px;
+		margin: 10px 0 10px 0;
+	}
+	.offer-item h3 {
+		font-size: 26px;
+		line-height: 36px;
+		margin-bottom: 10px;
+		padding: 0 10px 0 10px;
+	}
+	.offer-item h3 span { font-size: 40px; }
+	.offer-item { padding: 20px 10px 20px 10px; }
+	.flex-direction-nav { display: none; }
+	.offer-item p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.offer-item { max-width: 315px; }
+	.footer-item h4 {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.footer-item ul li {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.subscribe-area h3 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.subscribe-area form input {
+		font-size: 14px;
+		line-height: 37px;
+		height: 37px;
+	}
+	.subscribe-area form button {
+		font-size: 14px;
+		line-height: 33px;
+	}
+	.subscribe { padding: 20px 0 0 0; }
+	.subscribe-area h3 { margin-bottom: 5px; }
+	.copyright p { text-align: center; }
+	.social {
+		margin-right: auto;
+		margin-top: 20px;
+	}
+	footer { padding: 40px 0 60px 0; }
+	.description-area ul.nav-pills li button.active { font-size: 15px; }
+	.description-area ul.nav-pills li {
+		font-size: 13px;
+		line-height: 24px;
+		margin-right: 20px;
+	}
+	.description-area ul.nav-pills li button {
+		padding: 5px 0;
+	}
+	.product-imgs .img-display {
+		max-width: 100%;
+	}
+	.owl-next span::before {
+		left: -15px;
+		width: 18px;
+		height: 18px;
+		border-radius: 2px;
+		border-top: 2px solid #000;
+		border-right: 2px solid #000;
+	}
+	.product-imgs .img-display {
+		max-width: 100%;
+	}
+	.diamond-details-section-1 .main-box-diamo {
+		display: block !important;
+	}
+	.product-info {
+		margin-top: 30px;
+	}
+	.product-info ul li {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.add-to-cart-btn {
+		max-width: 166px;
+		font-size: 13px;
+		height: 34px;
+		line-height: 34px;
+	}
+	.btn-minuse, .btn-plus, .quantity > input {
+		height: 34px;
+	}
+	.btn-plus input, .btn-minuse input, .quantity > input {
+		line-height: 34px;
+	}
+	.product-info .title h3 {
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 24px;
+	}
+	.product-info .title p {
+		font-size: 13px;
+	}
+	.product-info p {
+		font-size: 13px;
+	}
+	.description-area .tab-pane ul.details {
+		width: 450px;
+	}
+	.description-area .tab-pane ul.details li {
+		font-size: 13px;
+		line-height: 24px;
+	}
 }
